@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CreateVpcPeeringConnectionResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcPeeringConnectionResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of CreateVpcPeeringConnection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="527"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionResult/setVpcPeeringConnection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnection *vpcPeeringConnection</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnection</Anchor>
+            <NodeRef refid="527"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionResult/vpcPeeringConnection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnection *vpcPeeringConnection</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnection</Anchor>
+            <NodeRef refid="527"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionResult/vpcPeeringConnection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnection *vpcPeeringConnection</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnection</Anchor>
+            <NodeRef refid="527"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

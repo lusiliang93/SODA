@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2DatafeedSubscriptionState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2DatafeedSubscriptionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1794"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2DatafeedSubscriptionStateUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1794"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateActive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2DatafeedSubscriptionStateActive</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1794"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateInactive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2DatafeedSubscriptionStateInactive</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1794"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

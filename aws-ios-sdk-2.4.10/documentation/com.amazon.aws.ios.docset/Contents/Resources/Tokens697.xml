@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DisableVpcClassicLinkResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisableVpcClassicLinkResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DisableVpcClassicLink.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="697"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVpcClassicLinkResult/setReturned:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			
+			
+			<Anchor>//api/name/returned</Anchor>
+            <NodeRef refid="697"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVpcClassicLinkResult/returned</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			
+			
+			<Anchor>//api/name/returned</Anchor>
+            <NodeRef refid="697"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisableVpcClassicLinkResult/returned</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			
+			
+			<Anchor>//api/name/returned</Anchor>
+            <NodeRef refid="697"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

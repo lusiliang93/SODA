@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DeleteDhcpOptionsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteDhcpOptionsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DeleteDhcpOptions.&lt;/p&gt;
+Required parameters: [DhcpOptionsId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="537"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/setDhcpOptionsId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="537"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

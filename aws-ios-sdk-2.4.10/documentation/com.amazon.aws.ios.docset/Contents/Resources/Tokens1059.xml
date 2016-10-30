@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSFirehoseListDeliveryStreamsInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSFirehoseListDeliveryStreamsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for &lt;a&gt;ListDeliveryStreams&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1059"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseListDeliveryStreamsInput/setExclusiveStartDeliveryStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream to start the list with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartDeliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartDeliveryStreamName</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseListDeliveryStreamsInput/exclusiveStartDeliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream to start the list with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartDeliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartDeliveryStreamName</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseListDeliveryStreamsInput/exclusiveStartDeliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream to start the list with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartDeliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveStartDeliveryStreamName</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseListDeliveryStreamsInput/setLimit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of delivery streams to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseListDeliveryStreamsInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of delivery streams to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseListDeliveryStreamsInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of delivery streams to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="1059"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

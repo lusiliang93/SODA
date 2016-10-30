@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2NatGatewayState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2NatGatewayState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1819"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStateUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStateUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStatePending</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStatePending</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStateFailed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStateFailed</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStateAvailable</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStateAvailable</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStateDeleting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStateDeleting</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NatGatewayStateDeleted</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2NatGatewayStateDeleted</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1819"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

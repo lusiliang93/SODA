@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CreateVpcRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CreateVpc.&lt;/p&gt;
+Required parameters: [CidrBlock]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="528"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setInstanceTenancy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy options for instances launched into the VPC. For &lt;code&gt;default&lt;/code&gt;, instances are launched with shared tenancy by default. You can launch instances with any tenancy into a shared tenancy VPC. For &lt;code&gt;dedicated&lt;/code&gt;, instances are launched as dedicated tenancy instances by default. You can only launch instances with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; or &lt;code&gt;host&lt;/code&gt; into a dedicated tenancy VPC. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Important:&lt;/b&gt; The &lt;code&gt;host&lt;/code&gt; value cannot be used with this parameter. Use the &lt;code&gt;default&lt;/code&gt; or &lt;code&gt;dedicated&lt;/code&gt; values only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy options for instances launched into the VPC. For &lt;code&gt;default&lt;/code&gt;, instances are launched with shared tenancy by default. You can launch instances with any tenancy into a shared tenancy VPC. For &lt;code&gt;dedicated&lt;/code&gt;, instances are launched as dedicated tenancy instances by default. You can only launch instances with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; or &lt;code&gt;host&lt;/code&gt; into a dedicated tenancy VPC. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Important:&lt;/b&gt; The &lt;code&gt;host&lt;/code&gt; value cannot be used with this parameter. Use the &lt;code&gt;default&lt;/code&gt; or &lt;code&gt;dedicated&lt;/code&gt; values only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy options for instances launched into the VPC. For &lt;code&gt;default&lt;/code&gt;, instances are launched with shared tenancy by default. You can launch instances with any tenancy into a shared tenancy VPC. For &lt;code&gt;dedicated&lt;/code&gt;, instances are launched as dedicated tenancy instances by default. You can only launch instances with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; or &lt;code&gt;host&lt;/code&gt; into a dedicated tenancy VPC. &lt;/p&gt;&lt;p&gt;&lt;b&gt;Important:&lt;/b&gt; The &lt;code&gt;host&lt;/code&gt; value cannot be used with this parameter. Use the &lt;code&gt;default&lt;/code&gt; or &lt;code&gt;dedicated&lt;/code&gt; values only.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTenancy</Anchor>
+            <NodeRef refid="528"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

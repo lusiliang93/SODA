@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2StateReason.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2StateReason</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a state change.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="919"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/setCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StateReason/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/setMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The limit on the number of EBS volumes or total storage was exceeded. Decrease usage or request an increase in your limits.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/message</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The limit on the number of EBS volumes or total storage was exceeded. Decrease usage or request an increase in your limits.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StateReason/message</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The limit on the number of EBS volumes or total storage was exceeded. Decrease usage or request an increase in your limits.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="919"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

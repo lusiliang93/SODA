@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeNatGatewaysRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNatGatewaysRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeNatGateways.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="607"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/setFilter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;nat-gateway-id&lt;/code&gt; - The ID of the NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the NAT gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/filter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;nat-gateway-id&lt;/code&gt; - The ID of the NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the NAT gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNatGatewaysRequest/filter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;nat-gateway-id&lt;/code&gt; - The ID of the NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the NAT gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC in which the NAT gateway resides.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this request. The request returns a token that you can specify in a subsequent call to get the next set of results.&lt;/p&gt;&lt;p&gt;Constraint: If the value specified is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this request. The request returns a token that you can specify in a subsequent call to get the next set of results.&lt;/p&gt;&lt;p&gt;Constraint: If the value specified is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNatGatewaysRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this request. The request returns a token that you can specify in a subsequent call to get the next set of results.&lt;/p&gt;&lt;p&gt;Constraint: If the value specified is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/setNatGatewayIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more NAT gateway IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *natGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/natGatewayIds</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/natGatewayIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more NAT gateway IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *natGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/natGatewayIds</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNatGatewaysRequest/natGatewayIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more NAT gateway IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *natGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/natGatewayIds</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNatGatewaysRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNatGatewaysRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

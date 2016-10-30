@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CancelSpotInstanceRequestsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelSpotInstanceRequestsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CancelSpotInstanceRequests.&lt;/p&gt;
+Required parameters: [SpotInstanceRequestIds]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="477"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotInstanceRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/setSpotInstanceRequestIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/spotInstanceRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotInstanceRequestsRequest/spotInstanceRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

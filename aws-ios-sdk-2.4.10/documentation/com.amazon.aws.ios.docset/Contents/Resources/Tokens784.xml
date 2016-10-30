@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifyInstanceAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyInstanceAttributeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifyInstanceAttribute.&lt;/p&gt;
+Required parameters: [InstanceId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="784"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Modifies the &lt;code&gt;DeleteOnTermination&lt;/code&gt; attribute for volumes that are currently attached. The volume must be owned by the caller. If no value is specified for &lt;code&gt;DeleteOnTermination&lt;/code&gt;, the default is &lt;code&gt;true&lt;/code&gt; and the volume is deleted when the instance is terminated.&lt;/p&gt;&lt;p&gt;To add instance store volumes to an Amazon EBS-backed instance, you must add them when you launch the instance. For more information, see Updating the Block Device Mapping when Launching an Instance in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceBlockDeviceMappingSpecification*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Modifies the &lt;code&gt;DeleteOnTermination&lt;/code&gt; attribute for volumes that are currently attached. The volume must be owned by the caller. If no value is specified for &lt;code&gt;DeleteOnTermination&lt;/code&gt;, the default is &lt;code&gt;true&lt;/code&gt; and the volume is deleted when the instance is terminated.&lt;/p&gt;&lt;p&gt;To add instance store volumes to an Amazon EBS-backed instance, you must add them when you launch the instance. For more information, see Updating the Block Device Mapping when Launching an Instance in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceBlockDeviceMappingSpecification*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Modifies the &lt;code&gt;DeleteOnTermination&lt;/code&gt; attribute for volumes that are currently attached. The volume must be owned by the caller. If no value is specified for &lt;code&gt;DeleteOnTermination&lt;/code&gt;, the default is &lt;code&gt;true&lt;/code&gt; and the volume is deleted when the instance is terminated.&lt;/p&gt;&lt;p&gt;To add instance store volumes to an Amazon EBS-backed instance, you must add them when you launch the instance. For more information, see Updating the Block Device Mapping when Launching an Instance in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceBlockDeviceMappingSpecification*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setDisableApiTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. You cannot use this paramater for Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. You cannot use this paramater for Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. You cannot use this paramater for Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] Changes the security groups of the instance. You must specify at least one security group, even if it&apos;s just the default security group for the VPC. You must specify the security group ID, not the security group name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] Changes the security groups of the instance. You must specify at least one security group, even if it&apos;s just the default security group for the VPC. You must specify the security group ID, not the security group name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] Changes the security groups of the instance. You must specify at least one security group, even if it&apos;s just the default security group for the VPC. You must specify the security group ID, not the security group name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setInstanceInitiatedShutdownBehavior:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance type to the specified value. For more information, see Instance Types. If the instance type is not valid, the error returned is &lt;code&gt;InvalidInstanceAttributeValue&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance type to the specified value. For more information, see Instance Types. If the instance type is not valid, the error returned is &lt;code&gt;InvalidInstanceAttributeValue&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance type to the specified value. For more information, see Instance Types. If the instance type is not valid, the error returned is &lt;code&gt;InvalidInstanceAttributeValue&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setKernel:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s kernel to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernel</Declaration>
+			
+			
+			<Anchor>//api/name/kernel</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/kernel</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s kernel to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernel</Declaration>
+			
+			
+			<Anchor>//api/name/kernel</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/kernel</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s kernel to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernel</Declaration>
+			
+			
+			<Anchor>//api/name/kernel</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setRamdisk:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s RAM disk to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdisk</Declaration>
+			
+			
+			<Anchor>//api/name/ramdisk</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/ramdisk</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s RAM disk to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdisk</Declaration>
+			
+			
+			<Anchor>//api/name/ramdisk</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/ramdisk</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s RAM disk to the specified value. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdisk</Declaration>
+			
+			
+			<Anchor>//api/name/ramdisk</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means that checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means that checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means that checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setSriovNetSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the instance.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM instances. Specifying this option with a PV instance can make it unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the instance.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM instances. Specifying this option with a PV instance can make it unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the instance.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM instances. Specifying this option with a PV instance can make it unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setUserData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s user data to the specified base64-encoded value. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2BlobAttributeValue *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s user data to the specified base64-encoded value. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2BlobAttributeValue *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the instance&apos;s user data to the specified base64-encoded value. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2BlobAttributeValue *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A new value for the attribute. Use only with the &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;, &lt;code&gt;disableApiTermination&lt;/code&gt;, or &lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstanceAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A new value for the attribute. Use only with the &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;, &lt;code&gt;disableApiTermination&lt;/code&gt;, or &lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstanceAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A new value for the attribute. Use only with the &lt;code&gt;kernel&lt;/code&gt;, &lt;code&gt;ramdisk&lt;/code&gt;, &lt;code&gt;userData&lt;/code&gt;, &lt;code&gt;disableApiTermination&lt;/code&gt;, or &lt;code&gt;instanceInitiatedShutdownBehavior&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="784"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

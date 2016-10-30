@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityProviderAdminCreateUserConfigType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityProviderAdminCreateUserConfigType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of configuration for creating a new user profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="183"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/setAllowAdminCreateUserOnly:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to True if only the administrator is allowed to create user profiles. Set to False if users can sign themselves up via an app.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowAdminCreateUserOnly</Declaration>
+			
+			
+			<Anchor>//api/name/allowAdminCreateUserOnly</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/allowAdminCreateUserOnly</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to True if only the administrator is allowed to create user profiles. Set to False if users can sign themselves up via an app.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowAdminCreateUserOnly</Declaration>
+			
+			
+			<Anchor>//api/name/allowAdminCreateUserOnly</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderAdminCreateUserConfigType/allowAdminCreateUserOnly</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to True if only the administrator is allowed to create user profiles. Set to False if users can sign themselves up via an app.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowAdminCreateUserOnly</Declaration>
+			
+			
+			<Anchor>//api/name/allowAdminCreateUserOnly</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/setInviteMessageTemplate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message template to be used for the welcome message to new users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderMessageTemplateType *inviteMessageTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/inviteMessageTemplate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/inviteMessageTemplate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message template to be used for the welcome message to new users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderMessageTemplateType *inviteMessageTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/inviteMessageTemplate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderAdminCreateUserConfigType/inviteMessageTemplate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message template to be used for the welcome message to new users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderMessageTemplateType *inviteMessageTemplate</Declaration>
+			
+			
+			<Anchor>//api/name/inviteMessageTemplate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/setUnusedAccountValidityDays:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user account expiration limit, in days, after which the account is no longer usable. To reset the account after that time limit, you must call AdminCreateUser again, specifying &quot;RESEND&quot; for the MessageAction parameter.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *unusedAccountValidityDays</Declaration>
+			
+			
+			<Anchor>//api/name/unusedAccountValidityDays</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderAdminCreateUserConfigType/unusedAccountValidityDays</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user account expiration limit, in days, after which the account is no longer usable. To reset the account after that time limit, you must call AdminCreateUser again, specifying &quot;RESEND&quot; for the MessageAction parameter.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *unusedAccountValidityDays</Declaration>
+			
+			
+			<Anchor>//api/name/unusedAccountValidityDays</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderAdminCreateUserConfigType/unusedAccountValidityDays</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user account expiration limit, in days, after which the account is no longer usable. To reset the account after that time limit, you must call AdminCreateUser again, specifying &quot;RESEND&quot; for the MessageAction parameter.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *unusedAccountValidityDays</Declaration>
+			
+			
+			<Anchor>//api/name/unusedAccountValidityDays</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

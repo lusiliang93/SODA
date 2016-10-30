@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DetachVolumeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DetachVolumeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DetachVolume.&lt;/p&gt;
+Required parameters: [VolumeId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="689"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setForce:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			
+			
+			<Anchor>//api/name/force</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/force</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			
+			
+			<Anchor>//api/name/force</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/force</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			
+			
+			<Anchor>//api/name/force</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			
+			
+			<Anchor>//api/name/volumeId</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

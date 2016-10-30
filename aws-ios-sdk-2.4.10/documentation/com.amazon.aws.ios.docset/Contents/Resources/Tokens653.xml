@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSpotPriceHistoryRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSpotPriceHistoryRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeSpotPriceHistory.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="653"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setEndTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the current date, from which to stop retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the current date, from which to stop retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the current date, from which to stop retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for which prices should be returned.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The type of instance (for example, &lt;code&gt;m3.medium&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description for the Spot price (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;SUSE Linux&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;SUSE Linux (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;spot-price&lt;/code&gt; - The Spot price. The value must match exactly (or use wildcards; greater than or less than comparison is not supported).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;timestamp&lt;/code&gt; - The timestamp of the Spot price history, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). You can use wildcards (* and ?). Greater than or less than comparison is not supported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for which prices should be returned.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The type of instance (for example, &lt;code&gt;m3.medium&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description for the Spot price (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;SUSE Linux&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;SUSE Linux (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;spot-price&lt;/code&gt; - The Spot price. The value must match exactly (or use wildcards; greater than or less than comparison is not supported).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;timestamp&lt;/code&gt; - The timestamp of the Spot price history, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). You can use wildcards (* and ?). Greater than or less than comparison is not supported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for which prices should be returned.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The type of instance (for example, &lt;code&gt;m3.medium&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description for the Spot price (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;SUSE Linux&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;SUSE Linux (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;spot-price&lt;/code&gt; - The Spot price. The value must match exactly (or use wildcards; greater than or less than comparison is not supported).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;timestamp&lt;/code&gt; - The timestamp of the Spot price history, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). You can use wildcards (* and ?). Greater than or less than comparison is not supported.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setInstanceTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified instance types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceTypes</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTypes</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/instanceTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified instance types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceTypes</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTypes</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/instanceTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified instance types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceTypes</Declaration>
+			
+			
+			<Anchor>//api/name/instanceTypes</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setProductDescriptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified basic product descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/productDescriptions</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/productDescriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified basic product descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/productDescriptions</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/productDescriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Filters the results by the specified basic product descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productDescriptions</Declaration>
+			
+			
+			<Anchor>//api/name/productDescriptions</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/setStartTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the past 90 days, from which to start retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryRequest/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the past 90 days, from which to start retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryRequest/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time, up to the past 90 days, from which to start retrieving the price history data, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="653"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingDetachInstancesQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDetachInstancesQuery</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DetachInstances.&lt;/p&gt;
+Required parameters: [AutoScalingGroupName, ShouldDecrementDesiredCapacity]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDetachInstancesQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDetachInstancesQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/setShouldDecrementDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If &lt;code&gt;True&lt;/code&gt;, the Auto Scaling group decrements the desired capacity value by the number of instances detached.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDetachInstancesQuery/shouldDecrementDesiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If &lt;code&gt;True&lt;/code&gt;, the Auto Scaling group decrements the desired capacity value by the number of instances detached.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDetachInstancesQuery/shouldDecrementDesiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If &lt;code&gt;True&lt;/code&gt;, the Auto Scaling group decrements the desired capacity value by the number of instances detached.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

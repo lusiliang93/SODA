@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityProviderRespondToAuthChallengeResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityProviderRespondToAuthChallengeResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The response to respond to the authentication challenge.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="280"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/setAuthenticationResult:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The result type of the authentication result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderAuthenticationResultType *authenticationResult</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationResult</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/authenticationResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The result type of the authentication result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderAuthenticationResultType *authenticationResult</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationResult</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/authenticationResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The result type of the authentication result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityProviderAuthenticationResultType *authenticationResult</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationResult</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/setChallengeName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCognitoIdentityProviderChallengeNameType challengeName</Declaration>
+			
+			
+			<Anchor>//api/name/challengeName</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/challengeName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCognitoIdentityProviderChallengeNameType challengeName</Declaration>
+			
+			
+			<Anchor>//api/name/challengeName</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/challengeName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCognitoIdentityProviderChallengeNameType challengeName</Declaration>
+			
+			
+			<Anchor>//api/name/challengeName</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/setChallengeParameters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge parameters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *challengeParameters</Declaration>
+			
+			
+			<Anchor>//api/name/challengeParameters</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/challengeParameters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge parameters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *challengeParameters</Declaration>
+			
+			
+			<Anchor>//api/name/challengeParameters</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/challengeParameters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The challenge parameters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *challengeParameters</Declaration>
+			
+			
+			<Anchor>//api/name/challengeParameters</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/setSession:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The session.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/session</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The session.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderRespondToAuthChallengeResponse/session</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The session.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="280"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

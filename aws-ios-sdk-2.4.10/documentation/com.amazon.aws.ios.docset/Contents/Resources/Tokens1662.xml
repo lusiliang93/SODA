@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQSSendMessageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p/&gt;
+Required parameters: [QueueUrl, MessageBody]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1662"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/setDelaySeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of seconds (0 to 900 - 15 minutes) to delay a specific message. Messages with a positive &lt;code&gt;DelaySeconds&lt;/code&gt; value become available for processing after the delay time is finished. If you don&apos;t specify a value, the default value for the queue applies. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			
+			
+			<Anchor>//api/name/delaySeconds</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/delaySeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of seconds (0 to 900 - 15 minutes) to delay a specific message. Messages with a positive &lt;code&gt;DelaySeconds&lt;/code&gt; value become available for processing after the delay time is finished. If you don&apos;t specify a value, the default value for the queue applies. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			
+			
+			<Anchor>//api/name/delaySeconds</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageRequest/delaySeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of seconds (0 to 900 - 15 minutes) to delay a specific message. Messages with a positive &lt;code&gt;DelaySeconds&lt;/code&gt; value become available for processing after the delay time is finished. If you don&apos;t specify a value, the default value for the queue applies. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			
+			
+			<Anchor>//api/name/delaySeconds</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/setMessageAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSSQSMessageAttributeValue*&gt; *messageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributes</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/messageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSSQSMessageAttributeValue*&gt; *messageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributes</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageRequest/messageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSSQSMessageAttributeValue*&gt; *messageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributes</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/setMessageBody:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message to send. String maximum 256 KB in size. For a list of allowed characters, see the preceding important note.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
+			
+			
+			<Anchor>//api/name/messageBody</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/messageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message to send. String maximum 256 KB in size. For a list of allowed characters, see the preceding important note.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
+			
+			
+			<Anchor>//api/name/messageBody</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageRequest/messageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message to send. String maximum 256 KB in size. For a list of allowed characters, see the preceding important note.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
+			
+			
+			<Anchor>//api/name/messageBody</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1662"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

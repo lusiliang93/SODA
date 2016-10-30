@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CancelSpotFleetRequestsResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelSpotFleetRequestsResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of CancelSpotFleetRequests.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="475"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsResponse/setSuccessfulFleetRequests:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsSuccessItem*&gt; *successfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/successfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsResponse/successfulFleetRequests</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsSuccessItem*&gt; *successfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/successfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsResponse/successfulFleetRequests</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsSuccessItem*&gt; *successfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/successfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsResponse/setUnsuccessfulFleetRequests:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are not successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsErrorItem*&gt; *unsuccessfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/unsuccessfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsResponse/unsuccessfulFleetRequests</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are not successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsErrorItem*&gt; *unsuccessfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/unsuccessfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsResponse/unsuccessfulFleetRequests</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Spot fleet requests that are not successfully canceled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2CancelSpotFleetRequestsErrorItem*&gt; *unsuccessfulFleetRequests</Declaration>
+			
+			
+			<Anchor>//api/name/unsuccessfulFleetRequests</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

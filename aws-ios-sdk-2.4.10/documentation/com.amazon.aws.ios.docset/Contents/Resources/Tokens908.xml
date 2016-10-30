@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2SpotFleetRequestConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotFleetRequestConfig</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a Spot fleet request.&lt;/p&gt;
+Required parameters: [SpotFleetRequestId, SpotFleetRequestState, SpotFleetRequestConfig, CreateTime]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="908"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/setCreateTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The creation date and time of the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/createTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The creation date and time of the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotFleetRequestConfig/createTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The creation date and time of the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			
+			
+			<Anchor>//api/name/createTime</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/setSpotFleetRequestConfig:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the configuration of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotFleetRequestConfigData *spotFleetRequestConfig</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestConfig</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/spotFleetRequestConfig</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the configuration of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotFleetRequestConfigData *spotFleetRequestConfig</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestConfig</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotFleetRequestConfig/spotFleetRequestConfig</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the configuration of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotFleetRequestConfigData *spotFleetRequestConfig</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestConfig</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/setSpotFleetRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotFleetRequestConfig/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/setSpotFleetRequestState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2BatchState spotFleetRequestState</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestState</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotFleetRequestConfig/spotFleetRequestState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2BatchState spotFleetRequestState</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestState</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotFleetRequestConfig/spotFleetRequestState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2BatchState spotFleetRequestState</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestState</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

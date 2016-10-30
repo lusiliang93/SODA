@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSpotFleetRequestHistoryRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSpotFleetRequestHistoryRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeSpotFleetRequestHistory.&lt;/p&gt;
+Required parameters: [SpotFleetRequestId, StartTime]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="647"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setEventType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of events to describe. By default, all events are described.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventType eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of events to describe. By default, all events are described.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventType eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of events to describe. By default, all events are described.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventType eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setSpotFleetRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/setStartTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryRequest/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryRequest/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="647"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

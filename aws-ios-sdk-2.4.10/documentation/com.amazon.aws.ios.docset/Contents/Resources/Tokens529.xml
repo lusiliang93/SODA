@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CreateVpcResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of CreateVpc.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="529"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcResult/setVpc:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Vpc *vpc</Declaration>
+			
+			
+			<Anchor>//api/name/vpc</Anchor>
+            <NodeRef refid="529"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcResult/vpc</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Vpc *vpc</Declaration>
+			
+			
+			<Anchor>//api/name/vpc</Anchor>
+            <NodeRef refid="529"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcResult/vpc</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Vpc *vpc</Declaration>
+			
+			
+			<Anchor>//api/name/vpc</Anchor>
+            <NodeRef refid="529"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

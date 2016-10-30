@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2RequestSpotInstancesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RequestSpotInstancesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for RequestSpotInstances.&lt;/p&gt;
+Required parameters: [SpotPrice]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="857"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setAvailabilityZoneGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/availabilityZoneGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/availabilityZoneGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setBlockDurationMinutes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The required duration for the Spot instances (also known as Spot blocks), in minutes. This value must be a multiple of 60 (60, 120, 180, 240, 300, or 360).&lt;/p&gt;&lt;p&gt;The duration period starts as soon as your Spot instance receives its instance ID. At the end of the duration period, Amazon EC2 marks the Spot instance for termination and provides a Spot instance termination notice, which gives the instance a two-minute warning before it terminates.&lt;/p&gt;&lt;p&gt;Note that you can&apos;t specify an Availability Zone group or a launch group if you specify a duration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *blockDurationMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/blockDurationMinutes</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/blockDurationMinutes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The required duration for the Spot instances (also known as Spot blocks), in minutes. This value must be a multiple of 60 (60, 120, 180, 240, 300, or 360).&lt;/p&gt;&lt;p&gt;The duration period starts as soon as your Spot instance receives its instance ID. At the end of the duration period, Amazon EC2 marks the Spot instance for termination and provides a Spot instance termination notice, which gives the instance a two-minute warning before it terminates.&lt;/p&gt;&lt;p&gt;Note that you can&apos;t specify an Availability Zone group or a launch group if you specify a duration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *blockDurationMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/blockDurationMinutes</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/blockDurationMinutes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The required duration for the Spot instances (also known as Spot blocks), in minutes. This value must be a multiple of 60 (60, 120, 180, 240, 300, or 360).&lt;/p&gt;&lt;p&gt;The duration period starts as soon as your Spot instance receives its instance ID. At the end of the duration period, Amazon EC2 marks the Spot instance for termination and provides a Spot instance termination notice, which gives the instance a two-minute warning before it terminates.&lt;/p&gt;&lt;p&gt;Note that you can&apos;t specify an Availability Zone group or a launch group if you specify a duration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *blockDurationMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/blockDurationMinutes</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that you provide to ensure the idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that you provide to ensure the idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that you provide to ensure the idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setLaunchGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
+			
+			
+			<Anchor>//api/name/launchGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/launchGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
+			
+			
+			<Anchor>//api/name/launchGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/launchGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
+			
+			
+			<Anchor>//api/name/launchGroup</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification for an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification for an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification for an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price (bid) for any Spot instance launched to fulfill the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price (bid) for any Spot instance launched to fulfill the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price (bid) for any Spot instance launched to fulfill the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setValidFrom:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
+			
+			
+			<Anchor>//api/name/validFrom</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/validFrom</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
+			
+			
+			<Anchor>//api/name/validFrom</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/validFrom</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
+			
+			
+			<Anchor>//api/name/validFrom</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setValidUntil:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
+			
+			
+			<Anchor>//api/name/validUntil</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/validUntil</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
+			
+			
+			<Anchor>//api/name/validUntil</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/validUntil</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
+			
+			
+			<Anchor>//api/name/validUntil</Anchor>
+            <NodeRef refid="857"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

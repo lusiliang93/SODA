@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeVolumeStatusRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVolumeStatusRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeVolumeStatus.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="663"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.code&lt;/code&gt; - The action code for the event (for example, &lt;code&gt;enable-volume-io&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.description&lt;/code&gt; - A description of the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.event-id&lt;/code&gt; - The event ID associated with the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-id&lt;/code&gt; - The event ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-type&lt;/code&gt; - The event type (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;io-performance:degraded&lt;/code&gt; | &lt;code&gt;io-performance:severely-degraded&lt;/code&gt; | &lt;code&gt;io-performance:stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-name&lt;/code&gt; - The cause for &lt;code&gt;volume-status.status&lt;/code&gt; (&lt;code&gt;io-enabled&lt;/code&gt; | &lt;code&gt;io-performance&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-status&lt;/code&gt; - The status of &lt;code&gt;volume-status.details-name&lt;/code&gt; (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;normal&lt;/code&gt; | &lt;code&gt;degraded&lt;/code&gt; | &lt;code&gt;severely-degraded&lt;/code&gt; | &lt;code&gt;stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.status&lt;/code&gt; - The status of the volume (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;warning&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.code&lt;/code&gt; - The action code for the event (for example, &lt;code&gt;enable-volume-io&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.description&lt;/code&gt; - A description of the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.event-id&lt;/code&gt; - The event ID associated with the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-id&lt;/code&gt; - The event ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-type&lt;/code&gt; - The event type (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;io-performance:degraded&lt;/code&gt; | &lt;code&gt;io-performance:severely-degraded&lt;/code&gt; | &lt;code&gt;io-performance:stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-name&lt;/code&gt; - The cause for &lt;code&gt;volume-status.status&lt;/code&gt; (&lt;code&gt;io-enabled&lt;/code&gt; | &lt;code&gt;io-performance&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-status&lt;/code&gt; - The status of &lt;code&gt;volume-status.details-name&lt;/code&gt; (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;normal&lt;/code&gt; | &lt;code&gt;degraded&lt;/code&gt; | &lt;code&gt;severely-degraded&lt;/code&gt; | &lt;code&gt;stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.status&lt;/code&gt; - The status of the volume (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;warning&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.code&lt;/code&gt; - The action code for the event (for example, &lt;code&gt;enable-volume-io&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.description&lt;/code&gt; - A description of the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;action.event-id&lt;/code&gt; - The event ID associated with the action.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.description&lt;/code&gt; - A description of the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-id&lt;/code&gt; - The event ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.event-type&lt;/code&gt; - The event type (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;io-performance:degraded&lt;/code&gt; | &lt;code&gt;io-performance:severely-degraded&lt;/code&gt; | &lt;code&gt;io-performance:stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-after&lt;/code&gt; - The latest end time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;event.not-before&lt;/code&gt; - The earliest start time for the event.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-name&lt;/code&gt; - The cause for &lt;code&gt;volume-status.status&lt;/code&gt; (&lt;code&gt;io-enabled&lt;/code&gt; | &lt;code&gt;io-performance&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.details-status&lt;/code&gt; - The status of &lt;code&gt;volume-status.details-name&lt;/code&gt; (for &lt;code&gt;io-enabled&lt;/code&gt;: &lt;code&gt;passed&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;; for &lt;code&gt;io-performance&lt;/code&gt;: &lt;code&gt;normal&lt;/code&gt; | &lt;code&gt;degraded&lt;/code&gt; | &lt;code&gt;severely-degraded&lt;/code&gt; | &lt;code&gt;stalled&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-status.status&lt;/code&gt; - The status of the volume (&lt;code&gt;ok&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;warning&lt;/code&gt; | &lt;code&gt;insufficient-data&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; in paginated output. When this parameter is used, the request only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; in paginated output. When this parameter is used, the request only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; in paginated output. When this parameter is used, the request only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; request. When the results of the request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; request. When the results of the request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeVolumeStatus&lt;/code&gt; request. When the results of the request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/setVolumeIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusRequest/volumeIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusRequest/volumeIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="663"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

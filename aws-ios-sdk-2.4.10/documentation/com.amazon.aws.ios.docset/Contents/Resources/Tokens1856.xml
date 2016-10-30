@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2VolumeAttachmentState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeAttachmentState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1856"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1856"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttaching</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateAttaching</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1856"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttached</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateAttached</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1856"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetaching</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateDetaching</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1856"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetached</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateDetached</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1856"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

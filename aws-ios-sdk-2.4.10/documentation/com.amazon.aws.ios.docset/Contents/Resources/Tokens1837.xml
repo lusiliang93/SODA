@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2ResourceType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ResourceType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1837"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeCustomerGateway</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeCustomerGateway</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeDHCPOptions</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeDHCPOptions</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeImage</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeImage</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeInstance</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeInstance</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeInternetGateway</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeInternetGateway</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeNetworkACL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeNetworkACL</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeNetworkInterface</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeNetworkInterface</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeReservedInstances</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeReservedInstances</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeRouteTable</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeRouteTable</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeSnapshot</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeSnapshot</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeSpotInstancesRequest</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeSpotInstancesRequest</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeSubnet</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeSubnet</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeSecurityGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeSecurityGroup</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeVolume</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeVolume</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeVPC</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeVPC</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeVpnConnection</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeVpnConnection</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ResourceTypeVpnGateway</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ResourceTypeVpnGateway</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1837"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

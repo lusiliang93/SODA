@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2SpotPrice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the maximum hourly price (bid) for any Spot instance launched to fulfill the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="914"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setProductDescription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/productDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/productDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price (bid) that you are willing to pay for a Spot instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price (bid) that you are willing to pay for a Spot instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price (bid) that you are willing to pay for a Spot instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="914"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

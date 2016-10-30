@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2RevokeSecurityGroupIngressRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RevokeSecurityGroupIngressRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for RevokeSecurityGroupIngress.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="876"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setCidrIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setFromPort:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			
+			
+			<Anchor>//api/name/fromPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/fromPort</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			
+			
+			<Anchor>//api/name/fromPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/fromPort</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			
+			
+			<Anchor>//api/name/fromPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a security group in a nondefault VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a security group in a nondefault VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a security group in a nondefault VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setIpPermissions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2IpPermission*&gt; *ipPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissions</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/ipPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2IpPermission*&gt; *ipPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissions</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/ipPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2IpPermission*&gt; *ipPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/ipPermissions</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setIpProtocol:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/ipProtocol</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/ipProtocol</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/ipProtocol</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/ipProtocol</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/ipProtocol</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setSourceSecurityGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the start of the port range, the IP protocol, and the end of the port range. For EC2-VPC, the source security group must be in the same VPC. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/sourceSecurityGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the start of the port range, the IP protocol, and the end of the port range. For EC2-VPC, the source security group must be in the same VPC. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/sourceSecurityGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the start of the port range, the IP protocol, and the end of the port range. For EC2-VPC, the source security group must be in the same VPC. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setSourceSecurityGroupOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The AWS account ID of the source security group, if the source security group is in a different account. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the IP protocol, the start of the port range, and the end of the port range. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The AWS account ID of the source security group, if the source security group is in a different account. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the IP protocol, the start of the port range, and the end of the port range. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The AWS account ID of the source security group, if the source security group is in a different account. You can&apos;t specify this parameter in combination with the following parameters: the CIDR IP address range, the IP protocol, the start of the port range, and the end of the port range. To revoke a specific rule for an IP protocol and port range, use a set of IP permissions instead.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/setToPort:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			
+			
+			<Anchor>//api/name/toPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RevokeSecurityGroupIngressRequest/toPort</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			
+			
+			<Anchor>//api/name/toPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RevokeSecurityGroupIngressRequest/toPort</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			
+			
+			<Anchor>//api/name/toPort</Anchor>
+            <NodeRef refid="876"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

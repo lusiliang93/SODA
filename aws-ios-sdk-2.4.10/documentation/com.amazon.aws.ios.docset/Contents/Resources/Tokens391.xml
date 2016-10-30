@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBGetItemOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBGetItemOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;GetItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="391"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGetItemOutput/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGetItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGetItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGetItemOutput/setItem:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects, as specified by &lt;i&gt;AttributesToGet&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGetItemOutput/item</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects, as specified by &lt;i&gt;AttributesToGet&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGetItemOutput/item</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute names to &lt;i&gt;AttributeValue&lt;/i&gt; objects, as specified by &lt;i&gt;AttributesToGet&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *item</Declaration>
+			
+			
+			<Anchor>//api/name/item</Anchor>
+            <NodeRef refid="391"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

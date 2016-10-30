@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2RegisterImageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RegisterImageRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for RegisterImage.&lt;/p&gt;
+Required parameters: [Name]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="837"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setArchitecture:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
+			
+			
+			<Anchor>//api/name/architecture</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setImageLocation:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			
+			
+			<Anchor>//api/name/imageLocation</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;/dev/xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;/dev/xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;/dev/xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			
+			
+			<Anchor>//api/name/rootDeviceName</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setSriovNetSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setVirtualizationType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

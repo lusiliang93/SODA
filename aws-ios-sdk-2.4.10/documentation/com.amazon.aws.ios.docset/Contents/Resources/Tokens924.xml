@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2Tag.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Tag</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a tag.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="924"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Tag/setKey:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key of the tag. &lt;/p&gt;&lt;p&gt;Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with &lt;code&gt;aws:&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Tag/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key of the tag. &lt;/p&gt;&lt;p&gt;Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with &lt;code&gt;aws:&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Tag/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key of the tag. &lt;/p&gt;&lt;p&gt;Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with &lt;code&gt;aws:&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Tag/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the tag.&lt;/p&gt;&lt;p&gt;Constraints: Tag values are case-sensitive and accept a maximum of 255 Unicode characters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Tag/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the tag.&lt;/p&gt;&lt;p&gt;Constraints: Tag values are case-sensitive and accept a maximum of 255 Unicode characters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Tag/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the tag.&lt;/p&gt;&lt;p&gt;Constraints: Tag values are case-sensitive and accept a maximum of 255 Unicode characters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="924"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

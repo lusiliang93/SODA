@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2VpcPeeringConnectionStateReasonCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VpcPeeringConnectionStateReasonCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1863"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeInitiatingRequest</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeInitiatingRequest</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodePendingAcceptance</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodePendingAcceptance</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeActive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeActive</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeDeleted</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeDeleted</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeRejected</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeRejected</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeFailed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeFailed</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeExpired</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeExpired</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeProvisioning</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeProvisioning</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcPeeringConnectionStateReasonCodeDeleting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VpcPeeringConnectionStateReasonCodeDeleting</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1863"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

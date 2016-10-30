@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBBatchGetItemInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBBatchGetItemInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input of a &lt;i&gt;BatchGetItem&lt;/i&gt; operation.&lt;/p&gt;
+Required parameters: [RequestItems]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="369"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/setRequestItems:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a map that describes one or more items to retrieve from that table. Each table name can be used only once per &lt;i&gt;BatchGetItem&lt;/i&gt; request.&lt;/p&gt;&lt;p&gt;Each element in the map of items to retrieve consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ExpressionAttributeNames&lt;/i&gt; - One or more substitution tokens for attribute names in the &lt;i&gt;ProjectionExpression&lt;/i&gt; parameter. The following are some use cases for using &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To access an attribute whose name conflicts with a DynamoDB reserved word.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following attribute name:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Percentile&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The name of this attribute conflicts with a reserved word, so it cannot be used directly in an expression. (For the complete list of reserved words, see Accessing Item Attributes in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - &lt;/p&gt;&lt;important&gt;&lt;p&gt;This is a legacy parameter, for backward compatibility. New applications should use &lt;i&gt;ProjectionExpression&lt;/i&gt; instead. Do not combine legacy parameters and expression parameters in a single API call; otherwise, DynamoDB will return a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;This parameter allows you to retrieve attributes of type List or Map; however, it cannot retrieve individual elements within a List or a Map.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;The names of one or more attributes to retrieve. If no attribute names are provided, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a map that describes one or more items to retrieve from that table. Each table name can be used only once per &lt;i&gt;BatchGetItem&lt;/i&gt; request.&lt;/p&gt;&lt;p&gt;Each element in the map of items to retrieve consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ExpressionAttributeNames&lt;/i&gt; - One or more substitution tokens for attribute names in the &lt;i&gt;ProjectionExpression&lt;/i&gt; parameter. The following are some use cases for using &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To access an attribute whose name conflicts with a DynamoDB reserved word.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following attribute name:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Percentile&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The name of this attribute conflicts with a reserved word, so it cannot be used directly in an expression. (For the complete list of reserved words, see Accessing Item Attributes in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - &lt;/p&gt;&lt;important&gt;&lt;p&gt;This is a legacy parameter, for backward compatibility. New applications should use &lt;i&gt;ProjectionExpression&lt;/i&gt; instead. Do not combine legacy parameters and expression parameters in a single API call; otherwise, DynamoDB will return a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;This parameter allows you to retrieve attributes of type List or Map; however, it cannot retrieve individual elements within a List or a Map.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;The names of one or more attributes to retrieve. If no attribute names are provided, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a map that describes one or more items to retrieve from that table. Each table name can be used only once per &lt;i&gt;BatchGetItem&lt;/i&gt; request.&lt;/p&gt;&lt;p&gt;Each element in the map of items to retrieve consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - If &lt;code&gt;true&lt;/code&gt;, a strongly consistent read is used; if &lt;code&gt;false&lt;/code&gt; (the default), an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ExpressionAttributeNames&lt;/i&gt; - One or more substitution tokens for attribute names in the &lt;i&gt;ProjectionExpression&lt;/i&gt; parameter. The following are some use cases for using &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To access an attribute whose name conflicts with a DynamoDB reserved word.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following attribute name:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Percentile&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The name of this attribute conflicts with a reserved word, so it cannot be used directly in an expression. (For the complete list of reserved words, see Accessing Item Attributes in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - &lt;/p&gt;&lt;important&gt;&lt;p&gt;This is a legacy parameter, for backward compatibility. New applications should use &lt;i&gt;ProjectionExpression&lt;/i&gt; instead. Do not combine legacy parameters and expression parameters in a single API call; otherwise, DynamoDB will return a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;This parameter allows you to retrieve attributes of type List or Map; however, it cannot retrieve individual elements within a List or a Map.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;The names of one or more attributes to retrieve. If no attribute names are provided, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;&lt;p&gt;Note that &lt;i&gt;AttributesToGet&lt;/i&gt; has no effect on provisioned throughput consumption. DynamoDB determines capacity units consumed based on item size, not on the amount of data that is returned to an application.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="369"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

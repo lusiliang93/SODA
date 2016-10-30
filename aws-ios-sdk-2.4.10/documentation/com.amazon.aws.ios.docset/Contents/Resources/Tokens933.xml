@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2UserBucket.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2UserBucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the S3 bucket for the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="933"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserBucket/setS3Bucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the S3 bucket where the disk image is located.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserBucket/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the S3 bucket where the disk image is located.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserBucket/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the S3 bucket where the disk image is located.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserBucket/setS3Key:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The file name of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			
+			
+			<Anchor>//api/name/s3Key</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserBucket/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The file name of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			
+			
+			<Anchor>//api/name/s3Key</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserBucket/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The file name of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			
+			
+			<Anchor>//api/name/s3Key</Anchor>
+            <NodeRef refid="933"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQSGetQueueAttributesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p/&gt;
+Required parameters: [QueueUrl]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1644"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. The following attributes are supported:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt; - returns the approximate number of visible messages in a queue. For more information, see Using Amazon SQS Dead Letter Queues in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. The following attributes are supported:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt; - returns the approximate number of visible messages in a queue. For more information, see Using Amazon SQS Dead Letter Queues in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueAttributesRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. The following attributes are supported:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt; - returns the approximate number of visible messages in a queue. For more information, see Using Amazon SQS Dead Letter Queues in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueAttributesRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1644"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

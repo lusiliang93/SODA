@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CreateNetworkAclEntryRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateNetworkAclEntryRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CreateNetworkAclEntry.&lt;/p&gt;
+Required parameters: [NetworkAclId, RuleNumber, Protocol, RuleAction, Egress, CidrBlock]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="501"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation (for example &lt;code&gt;172.16.0.0/24&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation (for example &lt;code&gt;172.16.0.0/24&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation (for example &lt;code&gt;172.16.0.0/24&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setEgress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is an egress rule (rule is applied to traffic leaving the subnet).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
+			
+			
+			<Anchor>//api/name/egress</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is an egress rule (rule is applied to traffic leaving the subnet).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
+			
+			
+			<Anchor>//api/name/egress</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is an egress rule (rule is applied to traffic leaving the subnet).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
+			
+			
+			<Anchor>//api/name/egress</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setIcmpTypeCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying ICMP for the protocol.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
+			
+			
+			<Anchor>//api/name/icmpTypeCode</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/icmpTypeCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying ICMP for the protocol.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
+			
+			
+			<Anchor>//api/name/icmpTypeCode</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/icmpTypeCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying ICMP for the protocol.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
+			
+			
+			<Anchor>//api/name/icmpTypeCode</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setNetworkAclId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setPortRange:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
+			
+			
+			<Anchor>//api/name/portRange</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/portRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
+			
+			
+			<Anchor>//api/name/portRange</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/portRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
+			
+			
+			<Anchor>//api/name/portRange</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setProtocols:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The protocol. A value of -1 means all protocols.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/protocols</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The protocol. A value of -1 means all protocols.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/protocols</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The protocol. A value of -1 means all protocols.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setRuleAction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
+			
+			
+			<Anchor>//api/name/ruleAction</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/ruleAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
+			
+			
+			<Anchor>//api/name/ruleAction</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/ruleAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
+			
+			
+			<Anchor>//api/name/ruleAction</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/setRuleNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number for the entry (for example, 100). ACL entries are processed in ascending order by rule number.&lt;/p&gt;&lt;p&gt;Constraints: Positive integer from 1 to 32766&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number for the entry (for example, 100). ACL entries are processed in ascending order by rule number.&lt;/p&gt;&lt;p&gt;Constraints: Positive integer from 1 to 32766&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number for the entry (for example, 100). ACL entries are processed in ascending order by rule number.&lt;/p&gt;&lt;p&gt;Constraints: Positive integer from 1 to 32766&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="501"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

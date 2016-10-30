@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQSSendMessageResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The MD5OfMessageBody and MessageId elements.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1663"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMD5OfMessageAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/MD5OfMessageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/MD5OfMessageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMD5OfMessageBody:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/MD5OfMessageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/MD5OfMessageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
+			
+			
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMessageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
+            <NodeRef refid="1663"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

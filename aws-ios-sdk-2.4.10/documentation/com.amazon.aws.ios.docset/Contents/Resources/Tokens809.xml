@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2NetworkAclAssociation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2NetworkAclAssociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="809"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclAssociationId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclAssociationId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclAssociationId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			
+			
+			<Anchor>//api/name/networkAclId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="809"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2IpRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IpRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an IP range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="773"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpRange/setCidrIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="773"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpRange/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="773"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpRange/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			
+			
+			<Anchor>//api/name/cidrIp</Anchor>
+            <NodeRef refid="773"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

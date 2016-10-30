@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2AssociateAddressRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AssociateAddressRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for AssociateAddress.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="438"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setAllocationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The allocation ID. This is required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/allocationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The allocation ID. This is required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/allocationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The allocation ID. This is required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setAllowReassociation:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] For a VPC in an EC2-Classic account, specify true to allow an Elastic IP address that is already associated with an instance or network interface to be reassociated with the specified instance or network interface. Otherwise, the operation fails. In a VPC in an EC2-VPC-only account, reassociation is automatic, therefore you can specify false to ensure the operation fails if the Elastic IP address is already associated with another resource.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassociation</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassociation</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/allowReassociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] For a VPC in an EC2-Classic account, specify true to allow an Elastic IP address that is already associated with an instance or network interface to be reassociated with the specified instance or network interface. Otherwise, the operation fails. In a VPC in an EC2-VPC-only account, reassociation is automatic, therefore you can specify false to ensure the operation fails if the Elastic IP address is already associated with another resource.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassociation</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassociation</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/allowReassociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] For a VPC in an EC2-Classic account, specify true to allow an Elastic IP address that is already associated with an instance or network interface to be reassociated with the specified instance or network interface. Otherwise, the operation fails. In a VPC in an EC2-VPC-only account, reassociation is automatic, therefore you can specify false to ensure the operation fails if the Elastic IP address is already associated with another resource.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassociation</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassociation</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance. This is required for EC2-Classic. For EC2-VPC, you can specify either the instance ID or the network interface ID, but not both. The operation fails if you specify an instance ID unless exactly one network interface is attached. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance. This is required for EC2-Classic. For EC2-VPC, you can specify either the instance ID or the network interface ID, but not both. The operation fails if you specify an instance ID unless exactly one network interface is attached. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance. This is required for EC2-Classic. For EC2-VPC, you can specify either the instance ID or the network interface ID, but not both. The operation fails if you specify an instance ID unless exactly one network interface is attached. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the network interface. If the instance has more than one network interface, you must specify a network interface ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the network interface. If the instance has more than one network interface, you must specify a network interface ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the network interface. If the instance has more than one network interface, you must specify a network interface ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary or secondary private IP address to associate with the Elastic IP address. If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary or secondary private IP address to associate with the Elastic IP address. If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary or secondary private IP address to associate with the Elastic IP address. If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address. This is required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address. This is required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address. This is required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

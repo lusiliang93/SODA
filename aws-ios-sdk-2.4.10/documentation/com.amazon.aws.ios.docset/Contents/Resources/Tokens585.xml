@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeHostsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeHostsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeHosts.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="585"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/setFilter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type size that the Dedicated host is configured to support.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;auto-placement&lt;/code&gt; - Whether auto-placement is enabled or disabled (&lt;code&gt;on&lt;/code&gt; | &lt;code&gt;off&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;host-reservation-id&lt;/code&gt; - The ID of the reservation associated with this host.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token you provided when you launched the instance&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt;- The allocation state of the Dedicated host (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;under-assessment&lt;/code&gt; | &lt;code&gt;permanent-failure&lt;/code&gt; | &lt;code&gt;released&lt;/code&gt; | &lt;code&gt;released-permanent-failure&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the host.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/filter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type size that the Dedicated host is configured to support.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;auto-placement&lt;/code&gt; - Whether auto-placement is enabled or disabled (&lt;code&gt;on&lt;/code&gt; | &lt;code&gt;off&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;host-reservation-id&lt;/code&gt; - The ID of the reservation associated with this host.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token you provided when you launched the instance&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt;- The allocation state of the Dedicated host (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;under-assessment&lt;/code&gt; | &lt;code&gt;permanent-failure&lt;/code&gt; | &lt;code&gt;released&lt;/code&gt; | &lt;code&gt;released-permanent-failure&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the host.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeHostsRequest/filter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type size that the Dedicated host is configured to support.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;auto-placement&lt;/code&gt; - Whether auto-placement is enabled or disabled (&lt;code&gt;on&lt;/code&gt; | &lt;code&gt;off&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;host-reservation-id&lt;/code&gt; - The ID of the reservation associated with this host.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token you provided when you launched the instance&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt;- The allocation state of the Dedicated host (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;under-assessment&lt;/code&gt; | &lt;code&gt;permanent-failure&lt;/code&gt; | &lt;code&gt;released&lt;/code&gt; | &lt;code&gt;released-permanent-failure&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone of the host.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/setHostIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Dedicated hosts. The IDs are used for targeted instance launches.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/hostIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Dedicated hosts. The IDs are used for targeted instance launches.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeHostsRequest/hostIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Dedicated hosts. The IDs are used for targeted instance launches.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return for the request in a single page. The remaining results can be seen by sending another request with the returned &lt;code&gt;nextToken&lt;/code&gt; value. This value can be between 5 and 500; if &lt;code&gt;maxResults&lt;/code&gt; is given a larger value than 500, you will receive an error. You cannot specify this parameter and the host IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return for the request in a single page. The remaining results can be seen by sending another request with the returned &lt;code&gt;nextToken&lt;/code&gt; value. This value can be between 5 and 500; if &lt;code&gt;maxResults&lt;/code&gt; is given a larger value than 500, you will receive an error. You cannot specify this parameter and the host IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeHostsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return for the request in a single page. The remaining results can be seen by sending another request with the returned &lt;code&gt;nextToken&lt;/code&gt; value. This value can be between 5 and 500; if &lt;code&gt;maxResults&lt;/code&gt; is given a larger value than 500, you will receive an error. You cannot specify this parameter and the host IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeHostsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeHostsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2S3Storage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2S3Storage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the storage parameters for S3 and S3 buckets for an instance store-backed AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="884"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/setAWSAccessKeyId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The access key ID of the owner of the bucket. Before you specify a value for your access key ID, review and follow the guidance in Best Practices for Managing AWS Access Keys.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSAccessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/AWSAccessKeyId</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/AWSAccessKeyId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The access key ID of the owner of the bucket. Before you specify a value for your access key ID, review and follow the guidance in Best Practices for Managing AWS Access Keys.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSAccessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/AWSAccessKeyId</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2S3Storage/AWSAccessKeyId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The access key ID of the owner of the bucket. Before you specify a value for your access key ID, review and follow the guidance in Best Practices for Managing AWS Access Keys.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSAccessKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/AWSAccessKeyId</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/setBucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The bucket in which to store the AMI. You can specify a bucket that you already own or a new bucket that Amazon EC2 creates on your behalf. If you specify a bucket that belongs to someone else, Amazon EC2 returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The bucket in which to store the AMI. You can specify a bucket that you already own or a new bucket that Amazon EC2 creates on your behalf. If you specify a bucket that belongs to someone else, Amazon EC2 returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2S3Storage/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The bucket in which to store the AMI. You can specify a bucket that you already own or a new bucket that Amazon EC2 creates on your behalf. If you specify a bucket that belongs to someone else, Amazon EC2 returns an error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/setPrefix:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The beginning of the file name of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The beginning of the file name of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2S3Storage/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The beginning of the file name of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/setUploadPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded Amazon S3 upload policy that gives Amazon EC2 permission to upload items into Amazon S3 on your behalf. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *uploadPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicy</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/uploadPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded Amazon S3 upload policy that gives Amazon EC2 permission to upload items into Amazon S3 on your behalf. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *uploadPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicy</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2S3Storage/uploadPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded Amazon S3 upload policy that gives Amazon EC2 permission to upload items into Amazon S3 on your behalf. For command line tools, base64 encoding is performed for you.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *uploadPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicy</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/setUploadPolicySignature:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The signature of the Base64 encoded JSON document.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadPolicySignature</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicySignature</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2S3Storage/uploadPolicySignature</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The signature of the Base64 encoded JSON document.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadPolicySignature</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicySignature</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2S3Storage/uploadPolicySignature</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The signature of the Base64 encoded JSON document.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadPolicySignature</Declaration>
+			
+			
+			<Anchor>//api/name/uploadPolicySignature</Anchor>
+            <NodeRef refid="884"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

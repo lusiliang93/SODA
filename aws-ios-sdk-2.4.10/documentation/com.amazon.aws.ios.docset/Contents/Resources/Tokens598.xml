@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeInstanceStatusResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeInstanceStatusResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DescribeInstanceStatus.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="598"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusResult/setInstanceStatuses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance status descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatus*&gt; *instanceStatuses</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatuses</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusResult/instanceStatuses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance status descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatus*&gt; *instanceStatuses</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatuses</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusResult/instanceStatuses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance status descriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatus*&gt; *instanceStatuses</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatuses</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusResult/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeInstanceStatusResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeInstanceStatusResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="598"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

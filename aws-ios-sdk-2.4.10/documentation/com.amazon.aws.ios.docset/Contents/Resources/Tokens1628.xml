@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQS.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQS</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Welcome to the &lt;i&gt;Amazon Simple Queue Service API Reference&lt;/i&gt;. This section describes who should read this guide, how the guide is organized, and other resources related to the Amazon Simple Queue Service (Amazon SQS).&lt;/p&gt;&lt;p&gt;Amazon SQS offers reliable and scalable hosted queues for storing messages as they travel between computers. By using Amazon SQS, you can move data between distributed components of your applications that perform different tasks without losing messages or requiring each component to be always available.&lt;/p&gt;&lt;p&gt;Helpful Links:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://queue.amazonaws.com/doc/2012-11-05/QueueService.wsdl&quot;&gt;Current WSDL (2012-11-05)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Tools for Amazon Web Services.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1628"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSQS/defaultSQS</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultSQS</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultSQS</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSQS/registerSQSWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerSQSWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerSQSWithConfiguration:forKey:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSQS/SQSForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerSQSWithConfiguration:forKey: before invoking this method.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)SQSForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/SQSForKey:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSQS/removeSQSForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+			<Declaration>+ (void)removeSQSForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSQSForKey:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/addPermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds a permission to a queue for a specific Using The Access Policy Language in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSAddPermissionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)addPermission:(AWSSQSAddPermissionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AddPermission service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorOverLimit.</Abstract></ReturnValue>
+			<Anchor>//api/name/addPermission:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/addPermission:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds a permission to a queue for a specific Using The Access Policy Language in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSAddPermissionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addPermission:(AWSSQSAddPermissionRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AddPermission service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorOverLimit.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addPermission:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/changeMessageVisibility:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the visibility timeout of a specified message in a queue to a new value. The maximum allowed timeout value you can set the value to is 12 hours. This means you can&apos;t extend the timeout of a message in an existing queue to more than a total visibility timeout of 12 hours. (For more information visibility timeout, see Visibility Timeout in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.)&lt;/p&gt;&lt;p&gt;For example, let&apos;s say you have a message and its default message visibility timeout is 5 minutes. After 3 minutes, you call &lt;code&gt;ChangeMessageVisiblity&lt;/code&gt; with a timeout of 10 minutes. At that time, the timeout for the message would be extended by 10 minutes beyond the time of the ChangeMessageVisibility call. This results in a total visibility timeout of 13 minutes. You can continue to call ChangeMessageVisibility to extend the visibility timeout to a maximum of 12 hours. If you try to extend beyond 12 hours, the request will be rejected.&lt;/p&gt;&lt;note&gt;&lt;p&gt;There is a 120,000 limit for the number of inflight messages per queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue. If you reach the 120,000 limit, you will receive an OverLimit error message from Amazon SQS. To help avoid reaching the limit, you should delete the messages from the queue after they have been processed. You can also increase the number of queues you use to process the messages. &lt;/p&gt;&lt;/note&gt;&lt;important&gt;&lt;p&gt;If you attempt to set the &lt;code&gt;VisibilityTimeout&lt;/code&gt; to an amount more than the maximum time left, Amazon SQS returns an error. It will not automatically recalculate and increase the timeout to the maximum time remaining.&lt;/p&gt;&lt;/important&gt;&lt;important&gt;&lt;p&gt;Unlike with a queue, when you change the visibility timeout for a specific message, that timeout value is applied immediately but is not saved in memory for that message. If you don&apos;t delete a message after it is received, the visibility timeout for the message the next time it is received reverts to the original timeout value, not the value you set with the &lt;code&gt;ChangeMessageVisibility&lt;/code&gt; action.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)changeMessageVisibility:(AWSSQSChangeMessageVisibilityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ChangeMessageVisibility service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorMessageNotInflight, AWSSQSErrorReceiptHandleIsInvalid.</Abstract></ReturnValue>
+			<Anchor>//api/name/changeMessageVisibility:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/changeMessageVisibility:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the visibility timeout of a specified message in a queue to a new value. The maximum allowed timeout value you can set the value to is 12 hours. This means you can&apos;t extend the timeout of a message in an existing queue to more than a total visibility timeout of 12 hours. (For more information visibility timeout, see Visibility Timeout in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;.)&lt;/p&gt;&lt;p&gt;For example, let&apos;s say you have a message and its default message visibility timeout is 5 minutes. After 3 minutes, you call &lt;code&gt;ChangeMessageVisiblity&lt;/code&gt; with a timeout of 10 minutes. At that time, the timeout for the message would be extended by 10 minutes beyond the time of the ChangeMessageVisibility call. This results in a total visibility timeout of 13 minutes. You can continue to call ChangeMessageVisibility to extend the visibility timeout to a maximum of 12 hours. If you try to extend beyond 12 hours, the request will be rejected.&lt;/p&gt;&lt;note&gt;&lt;p&gt;There is a 120,000 limit for the number of inflight messages per queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue. If you reach the 120,000 limit, you will receive an OverLimit error message from Amazon SQS. To help avoid reaching the limit, you should delete the messages from the queue after they have been processed. You can also increase the number of queues you use to process the messages. &lt;/p&gt;&lt;/note&gt;&lt;important&gt;&lt;p&gt;If you attempt to set the &lt;code&gt;VisibilityTimeout&lt;/code&gt; to an amount more than the maximum time left, Amazon SQS returns an error. It will not automatically recalculate and increase the timeout to the maximum time remaining.&lt;/p&gt;&lt;/important&gt;&lt;important&gt;&lt;p&gt;Unlike with a queue, when you change the visibility timeout for a specific message, that timeout value is applied immediately but is not saved in memory for that message. If you don&apos;t delete a message after it is received, the visibility timeout for the message the next time it is received reverts to the original timeout value, not the value you set with the &lt;code&gt;ChangeMessageVisibility&lt;/code&gt; action.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)changeMessageVisibility:(AWSSQSChangeMessageVisibilityRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ChangeMessageVisibility service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorMessageNotInflight, AWSSQSErrorReceiptHandleIsInvalid.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/changeMessageVisibility:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/changeMessageVisibilityBatch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the visibility timeout of multiple messages. This is a batch version of &lt;a&gt;ChangeMessageVisibility&lt;/a&gt;. The result of the action on each message is reported individually in the response. You can send up to 10 &lt;a&gt;ChangeMessageVisibility&lt;/a&gt; requests with each &lt;code&gt;ChangeMessageVisibilityBatch&lt;/code&gt; action.&lt;/p&gt;&lt;important&gt;&lt;p&gt;Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.&lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSChangeMessageVisibilityBatchResult*&gt; *)changeMessageVisibilityBatch:(AWSSQSChangeMessageVisibilityBatchRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ChangeMessageVisibilityBatch service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSChangeMessageVisibilityBatchResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorInvalidBatchEntryId.</Abstract></ReturnValue>
+			<Anchor>//api/name/changeMessageVisibilityBatch:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/changeMessageVisibilityBatch:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the visibility timeout of multiple messages. This is a batch version of &lt;a&gt;ChangeMessageVisibility&lt;/a&gt;. The result of the action on each message is reported individually in the response. You can send up to 10 &lt;a&gt;ChangeMessageVisibility&lt;/a&gt; requests with each &lt;code&gt;ChangeMessageVisibilityBatch&lt;/code&gt; action.&lt;/p&gt;&lt;important&gt;&lt;p&gt;Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.&lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)changeMessageVisibilityBatch:(AWSSQSChangeMessageVisibilityBatchRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSChangeMessageVisibilityBatchResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ChangeMessageVisibilityBatch service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorInvalidBatchEntryId.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/changeMessageVisibilityBatch:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/createQueue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new queue, or returns the URL of an existing one. When you request &lt;code&gt;CreateQueue&lt;/code&gt;, you provide a name for the queue. To successfully create a new queue, you must provide a name that is unique within the scope of your own queues.&lt;/p&gt;&lt;note&gt;&lt;p&gt;If you delete a queue, you must wait at least 60 seconds before creating a queue with the same name.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;You may pass one or more attributes in the request. If you do not provide a value for any attribute, the queue will have the default value for that attribute.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Use &lt;a&gt;GetQueueUrl&lt;/a&gt; to get a queue&apos;s URL. &lt;a&gt;GetQueueUrl&lt;/a&gt; requires only the &lt;code&gt;QueueName&lt;/code&gt; parameter.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;If you provide the name of an existing queue, along with the exact names and values of all the queue&apos;s attributes, &lt;code&gt;CreateQueue&lt;/code&gt; returns the queue URL for the existing queue. If the queue name, attribute names, or attribute values do not match an existing queue, &lt;code&gt;CreateQueue&lt;/code&gt; returns an error.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSCreateQueueRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSCreateQueueResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSCreateQueueResult*&gt; *)createQueue:(AWSSQSCreateQueueRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateQueue service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSCreateQueueResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDeletedRecently, AWSSQSErrorQueueNameExists.</Abstract></ReturnValue>
+			<Anchor>//api/name/createQueue:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/createQueue:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new queue, or returns the URL of an existing one. When you request &lt;code&gt;CreateQueue&lt;/code&gt;, you provide a name for the queue. To successfully create a new queue, you must provide a name that is unique within the scope of your own queues.&lt;/p&gt;&lt;note&gt;&lt;p&gt;If you delete a queue, you must wait at least 60 seconds before creating a queue with the same name.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;You may pass one or more attributes in the request. If you do not provide a value for any attribute, the queue will have the default value for that attribute.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Use &lt;a&gt;GetQueueUrl&lt;/a&gt; to get a queue&apos;s URL. &lt;a&gt;GetQueueUrl&lt;/a&gt; requires only the &lt;code&gt;QueueName&lt;/code&gt; parameter.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;If you provide the name of an existing queue, along with the exact names and values of all the queue&apos;s attributes, &lt;code&gt;CreateQueue&lt;/code&gt; returns the queue URL for the existing queue. If the queue name, attribute names, or attribute values do not match an existing queue, &lt;code&gt;CreateQueue&lt;/code&gt; returns an error.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSCreateQueueRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSCreateQueueResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createQueue:(AWSSQSCreateQueueRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSCreateQueueResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateQueue service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDeletedRecently, AWSSQSErrorQueueNameExists.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createQueue:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the specified message from the specified queue. You specify the message by using the message&apos;s &lt;code&gt;receipt handle&lt;/code&gt; and not the &lt;code&gt;message ID&lt;/code&gt; you received when you sent the message. Even if the message is locked by another reader due to the visibility timeout setting, it is still deleted from the queue. If you leave a message in the queue for longer than the queue&apos;s configured retention period, Amazon SQS automatically deletes it. &lt;/p&gt;&lt;note&gt;&lt;p&gt; The receipt handle is associated with a specific instance of receiving the message. If you receive a message more than once, the receipt handle you get each time you receive the message is different. When you request &lt;code&gt;DeleteMessage&lt;/code&gt;, if you don&apos;t provide the most recently received receipt handle for the message, the request will still succeed, but the message might not be deleted. &lt;/p&gt;&lt;/note&gt;&lt;important&gt;&lt;p&gt; It is possible you will receive a message even after you have deleted it. This might happen on rare occasions if one of the servers storing a copy of the message is unavailable when you request to delete the message. The copy remains on the server and might be returned to you again on a subsequent receive request. You should create your system to be idempotent so that receiving a particular message more than once is not a problem. &lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteMessage:(AWSSQSDeleteMessageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteMessage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidIdFormat, AWSSQSErrorReceiptHandleIsInvalid.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteMessage:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteMessage:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the specified message from the specified queue. You specify the message by using the message&apos;s &lt;code&gt;receipt handle&lt;/code&gt; and not the &lt;code&gt;message ID&lt;/code&gt; you received when you sent the message. Even if the message is locked by another reader due to the visibility timeout setting, it is still deleted from the queue. If you leave a message in the queue for longer than the queue&apos;s configured retention period, Amazon SQS automatically deletes it. &lt;/p&gt;&lt;note&gt;&lt;p&gt; The receipt handle is associated with a specific instance of receiving the message. If you receive a message more than once, the receipt handle you get each time you receive the message is different. When you request &lt;code&gt;DeleteMessage&lt;/code&gt;, if you don&apos;t provide the most recently received receipt handle for the message, the request will still succeed, but the message might not be deleted. &lt;/p&gt;&lt;/note&gt;&lt;important&gt;&lt;p&gt; It is possible you will receive a message even after you have deleted it. This might happen on rare occasions if one of the servers storing a copy of the message is unavailable when you request to delete the message. The copy remains on the server and might be returned to you again on a subsequent receive request. You should create your system to be idempotent so that receiving a particular message more than once is not a problem. &lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteMessage:(AWSSQSDeleteMessageRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteMessage service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidIdFormat, AWSSQSErrorReceiptHandleIsInvalid.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteMessage:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteMessageBatch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes up to ten messages from the specified queue. This is a batch version of &lt;a&gt;DeleteMessage&lt;/a&gt;. The result of the delete action on each message is reported individually in the response.&lt;/p&gt;&lt;important&gt;&lt;p&gt; Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200. &lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSDeleteMessageBatchResult*&gt; *)deleteMessageBatch:(AWSSQSDeleteMessageBatchRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteMessageBatch service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSDeleteMessageBatchResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorInvalidBatchEntryId.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteMessageBatch:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteMessageBatch:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes up to ten messages from the specified queue. This is a batch version of &lt;a&gt;DeleteMessage&lt;/a&gt;. The result of the delete action on each message is reported individually in the response.&lt;/p&gt;&lt;important&gt;&lt;p&gt; Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200. &lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteMessageBatch:(AWSSQSDeleteMessageBatchRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSDeleteMessageBatchResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteMessageBatch service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorInvalidBatchEntryId.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteMessageBatch:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteQueue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the queue specified by the &lt;b&gt;queue URL&lt;/b&gt;, regardless of whether the queue is empty. If the specified queue does not exist, Amazon SQS returns a successful response. &lt;/p&gt;&lt;important&gt;&lt;p&gt; Use &lt;code&gt;DeleteQueue&lt;/code&gt; with care; once you delete your queue, any messages in the queue are no longer available. &lt;/p&gt;&lt;/important&gt;&lt;p&gt; When you delete a queue, the deletion process takes up to 60 seconds. Requests you send involving that queue during the 60 seconds might succeed. For example, a &lt;a&gt;SendMessage&lt;/a&gt; request might succeed, but after the 60 seconds, the queue and that message you sent no longer exist. Also, when you delete a queue, you must wait at least 60 seconds before creating a queue with the same name. &lt;/p&gt;&lt;p&gt; We reserve the right to delete queues that have had no activity for more than 30 days. For more information, see How Amazon SQS Queues Work in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteQueueRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteQueue:(AWSSQSDeleteQueueRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteQueue service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteQueue:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/deleteQueue:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Deletes the queue specified by the &lt;b&gt;queue URL&lt;/b&gt;, regardless of whether the queue is empty. If the specified queue does not exist, Amazon SQS returns a successful response. &lt;/p&gt;&lt;important&gt;&lt;p&gt; Use &lt;code&gt;DeleteQueue&lt;/code&gt; with care; once you delete your queue, any messages in the queue are no longer available. &lt;/p&gt;&lt;/important&gt;&lt;p&gt; When you delete a queue, the deletion process takes up to 60 seconds. Requests you send involving that queue during the 60 seconds might succeed. For example, a &lt;a&gt;SendMessage&lt;/a&gt; request might succeed, but after the 60 seconds, the queue and that message you sent no longer exist. Also, when you delete a queue, you must wait at least 60 seconds before creating a queue with the same name. &lt;/p&gt;&lt;p&gt; We reserve the right to delete queues that have had no activity for more than 30 days. For more information, see How Amazon SQS Queues Work in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteQueueRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteQueue:(AWSSQSDeleteQueueRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteQueue service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteQueue:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/getQueueAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets attributes for the specified queue.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSGetQueueAttributesResult*&gt; *)getQueueAttributes:(AWSSQSGetQueueAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetQueueAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSGetQueueAttributesResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidAttributeName.</Abstract></ReturnValue>
+			<Anchor>//api/name/getQueueAttributes:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/getQueueAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets attributes for the specified queue.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this:&lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getQueueAttributes:(AWSSQSGetQueueAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSGetQueueAttributesResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetQueueAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidAttributeName.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getQueueAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/getQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns the URL of an existing queue. This action provides a simple way to retrieve the URL of an Amazon SQS queue. &lt;/p&gt;&lt;p&gt; To access a queue that belongs to another AWS account, use the &lt;code&gt;QueueOwnerAWSAccountId&lt;/code&gt; parameter to specify the account ID of the queue&apos;s owner. The queue&apos;s owner must grant you permission to access the queue. For more information about shared queue access, see &lt;a&gt;AddPermission&lt;/a&gt; or go to Shared Queues in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSGetQueueUrlResult*&gt; *)getQueueUrl:(AWSSQSGetQueueUrlRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetQueueUrl service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSGetQueueUrlResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/getQueueUrl:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/getQueueUrl:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns the URL of an existing queue. This action provides a simple way to retrieve the URL of an Amazon SQS queue. &lt;/p&gt;&lt;p&gt; To access a queue that belongs to another AWS account, use the &lt;code&gt;QueueOwnerAWSAccountId&lt;/code&gt; parameter to specify the account ID of the queue&apos;s owner. The queue&apos;s owner must grant you permission to access the queue. For more information about shared queue access, see &lt;a&gt;AddPermission&lt;/a&gt; or go to Shared Queues in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getQueueUrl:(AWSSQSGetQueueUrlRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSGetQueueUrlResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetQueueUrl service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getQueueUrl:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/listDeadLetterSourceQueues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of your queues that have the RedrivePolicy queue attribute configured with a dead letter queue.&lt;/p&gt;&lt;p&gt;For more information about using dead letter queues, see Using Amazon SQS Dead Letter Queues.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListDeadLetterSourceQueuesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListDeadLetterSourceQueuesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSListDeadLetterSourceQueuesResult*&gt; *)listDeadLetterSourceQueues:(AWSSQSListDeadLetterSourceQueuesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListDeadLetterSourceQueues service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSListDeadLetterSourceQueuesResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/listDeadLetterSourceQueues:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/listDeadLetterSourceQueues:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of your queues that have the RedrivePolicy queue attribute configured with a dead letter queue.&lt;/p&gt;&lt;p&gt;For more information about using dead letter queues, see Using Amazon SQS Dead Letter Queues.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListDeadLetterSourceQueuesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListDeadLetterSourceQueuesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listDeadLetterSourceQueues:(AWSSQSListDeadLetterSourceQueuesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSListDeadLetterSourceQueuesResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListDeadLetterSourceQueues service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listDeadLetterSourceQueues:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/listQueues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of your queues. The maximum number of queues that can be returned is 1000. If you specify a value for the optional &lt;code&gt;QueueNamePrefix&lt;/code&gt; parameter, only queues with a name beginning with the specified value are returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListQueuesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListQueuesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSListQueuesResult*&gt; *)listQueues:(AWSSQSListQueuesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListQueues service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSListQueuesResult.</Abstract></ReturnValue>
+			<Anchor>//api/name/listQueues:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/listQueues:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of your queues. The maximum number of queues that can be returned is 1000. If you specify a value for the optional &lt;code&gt;QueueNamePrefix&lt;/code&gt; parameter, only queues with a name beginning with the specified value are returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListQueuesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListQueuesResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listQueues:(AWSSQSListQueuesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSListQueuesResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListQueues service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listQueues:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/purgeQueue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the messages in a queue specified by the &lt;b&gt;queue URL&lt;/b&gt;.&lt;/p&gt;&lt;important&gt;&lt;p&gt;When you use the &lt;code&gt;PurgeQueue&lt;/code&gt; API, the deleted messages in the queue cannot be retrieved.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;When you purge a queue, the message deletion process takes up to 60 seconds. All messages sent to the queue before calling &lt;code&gt;PurgeQueue&lt;/code&gt; will be deleted; messages sent to the queue while it is being purged may be deleted. While the queue is being purged, messages sent to the queue before &lt;code&gt;PurgeQueue&lt;/code&gt; was called may be received, but will be deleted within the next minute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSPurgeQueueRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)purgeQueue:(AWSSQSPurgeQueueRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PurgeQueue service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist, AWSSQSErrorPurgeQueueInProgress.</Abstract></ReturnValue>
+			<Anchor>//api/name/purgeQueue:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/purgeQueue:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the messages in a queue specified by the &lt;b&gt;queue URL&lt;/b&gt;.&lt;/p&gt;&lt;important&gt;&lt;p&gt;When you use the &lt;code&gt;PurgeQueue&lt;/code&gt; API, the deleted messages in the queue cannot be retrieved.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;When you purge a queue, the message deletion process takes up to 60 seconds. All messages sent to the queue before calling &lt;code&gt;PurgeQueue&lt;/code&gt; will be deleted; messages sent to the queue while it is being purged may be deleted. While the queue is being purged, messages sent to the queue before &lt;code&gt;PurgeQueue&lt;/code&gt; was called may be received, but will be deleted within the next minute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSPurgeQueueRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)purgeQueue:(AWSSQSPurgeQueueRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PurgeQueue service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorQueueDoesNotExist, AWSSQSErrorPurgeQueueInProgress.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/purgeQueue:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/receiveMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Retrieves one or more messages, with a maximum limit of 10 messages, from the specified queue. Long poll support is enabled by using the &lt;code&gt;WaitTimeSeconds&lt;/code&gt; parameter. For more information, see Amazon SQS Long Poll in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;p&gt; Short poll is the default behavior where a weighted random set of machines is sampled on a &lt;code&gt;ReceiveMessage&lt;/code&gt; call. This means only the messages on the sampled machines are returned. If the number of messages in the queue is small (less than 1000), it is likely you will get fewer messages than you requested per &lt;code&gt;ReceiveMessage&lt;/code&gt; call. If the number of messages in the queue is extremely small, you might not receive any messages in a particular &lt;code&gt;ReceiveMessage&lt;/code&gt; response; in which case you should repeat the request. &lt;/p&gt;&lt;p&gt; For each message returned, the response includes the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt; Message body &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; MD5 digest of the message body. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Message ID you received when you sent the message to the queue. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Receipt handle. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Message attributes. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; MD5 digest of the message attributes. &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; The receipt handle is the identifier you must provide when deleting the message. For more information, see Visibility Timeout in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;note&gt;&lt;p&gt; Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully. &lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSReceiveMessageResult*&gt; *)receiveMessage:(AWSSQSReceiveMessageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReceiveMessage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSReceiveMessageResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorOverLimit.</Abstract></ReturnValue>
+			<Anchor>//api/name/receiveMessage:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/receiveMessage:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Retrieves one or more messages, with a maximum limit of 10 messages, from the specified queue. Long poll support is enabled by using the &lt;code&gt;WaitTimeSeconds&lt;/code&gt; parameter. For more information, see Amazon SQS Long Poll in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;p&gt; Short poll is the default behavior where a weighted random set of machines is sampled on a &lt;code&gt;ReceiveMessage&lt;/code&gt; call. This means only the messages on the sampled machines are returned. If the number of messages in the queue is small (less than 1000), it is likely you will get fewer messages than you requested per &lt;code&gt;ReceiveMessage&lt;/code&gt; call. If the number of messages in the queue is extremely small, you might not receive any messages in a particular &lt;code&gt;ReceiveMessage&lt;/code&gt; response; in which case you should repeat the request. &lt;/p&gt;&lt;p&gt; For each message returned, the response includes the following: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt; Message body &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; MD5 digest of the message body. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Message ID you received when you sent the message to the queue. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Receipt handle. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; Message attributes. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt; MD5 digest of the message attributes. &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; The receipt handle is the identifier you must provide when deleting the message. For more information, see Visibility Timeout in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;&lt;note&gt;&lt;p&gt; Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully. &lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)receiveMessage:(AWSSQSReceiveMessageRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSReceiveMessageResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReceiveMessage service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorOverLimit.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/receiveMessage:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/removePermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Revokes any permissions in the queue policy that matches the specified &lt;code&gt;Label&lt;/code&gt; parameter. Only the owner of the queue can remove permissions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSRemovePermissionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)removePermission:(AWSSQSRemovePermissionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RemovePermission service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/removePermission:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/removePermission:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Revokes any permissions in the queue policy that matches the specified &lt;code&gt;Label&lt;/code&gt; parameter. Only the owner of the queue can remove permissions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSRemovePermissionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removePermission:(AWSSQSRemovePermissionRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RemovePermission service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removePermission:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/sendMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Delivers a message to the specified queue. With Amazon SQS, you now have the ability to send large payload messages that are up to 256KB (262,144 bytes) in size. To send large payloads, you must use an AWS SDK that supports SigV4 signing. To verify whether SigV4 is supported for an AWS SDK, check the SDK release notes. &lt;/p&gt;&lt;important&gt;&lt;p&gt; The following list shows the characters (in Unicode) allowed in your message, according to the W3C XML specification. For more information, go to http://www.w3.org/TR/REC-xml/#charsets If you send any characters not included in the list, your request will be rejected. &lt;/p&gt;&lt;p&gt; #x9 | #xA | #xD | [#x20 to #xD7FF] | [#xE000 to #xFFFD] | [#x10000 to #x10FFFF] &lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSSendMessageResult*&gt; *)sendMessage:(AWSSQSSendMessageRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendMessage service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSSendMessageResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidMessageContents, AWSSQSErrorUnsupportedOperation.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendMessage:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/sendMessage:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Delivers a message to the specified queue. With Amazon SQS, you now have the ability to send large payload messages that are up to 256KB (262,144 bytes) in size. To send large payloads, you must use an AWS SDK that supports SigV4 signing. To verify whether SigV4 is supported for an AWS SDK, check the SDK release notes. &lt;/p&gt;&lt;important&gt;&lt;p&gt; The following list shows the characters (in Unicode) allowed in your message, according to the W3C XML specification. For more information, go to http://www.w3.org/TR/REC-xml/#charsets If you send any characters not included in the list, your request will be rejected. &lt;/p&gt;&lt;p&gt; #x9 | #xA | #xD | [#x20 to #xD7FF] | [#xE000 to #xFFFD] | [#x10000 to #x10FFFF] &lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)sendMessage:(AWSSQSSendMessageRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSSendMessageResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendMessage service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidMessageContents, AWSSQSErrorUnsupportedOperation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendMessage:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/sendMessageBatch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Delivers up to ten messages to the specified queue. This is a batch version of &lt;a&gt;SendMessage&lt;/a&gt;. The result of the send action on each message is reported individually in the response. The maximum allowed individual message size is 256 KB (262,144 bytes).&lt;/p&gt;&lt;p&gt;The maximum total payload size (i.e., the sum of all a batch&apos;s individual message lengths) is also 256 KB (262,144 bytes).&lt;/p&gt;&lt;p&gt;If the &lt;code&gt;DelaySeconds&lt;/code&gt; parameter is not specified for an entry, the default for the queue is used.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The following list shows the characters (in Unicode) that are allowed in your message, according to the W3C XML specification. For more information, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;. If you send any characters that are not included in the list, your request will be rejected.&lt;/p&gt;&lt;p&gt;#x9 | #xA | #xD | [#x20 to #xD7FF] | [#xE000 to #xFFFD] | [#x10000 to #x10FFFF]&lt;/p&gt;&lt;/important&gt;&lt;important&gt;&lt;p&gt;Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.&lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this: &lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSQSSendMessageBatchResult*&gt; *)sendMessageBatch:(AWSSQSSendMessageBatchRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendMessageBatch service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSQSSendMessageBatchResult. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorBatchRequestTooLong, AWSSQSErrorInvalidBatchEntryId, AWSSQSErrorUnsupportedOperation.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendMessageBatch:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/sendMessageBatch:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Delivers up to ten messages to the specified queue. This is a batch version of &lt;a&gt;SendMessage&lt;/a&gt;. The result of the send action on each message is reported individually in the response. The maximum allowed individual message size is 256 KB (262,144 bytes).&lt;/p&gt;&lt;p&gt;The maximum total payload size (i.e., the sum of all a batch&apos;s individual message lengths) is also 256 KB (262,144 bytes).&lt;/p&gt;&lt;p&gt;If the &lt;code&gt;DelaySeconds&lt;/code&gt; parameter is not specified for an entry, the default for the queue is used.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The following list shows the characters (in Unicode) that are allowed in your message, according to the W3C XML specification. For more information, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;. If you send any characters that are not included in the list, your request will be rejected.&lt;/p&gt;&lt;p&gt;#x9 | #xA | #xD | [#x20 to #xD7FF] | [#xE000 to #xFFFD] | [#x10000 to #x10FFFF]&lt;/p&gt;&lt;/important&gt;&lt;important&gt;&lt;p&gt;Because the batch request can result in a combination of successful and unsuccessful actions, you should check for batch errors even when the call returns an HTTP status code of 200.&lt;/p&gt;&lt;/important&gt;&lt;note&gt;&lt;p&gt;Some API actions take lists of parameters. These lists are specified using the &lt;code&gt;param.n&lt;/code&gt; notation. Values of &lt;code&gt;n&lt;/code&gt; are integers starting from 1. For example, a parameter list with two elements looks like this: &lt;/p&gt;&lt;/note&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.1=this]]&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;![CDATA[&amp;amp;amp;Attribute.2=that]]&gt;&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchResult</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)sendMessageBatch:(AWSSQSSendMessageBatchRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSQSSendMessageBatchResult *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendMessageBatch service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorTooManyEntriesInBatchRequest, AWSSQSErrorEmptyBatchRequest, AWSSQSErrorBatchEntryIdsNotDistinct, AWSSQSErrorBatchRequestTooLong, AWSSQSErrorInvalidBatchEntryId, AWSSQSErrorUnsupportedOperation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendMessageBatch:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/setQueueAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the value of one or more queue attributes. When you change a queue&apos;s attributes, the change can take up to 60 seconds for most of the attributes to propagate throughout the SQS system. Changes made to the &lt;code&gt;MessageRetentionPeriod&lt;/code&gt; attribute can take up to 15 minutes.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSetQueueAttributesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)setQueueAttributes:(AWSSQSSetQueueAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetQueueAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidAttributeName.</Abstract></ReturnValue>
+			<Anchor>//api/name/setQueueAttributes:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQS/setQueueAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the value of one or more queue attributes. When you change a queue&apos;s attributes, the change can take up to 60 seconds for most of the attributes to propagate throughout the SQS system. Changes made to the &lt;code&gt;MessageRetentionPeriod&lt;/code&gt; attribute can take up to 15 minutes.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Going forward, new attributes might be added. If you are writing code that calls this action, we recommend that you structure your code so that it can handle new attributes gracefully.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSQSService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSetQueueAttributesRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setQueueAttributes:(AWSSQSSetQueueAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetQueueAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSQSErrorDomain domain and the following error code: AWSSQSErrorInvalidAttributeName.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setQueueAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1628"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

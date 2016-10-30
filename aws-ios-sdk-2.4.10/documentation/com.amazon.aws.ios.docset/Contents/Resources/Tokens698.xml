@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DisassociateAddressRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisassociateAddressRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DisassociateAddress.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="698"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

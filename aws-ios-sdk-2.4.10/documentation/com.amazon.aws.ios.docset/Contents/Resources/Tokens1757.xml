@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSCognitoLoginProviderKey.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoLoginProviderKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1757"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoLoginProviderKeyUnknown</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1757"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyFacebook</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoLoginProviderKeyFacebook</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1757"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyGoogle</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoLoginProviderKeyGoogle</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1757"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyLoginWithAmazon</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoLoginProviderKeyLoginWithAmazon</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1757"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyTwitter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoLoginProviderKeyTwitter</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1757"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

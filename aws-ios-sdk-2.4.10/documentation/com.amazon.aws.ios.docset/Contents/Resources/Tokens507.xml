@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CreateReservedInstancesListingRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateReservedInstancesListingRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CreateReservedInstancesListing.&lt;/p&gt;
+Required parameters: [ReservedInstancesId, InstanceCount, PriceSchedules, ClientToken]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="507"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setPriceSchedules:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2PriceScheduleSpecification*&gt; *priceSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/priceSchedules</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/priceSchedules</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2PriceScheduleSpecification*&gt; *priceSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/priceSchedules</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/priceSchedules</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2PriceScheduleSpecification*&gt; *priceSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/priceSchedules</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setReservedInstancesId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="507"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

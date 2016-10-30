@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingAttachLoadBalancersType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAttachLoadBalancersType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for AttachLoadBalancers.&lt;/p&gt;
+Required parameters: [AutoScalingGroupName, LoadBalancerNames]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAttachLoadBalancersType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAttachLoadBalancersType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAttachLoadBalancersType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAttachLoadBalancersType/setLoadBalancerNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more load balancer names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *loadBalancerNames</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerNames</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAttachLoadBalancersType/loadBalancerNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more load balancer names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *loadBalancerNames</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerNames</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAttachLoadBalancersType/loadBalancerNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more load balancer names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *loadBalancerNames</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerNames</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

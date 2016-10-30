@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2IcmpTypeCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IcmpTypeCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the ICMP type and code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="730"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="730"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

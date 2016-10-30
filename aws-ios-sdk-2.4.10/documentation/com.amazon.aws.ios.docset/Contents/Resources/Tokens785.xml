@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifyInstancePlacementRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyInstancePlacementRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifyInstancePlacement.&lt;/p&gt;
+Required parameters: [InstanceId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="785"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/setAffinity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new affinity setting for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Affinity affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/affinity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new affinity setting for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Affinity affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstancePlacementRequest/affinity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new affinity setting for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Affinity affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/setHostId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicated host that the instance will have affinity with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/hostId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicated host that the instance will have affinity with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstancePlacementRequest/hostId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicated host that the instance will have affinity with.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstancePlacementRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/setTenancy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2HostTenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyInstancePlacementRequest/tenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2HostTenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyInstancePlacementRequest/tenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance that you are modifying.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2HostTenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="785"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

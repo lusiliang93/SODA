@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSIoTDescribeThingResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeThingResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output from the DescribeThing operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1129"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/setAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attributes, which are name/value pairs in JSON format (for example: {\&quot;attributes\&quot;:{\&quot;some-name1\&quot;:\&quot;some-value1\&quot;}, {\&quot;some-name2\&quot;:\&quot;some-value2\&quot;}, {\&quot;some-name3\&quot;:\&quot;some-value3\&quot;}})&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/attributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attributes, which are name/value pairs in JSON format (for example: {\&quot;attributes\&quot;:{\&quot;some-name1\&quot;:\&quot;some-value1\&quot;}, {\&quot;some-name2\&quot;:\&quot;some-value2\&quot;}, {\&quot;some-name3\&quot;:\&quot;some-value3\&quot;}})&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSIoTDescribeThingResponse/attributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attributes, which are name/value pairs in JSON format (for example: {\&quot;attributes\&quot;:{\&quot;some-name1\&quot;:\&quot;some-value1\&quot;}, {\&quot;some-name2\&quot;:\&quot;some-value2\&quot;}, {\&quot;some-name3\&quot;:\&quot;some-value3\&quot;}})&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/setDefaultClientId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The default client ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultClientId</Declaration>
+			
+			
+			<Anchor>//api/name/defaultClientId</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/defaultClientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The default client ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultClientId</Declaration>
+			
+			
+			<Anchor>//api/name/defaultClientId</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSIoTDescribeThingResponse/defaultClientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The default client ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *defaultClientId</Declaration>
+			
+			
+			<Anchor>//api/name/defaultClientId</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/setThingName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *thingName</Declaration>
+			
+			
+			<Anchor>//api/name/thingName</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoTDescribeThingResponse/thingName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *thingName</Declaration>
+			
+			
+			<Anchor>//api/name/thingName</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSIoTDescribeThingResponse/thingName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *thingName</Declaration>
+			
+			
+			<Anchor>//api/name/thingName</Anchor>
+            <NodeRef refid="1129"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

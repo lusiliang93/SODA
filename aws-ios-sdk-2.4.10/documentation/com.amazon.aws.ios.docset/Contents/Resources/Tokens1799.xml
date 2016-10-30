@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2EventCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2EventCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1799"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceReboot</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeInstanceReboot</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeSystemReboot</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeSystemReboot</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeSystemMaintenance</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeSystemMaintenance</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceRetirement</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeInstanceRetirement</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceStop</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2EventCodeInstanceStop</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1799"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

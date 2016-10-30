@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifySpotFleetRequestRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifySpotFleetRequestRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifySpotFleetRequest.&lt;/p&gt;
+Required parameters: [SpotFleetRequestId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="791"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/setExcessCapacityTerminationPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether running Spot instances should be terminated if the target capacity of the Spot fleet request is decreased below the current size of the Spot fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExcessCapacityTerminationPolicy excessCapacityTerminationPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/excessCapacityTerminationPolicy</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/excessCapacityTerminationPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether running Spot instances should be terminated if the target capacity of the Spot fleet request is decreased below the current size of the Spot fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExcessCapacityTerminationPolicy excessCapacityTerminationPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/excessCapacityTerminationPolicy</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySpotFleetRequestRequest/excessCapacityTerminationPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether running Spot instances should be terminated if the target capacity of the Spot fleet request is decreased below the current size of the Spot fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExcessCapacityTerminationPolicy excessCapacityTerminationPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/excessCapacityTerminationPolicy</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/setSpotFleetRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySpotFleetRequestRequest/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/setTargetCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *targetCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/targetCapacity</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySpotFleetRequestRequest/targetCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *targetCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/targetCapacity</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySpotFleetRequestRequest/targetCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the fleet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *targetCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/targetCapacity</Anchor>
+            <NodeRef refid="791"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

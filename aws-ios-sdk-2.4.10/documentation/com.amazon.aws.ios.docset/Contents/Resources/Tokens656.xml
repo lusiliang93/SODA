@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeStaleSecurityGroupsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeStaleSecurityGroupsResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="656"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeStaleSecurityGroupsResult/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeStaleSecurityGroupsResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeStaleSecurityGroupsResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeStaleSecurityGroupsResult/setStaleSecurityGroupSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleSecurityGroup*&gt; *staleSecurityGroupSet</Declaration>
+			
+			
+			<Anchor>//api/name/staleSecurityGroupSet</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeStaleSecurityGroupsResult/staleSecurityGroupSet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleSecurityGroup*&gt; *staleSecurityGroupSet</Declaration>
+			
+			
+			<Anchor>//api/name/staleSecurityGroupSet</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeStaleSecurityGroupsResult/staleSecurityGroupSet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleSecurityGroup*&gt; *staleSecurityGroupSet</Declaration>
+			
+			
+			<Anchor>//api/name/staleSecurityGroupSet</Anchor>
+            <NodeRef refid="656"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

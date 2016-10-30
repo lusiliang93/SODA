@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingDescribeScalingActivitiesType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeScalingActivitiesType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeScalingActivities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setActivityIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The activity IDs of the desired scaling activities. If you omit this parameter, all activities for the past six weeks are described. If you specify an Auto Scaling group, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *activityIds</Declaration>
+			
+			
+			<Anchor>//api/name/activityIds</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The activity IDs of the desired scaling activities. If you omit this parameter, all activities for the past six weeks are described. If you specify an Auto Scaling group, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *activityIds</Declaration>
+			
+			
+			<Anchor>//api/name/activityIds</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The activity IDs of the desired scaling activities. If you omit this parameter, all activities for the past six weeks are described. If you specify an Auto Scaling group, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *activityIds</Declaration>
+			
+			
+			<Anchor>//api/name/activityIds</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return with this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return with this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return with this call.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecords</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a previous call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a previous call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a previous call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

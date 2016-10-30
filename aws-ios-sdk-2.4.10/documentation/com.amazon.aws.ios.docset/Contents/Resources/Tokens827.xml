@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ProductCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ProductCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="827"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/setProductCodeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeId</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/productCodeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeId</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ProductCode/productCodeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeId</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/setProductCodeType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeType</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/productCodeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeType</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ProductCode/productCodeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
+			
+			
+			<Anchor>//api/name/productCodeType</Anchor>
+            <NodeRef refid="827"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

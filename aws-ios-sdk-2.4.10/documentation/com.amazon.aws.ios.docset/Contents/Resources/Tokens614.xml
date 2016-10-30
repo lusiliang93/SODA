@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeNetworkInterfacesResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfacesResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DescribeNetworkInterfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="614"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfacesResult/setNetworkInterfaces:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2NetworkInterface*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="614"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfacesResult/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2NetworkInterface*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="614"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfacesResult/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2NetworkInterface*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="614"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

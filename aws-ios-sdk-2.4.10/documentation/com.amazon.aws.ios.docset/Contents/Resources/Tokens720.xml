@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2GetConsoleOutputResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetConsoleOutputResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of GetConsoleOutput.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="720"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetConsoleOutputResult/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/setOutput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The console output, Base64 encoded. If using a command line tool, the tools decode the output for you. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/output</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The console output, Base64 encoded. If using a command line tool, the tools decode the output for you. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetConsoleOutputResult/output</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The console output, Base64 encoded. If using a command line tool, the tools decode the output for you. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the output was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputResult/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the output was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetConsoleOutputResult/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the output was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

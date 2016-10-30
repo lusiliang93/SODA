@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSFirehoseUpdateDestinationInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSFirehoseUpdateDestinationInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for &lt;a&gt;UpdateDestination&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [DeliveryStreamName, CurrentDeliveryStreamVersionId, DestinationId]</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1076"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setCurrentDeliveryStreamVersionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Obtain this value from the &lt;b&gt;VersionId&lt;/b&gt; result of the &lt;a&gt;DeliveryStreamDescription&lt;/a&gt; operation. This value is required, and helps the service to perform conditional operations. For example, if there is a interleaving update and this value is null, then the update destination fails. After the update is successful, the &lt;b&gt;VersionId&lt;/b&gt; value is updated. The service then performs a merge of the old configuration with the new configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *currentDeliveryStreamVersionId</Declaration>
+			
+			
+			<Anchor>//api/name/currentDeliveryStreamVersionId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/currentDeliveryStreamVersionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Obtain this value from the &lt;b&gt;VersionId&lt;/b&gt; result of the &lt;a&gt;DeliveryStreamDescription&lt;/a&gt; operation. This value is required, and helps the service to perform conditional operations. For example, if there is a interleaving update and this value is null, then the update destination fails. After the update is successful, the &lt;b&gt;VersionId&lt;/b&gt; value is updated. The service then performs a merge of the old configuration with the new configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *currentDeliveryStreamVersionId</Declaration>
+			
+			
+			<Anchor>//api/name/currentDeliveryStreamVersionId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/currentDeliveryStreamVersionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Obtain this value from the &lt;b&gt;VersionId&lt;/b&gt; result of the &lt;a&gt;DeliveryStreamDescription&lt;/a&gt; operation. This value is required, and helps the service to perform conditional operations. For example, if there is a interleaving update and this value is null, then the update destination fails. After the update is successful, the &lt;b&gt;VersionId&lt;/b&gt; value is updated. The service then performs a merge of the old configuration with the new configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *currentDeliveryStreamVersionId</Declaration>
+			
+			
+			<Anchor>//api/name/currentDeliveryStreamVersionId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setDeliveryStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/deliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/deliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setDestinationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the destination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationId</Declaration>
+			
+			
+			<Anchor>//api/name/destinationId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/destinationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the destination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationId</Declaration>
+			
+			
+			<Anchor>//api/name/destinationId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/destinationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the destination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationId</Declaration>
+			
+			
+			<Anchor>//api/name/destinationId</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setElasticsearchDestinationUpdate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon ES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseElasticsearchDestinationUpdate *elasticsearchDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/elasticsearchDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/elasticsearchDestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon ES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseElasticsearchDestinationUpdate *elasticsearchDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/elasticsearchDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/elasticsearchDestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon ES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseElasticsearchDestinationUpdate *elasticsearchDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/elasticsearchDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setRedshiftDestinationUpdate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon Redshift.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseRedshiftDestinationUpdate *redshiftDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/redshiftDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/redshiftDestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon Redshift.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseRedshiftDestinationUpdate *redshiftDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/redshiftDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/redshiftDestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon Redshift.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseRedshiftDestinationUpdate *redshiftDestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/redshiftDestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/setS3DestinationUpdate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon S3.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseS3DestinationUpdate *s3DestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/s3DestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseUpdateDestinationInput/s3DestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon S3.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseS3DestinationUpdate *s3DestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/s3DestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseUpdateDestinationInput/s3DestinationUpdate</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an update for a destination in Amazon S3.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSFirehoseS3DestinationUpdate *s3DestinationUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/s3DestinationUpdate</Anchor>
+            <NodeRef refid="1076"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

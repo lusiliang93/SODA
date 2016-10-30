@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSES.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSES</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Amazon Simple Email Service&lt;/fullname&gt;&lt;p&gt; This is the API Reference for Amazon Simple Email Service (Amazon SES). This documentation is intended to be used in conjunction with the Regions and Amazon SES in the Amazon SES Developer Guide. &lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1466"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSES/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSES/defaultSES</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultSES</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultSES</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSES/registerSESWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerSESWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerSESWithConfiguration:forKey:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSES/SESForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerSESWithConfiguration:forKey: before invoking this method.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)SESForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/SESForKey:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSSES/removeSESForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+			<Declaration>+ (void)removeSESForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSESForKey:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/cloneReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a receipt rule set by cloning an existing one. All receipt rules and configurations are copied to the new receipt rule set and are completely independent of the source rule set.&lt;/p&gt;&lt;p&gt;For information about setting up rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCloneReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCloneReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESCloneReceiptRuleSetResponse*&gt; *)cloneReceiptRuleSet:(AWSSESCloneReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CloneReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESCloneReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorAlreadyExists, AWSSESErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/cloneReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/cloneReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a receipt rule set by cloning an existing one. All receipt rules and configurations are copied to the new receipt rule set and are completely independent of the source rule set.&lt;/p&gt;&lt;p&gt;For information about setting up rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCloneReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCloneReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)cloneReceiptRuleSet:(AWSSESCloneReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESCloneReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CloneReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorAlreadyExists, AWSSESErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cloneReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptFilter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new IP address filter.&lt;/p&gt;&lt;p&gt;For information about setting up IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptFilterRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptFilterResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESCreateReceiptFilterResponse*&gt; *)createReceiptFilter:(AWSSESCreateReceiptFilterRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptFilter service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESCreateReceiptFilterResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorLimitExceeded, AWSSESErrorAlreadyExists.</Abstract></ReturnValue>
+			<Anchor>//api/name/createReceiptFilter:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptFilter:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new IP address filter.&lt;/p&gt;&lt;p&gt;For information about setting up IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptFilterRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptFilterResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createReceiptFilter:(AWSSESCreateReceiptFilterRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESCreateReceiptFilterResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptFilter service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorLimitExceeded, AWSSESErrorAlreadyExists.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createReceiptFilter:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a receipt rule.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESCreateReceiptRuleResponse*&gt; *)createReceiptRule:(AWSSESCreateReceiptRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESCreateReceiptRuleResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidSnsTopic, AWSSESErrorInvalidS3Configuration, AWSSESErrorInvalidLambdaFunction, AWSSESErrorAlreadyExists, AWSSESErrorRuleDoesNotExist, AWSSESErrorRuleSetDoesNotExist, AWSSESErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createReceiptRule:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a receipt rule.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createReceiptRule:(AWSSESCreateReceiptRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESCreateReceiptRuleResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidSnsTopic, AWSSESErrorInvalidS3Configuration, AWSSESErrorInvalidLambdaFunction, AWSSESErrorAlreadyExists, AWSSESErrorRuleDoesNotExist, AWSSESErrorRuleSetDoesNotExist, AWSSESErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createReceiptRule:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an empty receipt rule set.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESCreateReceiptRuleSetResponse*&gt; *)createReceiptRuleSet:(AWSSESCreateReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESCreateReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorAlreadyExists, AWSSESErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/createReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an empty receipt rule set.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESCreateReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createReceiptRuleSet:(AWSSESCreateReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESCreateReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorAlreadyExists, AWSSESErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified identity (an email address or a domain) from the list of verified identities.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDeleteIdentityResponse*&gt; *)deleteIdentity:(AWSSESDeleteIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDeleteIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteIdentity:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteIdentity:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified identity (an email address or a domain) from the list of verified identities.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteIdentity:(AWSSESDeleteIdentityRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDeleteIdentityResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentity service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteIdentity:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteIdentityPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified sending authorization policy for the given identity (an email address or a domain). This API returns successfully even if a policy with the specified name does not exist.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDeleteIdentityPolicyResponse*&gt; *)deleteIdentityPolicy:(AWSSESDeleteIdentityPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentityPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDeleteIdentityPolicyResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteIdentityPolicy:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteIdentityPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified sending authorization policy for the given identity (an email address or a domain). This API returns successfully even if a policy with the specified name does not exist.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteIdentityPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteIdentityPolicy:(AWSSESDeleteIdentityPolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDeleteIdentityPolicyResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentityPolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteIdentityPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptFilter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified IP address filter.&lt;/p&gt;&lt;p&gt;For information about managing IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptFilterRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptFilterResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDeleteReceiptFilterResponse*&gt; *)deleteReceiptFilter:(AWSSESDeleteReceiptFilterRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptFilter service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDeleteReceiptFilterResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteReceiptFilter:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptFilter:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified IP address filter.&lt;/p&gt;&lt;p&gt;For information about managing IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptFilterRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptFilterResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteReceiptFilter:(AWSSESDeleteReceiptFilterRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDeleteReceiptFilterResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptFilter service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteReceiptFilter:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified receipt rule.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDeleteReceiptRuleResponse*&gt; *)deleteReceiptRule:(AWSSESDeleteReceiptRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDeleteReceiptRuleResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteReceiptRule:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified receipt rule.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteReceiptRule:(AWSSESDeleteReceiptRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDeleteReceiptRuleResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteReceiptRule:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified receipt rule set and all of the receipt rules it contains.&lt;/p&gt;&lt;note&gt;&lt;p&gt;The currently active rule set cannot be deleted.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDeleteReceiptRuleSetResponse*&gt; *)deleteReceiptRuleSet:(AWSSESDeleteReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDeleteReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorCannotDelete.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified receipt rule set and all of the receipt rules it contains.&lt;/p&gt;&lt;note&gt;&lt;p&gt;The currently active rule set cannot be deleted.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteReceiptRuleSet:(AWSSESDeleteReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDeleteReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorCannotDelete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteVerifiedEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified email address from the list of verified addresses.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The DeleteIdentity action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteVerifiedEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteVerifiedEmailAddress:(AWSSESDeleteVerifiedEmailAddressRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteVerifiedEmailAddress service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteVerifiedEmailAddress:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/deleteVerifiedEmailAddress:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified email address from the list of verified addresses.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The DeleteVerifiedEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The DeleteIdentity action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteVerifiedEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteVerifiedEmailAddress:(AWSSESDeleteVerifiedEmailAddressRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteVerifiedEmailAddress service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteVerifiedEmailAddress:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeActiveReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the metadata and receipt rules for the receipt rule set that is currently active.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeActiveReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeActiveReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDescribeActiveReceiptRuleSetResponse*&gt; *)describeActiveReceiptRuleSet:(AWSSESDescribeActiveReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeActiveReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDescribeActiveReceiptRuleSetResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeActiveReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeActiveReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the metadata and receipt rules for the receipt rule set that is currently active.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeActiveReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeActiveReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeActiveReceiptRuleSet:(AWSSESDescribeActiveReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDescribeActiveReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeActiveReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeActiveReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeReceiptRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the details of the specified receipt rule.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDescribeReceiptRuleResponse*&gt; *)describeReceiptRule:(AWSSESDescribeReceiptRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeReceiptRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDescribeReceiptRuleResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleDoesNotExist, AWSSESErrorRuleSetDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReceiptRule:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeReceiptRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the details of the specified receipt rule.&lt;/p&gt;&lt;p&gt;For information about setting up receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeReceiptRule:(AWSSESDescribeReceiptRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDescribeReceiptRuleResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeReceiptRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleDoesNotExist, AWSSESErrorRuleSetDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeReceiptRule:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the details of the specified receipt rule set.&lt;/p&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESDescribeReceiptRuleSetResponse*&gt; *)describeReceiptRuleSet:(AWSSESDescribeReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESDescribeReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/describeReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the details of the specified receipt rule set.&lt;/p&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESDescribeReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeReceiptRuleSet:(AWSSESDescribeReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESDescribeReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityDkimAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the current status of Easy DKIM signing for an entity. For domain name identities, this action also returns the DKIM tokens that are required for Easy DKIM signing, and whether Amazon SES has successfully verified that these tokens have been published.&lt;/p&gt;&lt;p&gt;This action takes a list of identities as input and returns the following information for each:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Whether Easy DKIM signing is enabled or disabled.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A set of DKIM tokens that represent the identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Whether Amazon SES has successfully verified the DKIM tokens published in the domain&apos;s DNS. This information is only returned for domain name identities, not for email addresses.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This action is throttled at one request per second and can only get DKIM attributes for up to 100 identities at a time.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetIdentityDkimAttributesResponse*&gt; *)getIdentityDkimAttributes:(AWSSESGetIdentityDkimAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityDkimAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityDkimAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityDkimAttributes:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityDkimAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the current status of Easy DKIM signing for an entity. For domain name identities, this action also returns the DKIM tokens that are required for Easy DKIM signing, and whether Amazon SES has successfully verified that these tokens have been published.&lt;/p&gt;&lt;p&gt;This action takes a list of identities as input and returns the following information for each:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Whether Easy DKIM signing is enabled or disabled.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A set of DKIM tokens that represent the identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Whether Amazon SES has successfully verified the DKIM tokens published in the domain&apos;s DNS. This information is only returned for domain name identities, not for email addresses.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This action is throttled at one request per second and can only get DKIM attributes for up to 100 identities at a time.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getIdentityDkimAttributes:(AWSSESGetIdentityDkimAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetIdentityDkimAttributesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityDkimAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getIdentityDkimAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityMailFromDomainAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the custom MAIL FROM attributes for a list of identities (email addresses and/or domains).&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get custom MAIL FROM attributes for up to 100 identities at a time.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityMailFromDomainAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityMailFromDomainAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetIdentityMailFromDomainAttributesResponse*&gt; *)getIdentityMailFromDomainAttributes:(AWSSESGetIdentityMailFromDomainAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityMailFromDomainAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityMailFromDomainAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityMailFromDomainAttributes:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityMailFromDomainAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the custom MAIL FROM attributes for a list of identities (email addresses and/or domains).&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get custom MAIL FROM attributes for up to 100 identities at a time.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityMailFromDomainAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityMailFromDomainAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getIdentityMailFromDomainAttributes:(AWSSESGetIdentityMailFromDomainAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetIdentityMailFromDomainAttributesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityMailFromDomainAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getIdentityMailFromDomainAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityNotificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of verified identities (email addresses and/or domains), returns a structure describing identity notification attributes.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get notification attributes for up to 100 identities at a time.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetIdentityNotificationAttributesResponse*&gt; *)getIdentityNotificationAttributes:(AWSSESGetIdentityNotificationAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityNotificationAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityNotificationAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityNotificationAttributes:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityNotificationAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of verified identities (email addresses and/or domains), returns a structure describing identity notification attributes.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get notification attributes for up to 100 identities at a time.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getIdentityNotificationAttributes:(AWSSESGetIdentityNotificationAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetIdentityNotificationAttributesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityNotificationAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getIdentityNotificationAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the requested sending authorization policies for the given identity (an email address or a domain). The policies are returned as a map of policy names to policy contents. You can retrieve a maximum of 20 policies at a time.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetIdentityPoliciesResponse*&gt; *)getIdentityPolicies:(AWSSESGetIdentityPoliciesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityPolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityPoliciesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityPolicies:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityPolicies:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the requested sending authorization policies for the given identity (an email address or a domain). The policies are returned as a map of policy names to policy contents. You can retrieve a maximum of 20 policies at a time.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getIdentityPolicies:(AWSSESGetIdentityPoliciesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetIdentityPoliciesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityPolicies service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getIdentityPolicies:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityVerificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities) the verification token for each identity.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get verification attributes for up to 100 identities at a time.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetIdentityVerificationAttributesResponse*&gt; *)getIdentityVerificationAttributes:(AWSSESGetIdentityVerificationAttributesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityVerificationAttributes service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetIdentityVerificationAttributesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityVerificationAttributes:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getIdentityVerificationAttributes:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given a list of identities (email addresses and/or domains), returns the verification status and (for domain identities) the verification token for each identity.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second and can only get verification attributes for up to 100 identities at a time.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getIdentityVerificationAttributes:(AWSSESGetIdentityVerificationAttributesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetIdentityVerificationAttributesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityVerificationAttributes service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getIdentityVerificationAttributes:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendQuota:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s current sending limits.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetSendQuotaResponse*&gt; *)getSendQuota:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendQuota service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetSendQuotaResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendQuota:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendQuota:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s current sending limits.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getSendQuota:(AWSRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetSendQuotaResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendQuota service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getSendQuota:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s sending statistics. The result is a list of data points, representing the last two weeks of sending activity.&lt;/p&gt;&lt;p&gt;Each data point in the list contains statistics for a 15-minute interval.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendStatisticsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESGetSendStatisticsResponse*&gt; *)getSendStatistics:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendStatistics service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESGetSendStatisticsResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSendStatistics:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/getSendStatistics:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the user&apos;s sending statistics. The result is a list of data points, representing the last two weeks of sending activity.&lt;/p&gt;&lt;p&gt;Each data point in the list contains statistics for a 15-minute interval.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendStatisticsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getSendStatistics:(AWSRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESGetSendStatisticsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetSendStatistics service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getSendStatistics:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the identities (email addresses and domains) for your AWS account, regardless of verification status.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESListIdentitiesResponse*&gt; *)listIdentities:(AWSSESListIdentitiesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESListIdentitiesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentities:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listIdentities:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the identities (email addresses and domains) for your AWS account, regardless of verification status.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listIdentities:(AWSSESListIdentitiesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESListIdentitiesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listIdentities:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listIdentityPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of sending authorization policies that are attached to the given identity (an email address or a domain). This API returns only a list. If you want the actual policy content, you can use &lt;code&gt;GetIdentityPolicies&lt;/code&gt;.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentityPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentityPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESListIdentityPoliciesResponse*&gt; *)listIdentityPolicies:(AWSSESListIdentityPoliciesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESListIdentityPoliciesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentityPolicies:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listIdentityPolicies:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of sending authorization policies that are attached to the given identity (an email address or a domain). This API returns only a list. If you want the actual policy content, you can use &lt;code&gt;GetIdentityPolicies&lt;/code&gt;.&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentityPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentityPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listIdentityPolicies:(AWSSESListIdentityPoliciesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESListIdentityPoliciesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPolicies service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listIdentityPolicies:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listReceiptFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the IP address filters associated with your AWS account.&lt;/p&gt;&lt;p&gt;For information about managing IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptFiltersRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptFiltersResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESListReceiptFiltersResponse*&gt; *)listReceiptFilters:(AWSSESListReceiptFiltersRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListReceiptFilters service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESListReceiptFiltersResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listReceiptFilters:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listReceiptFilters:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the IP address filters associated with your AWS account.&lt;/p&gt;&lt;p&gt;For information about managing IP address filters, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptFiltersRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptFiltersResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listReceiptFilters:(AWSSESListReceiptFiltersRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESListReceiptFiltersResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListReceiptFilters service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listReceiptFilters:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listReceiptRuleSets:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the receipt rule sets that exist under your AWS account. If there are additional receipt rule sets to be retrieved, you will receive a &lt;code&gt;NextToken&lt;/code&gt; that you can provide to the next call to &lt;code&gt;ListReceiptRuleSets&lt;/code&gt; to retrieve the additional entries.&lt;/p&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptRuleSetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptRuleSetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESListReceiptRuleSetsResponse*&gt; *)listReceiptRuleSets:(AWSSESListReceiptRuleSetsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListReceiptRuleSets service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESListReceiptRuleSetsResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listReceiptRuleSets:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listReceiptRuleSets:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the receipt rule sets that exist under your AWS account. If there are additional receipt rule sets to be retrieved, you will receive a &lt;code&gt;NextToken&lt;/code&gt; that you can provide to the next call to &lt;code&gt;ListReceiptRuleSets&lt;/code&gt; to retrieve the additional entries.&lt;/p&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptRuleSetsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListReceiptRuleSetsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listReceiptRuleSets:(AWSSESListReceiptRuleSetsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESListReceiptRuleSetsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListReceiptRuleSets service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listReceiptRuleSets:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listVerifiedEmailAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the email addresses that have been verified.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain Verification. The ListIdentities action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListVerifiedEmailAddressesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESListVerifiedEmailAddressesResponse*&gt; *)listVerifiedEmailAddresses:(AWSRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListVerifiedEmailAddresses service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESListVerifiedEmailAddressesResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/listVerifiedEmailAddresses:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/listVerifiedEmailAddresses:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list containing all of the email addresses that have been verified.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The ListVerifiedEmailAddresses action is deprecated as of the May 15, 2012 release of Domain Verification. The ListIdentities action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESListVerifiedEmailAddressesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listVerifiedEmailAddresses:(AWSRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESListVerifiedEmailAddressesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListVerifiedEmailAddresses service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listVerifiedEmailAddresses:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/putIdentityPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds or updates a sending authorization policy for the specified identity (an email address or a domain).&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESPutIdentityPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESPutIdentityPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESPutIdentityPolicyResponse*&gt; *)putIdentityPolicy:(AWSSESPutIdentityPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutIdentityPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESPutIdentityPolicyResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidPolicy.</Abstract></ReturnValue>
+			<Anchor>//api/name/putIdentityPolicy:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/putIdentityPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds or updates a sending authorization policy for the specified identity (an email address or a domain).&lt;/p&gt;&lt;note&gt;&lt;p&gt;This API is for the identity owner only. If you have not verified the identity, this API will return an error.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;Sending authorization is a feature that enables an identity owner to authorize other senders to use its identities. For information about using sending authorization, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESPutIdentityPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESPutIdentityPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)putIdentityPolicy:(AWSSESPutIdentityPolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESPutIdentityPolicyResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutIdentityPolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidPolicy.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/putIdentityPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/reorderReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reorders the receipt rules within a receipt rule set.&lt;/p&gt;&lt;note&gt;&lt;p&gt;All of the rules in the rule set must be represented in this request. That is, this API will return an error if the reorder request doesn&apos;t explicitly position all of the rules.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESReorderReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESReorderReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESReorderReceiptRuleSetResponse*&gt; *)reorderReceiptRuleSet:(AWSSESReorderReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReorderReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESReorderReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/reorderReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/reorderReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reorders the receipt rules within a receipt rule set.&lt;/p&gt;&lt;note&gt;&lt;p&gt;All of the rules in the rule set must be represented in this request. That is, this API will return an error if the reorder request doesn&apos;t explicitly position all of the rules.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESReorderReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESReorderReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)reorderReceiptRuleSet:(AWSSESReorderReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESReorderReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReorderReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reorderReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendBounce:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Generates and sends a bounce message to the sender of an email you received through Amazon SES. You can only use this API on an email up to 24 hours after you receive it.&lt;/p&gt;&lt;note&gt;&lt;p&gt;You cannot use this API to send generic bounces for mail that was not received by Amazon SES.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about receiving email through Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendBounceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendBounceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSendBounceResponse*&gt; *)sendBounce:(AWSSESSendBounceRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendBounce service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSendBounceResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendBounce:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendBounce:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Generates and sends a bounce message to the sender of an email you received through Amazon SES. You can only use this API on an email up to 24 hours after you receive it.&lt;/p&gt;&lt;note&gt;&lt;p&gt;You cannot use this API to send generic bounces for mail that was not received by Amazon SES.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about receiving email through Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendBounceRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendBounceResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)sendBounce:(AWSSESSendBounceRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSendBounceResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendBounce service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendBounce:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Composes an email message based on input data, and then immediately queues the message for sending.&lt;/p&gt;&lt;p&gt;There are several important points to know about &lt;code&gt;SendEmail&lt;/code&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;You can only send email from verified email addresses and domains; otherwise, you will get an &quot;Email address not verified&quot; error. If your account is still in the Amazon SES sandbox, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message. The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your sending quota - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSendEmailResponse*&gt; *)sendEmail:(AWSSESSendEmailRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendEmail service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSendEmailResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected, AWSSESErrorMailFromDomainNotVerified.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendEmail:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendEmail:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Composes an email message based on input data, and then immediately queues the message for sending.&lt;/p&gt;&lt;p&gt;There are several important points to know about &lt;code&gt;SendEmail&lt;/code&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;You can only send email from verified email addresses and domains; otherwise, you will get an &quot;Email address not verified&quot; error. If your account is still in the Amazon SES sandbox, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message. The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your sending quota - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)sendEmail:(AWSSESSendEmailRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSendEmailResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendEmail service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected, AWSSESErrorMailFromDomainNotVerified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendEmail:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendRawEmail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sends an email message, with header and content specified by the client. The &lt;code&gt;SendRawEmail&lt;/code&gt; action is useful for sending multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message cannot be sent. &lt;/p&gt;&lt;p&gt;There are several important points to know about &lt;code&gt;SendRawEmail&lt;/code&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;You can only send email from verified email addresses and domains; otherwise, you will get an &quot;Email address not verified&quot; error. If your account is still in the Amazon SES sandbox, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message. The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The To:, CC:, and BCC: headers in the raw message can contain a group list. Note that each recipient in a group list counts towards the 50-recipient limit.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES overrides any Message-ID and Date headers you provide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your sending quota - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSendRawEmailResponse*&gt; *)sendRawEmail:(AWSSESSendRawEmailRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendRawEmail service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSendRawEmailResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected, AWSSESErrorMailFromDomainNotVerified.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendRawEmail:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/sendRawEmail:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sends an email message, with header and content specified by the client. The &lt;code&gt;SendRawEmail&lt;/code&gt; action is useful for sending multipart MIME emails. The raw text of the message must comply with Internet email standards; otherwise, the message cannot be sent. &lt;/p&gt;&lt;p&gt;There are several important points to know about &lt;code&gt;SendRawEmail&lt;/code&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;You can only send email from verified email addresses and domains; otherwise, you will get an &quot;Email address not verified&quot; error. If your account is still in the Amazon SES sandbox, you must also verify every recipient email address except for the recipients provided by the Amazon SES mailbox simulator. For more information, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The total size of the message cannot exceed 10 MB. This includes any attachments that are part of the message.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES has a limit on the total number of recipients per message. The combined number of To:, CC: and BCC: email addresses cannot exceed 50. If you need to send an email message to a larger audience, you can divide your recipient list into groups of 50 or fewer, and then call Amazon SES repeatedly to send the message to each group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The To:, CC:, and BCC: headers in the raw message can contain a group list. Note that each recipient in a group list counts towards the 50-recipient limit.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Amazon SES overrides any Message-ID and Date headers you provide.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;For every message that you send, the total number of recipients (To:, CC: and BCC:) is counted against your sending quota - the maximum number of emails you can send in a 24-hour period. For information about your sending quota, go to the Amazon SES Developer Guide.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)sendRawEmail:(AWSSESSendRawEmailRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSendRawEmailResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SendRawEmail service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorMessageRejected, AWSSESErrorMailFromDomainNotVerified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRawEmail:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setActiveReceiptRuleSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the specified receipt rule set as the active receipt rule set.&lt;/p&gt;&lt;note&gt;&lt;p&gt;To disable your email-receiving through Amazon SES completely, you can call this API with RuleSetName set to null.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetActiveReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetActiveReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetActiveReceiptRuleSetResponse*&gt; *)setActiveReceiptRuleSet:(AWSSESSetActiveReceiptRuleSetRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetActiveReceiptRuleSet service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetActiveReceiptRuleSetResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/setActiveReceiptRuleSet:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setActiveReceiptRuleSet:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the specified receipt rule set as the active receipt rule set.&lt;/p&gt;&lt;note&gt;&lt;p&gt;To disable your email-receiving through Amazon SES completely, you can call this API with RuleSetName set to null.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;For information about managing receipt rule sets, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetActiveReceiptRuleSetRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetActiveReceiptRuleSetResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setActiveReceiptRuleSet:(AWSSESSetActiveReceiptRuleSetRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetActiveReceiptRuleSetResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetActiveReceiptRuleSet service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setActiveReceiptRuleSet:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables or disables Easy DKIM signing of email sent from an identity:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;If Easy DKIM signing is enabled for a domain name identity (e.g., &lt;code&gt;example.com&lt;/code&gt;), then Amazon SES will DKIM-sign all email sent by addresses under that domain name (e.g., &lt;code&gt;user@example.com&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;If Easy DKIM signing is enabled for an email address, then Amazon SES will DKIM-sign all email sent by that email address.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;For email addresses (e.g., &lt;code&gt;user@example.com&lt;/code&gt;), you can only enable Easy DKIM signing if the corresponding domain (e.g., &lt;code&gt;example.com&lt;/code&gt;) has been set up for Easy DKIM using the AWS Console or the &lt;code&gt;VerifyDomainDkim&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about Easy DKIM signing, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetIdentityDkimEnabledResponse*&gt; *)setIdentityDkimEnabled:(AWSSESSetIdentityDkimEnabledRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityDkimEnabled service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityDkimEnabledResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityDkimEnabled:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityDkimEnabled:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables or disables Easy DKIM signing of email sent from an identity:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;If Easy DKIM signing is enabled for a domain name identity (e.g., &lt;code&gt;example.com&lt;/code&gt;), then Amazon SES will DKIM-sign all email sent by addresses under that domain name (e.g., &lt;code&gt;user@example.com&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;If Easy DKIM signing is enabled for an email address, then Amazon SES will DKIM-sign all email sent by that email address.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;For email addresses (e.g., &lt;code&gt;user@example.com&lt;/code&gt;), you can only enable Easy DKIM signing if the corresponding domain (e.g., &lt;code&gt;example.com&lt;/code&gt;) has been set up for Easy DKIM using the AWS Console or the &lt;code&gt;VerifyDomainDkim&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about Easy DKIM signing, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIdentityDkimEnabled:(AWSSESSetIdentityDkimEnabledRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetIdentityDkimEnabledResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityDkimEnabled service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIdentityDkimEnabled:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityFeedbackForwardingEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), enables or disables whether Amazon SES forwards bounce and complaint notifications as email. Feedback forwarding can only be disabled when Amazon Simple Notification Service (Amazon SNS) topics are specified for both bounces and complaints.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Feedback forwarding does not apply to delivery notifications. Delivery notifications are only available through Amazon SNS.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetIdentityFeedbackForwardingEnabledResponse*&gt; *)setIdentityFeedbackForwardingEnabled:(AWSSESSetIdentityFeedbackForwardingEnabledRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityFeedbackForwardingEnabled service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityFeedbackForwardingEnabledResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityFeedbackForwardingEnabled:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityFeedbackForwardingEnabled:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), enables or disables whether Amazon SES forwards bounce and complaint notifications as email. Feedback forwarding can only be disabled when Amazon Simple Notification Service (Amazon SNS) topics are specified for both bounces and complaints.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Feedback forwarding does not apply to delivery notifications. Delivery notifications are only available through Amazon SNS.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIdentityFeedbackForwardingEnabled:(AWSSESSetIdentityFeedbackForwardingEnabledRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetIdentityFeedbackForwardingEnabledResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityFeedbackForwardingEnabled service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIdentityFeedbackForwardingEnabled:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityHeadersInNotificationsEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), sets whether Amazon SES includes the original email headers in the Amazon Simple Notification Service (Amazon SNS) notifications of a specified type.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityHeadersInNotificationsEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityHeadersInNotificationsEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetIdentityHeadersInNotificationsEnabledResponse*&gt; *)setIdentityHeadersInNotificationsEnabled:(AWSSESSetIdentityHeadersInNotificationsEnabledRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityHeadersInNotificationsEnabled service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityHeadersInNotificationsEnabledResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityHeadersInNotificationsEnabled:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityHeadersInNotificationsEnabled:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), sets whether Amazon SES includes the original email headers in the Amazon Simple Notification Service (Amazon SNS) notifications of a specified type.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about using notifications with Amazon SES, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityHeadersInNotificationsEnabledRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityHeadersInNotificationsEnabledResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIdentityHeadersInNotificationsEnabled:(AWSSESSetIdentityHeadersInNotificationsEnabledRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetIdentityHeadersInNotificationsEnabledResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityHeadersInNotificationsEnabled service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIdentityHeadersInNotificationsEnabled:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityMailFromDomain:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables or disables the custom MAIL FROM domain setup for a verified identity (an email address or a domain).&lt;/p&gt;&lt;important&gt;&lt;p&gt;To send emails using the specified MAIL FROM domain, you must add an MX record to your MAIL FROM domain&apos;s DNS settings. If you want your emails to pass Sender Policy Framework (SPF) checks, you must also add or update an SPF record. For more information, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityMailFromDomainRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityMailFromDomainResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetIdentityMailFromDomainResponse*&gt; *)setIdentityMailFromDomain:(AWSSESSetIdentityMailFromDomainRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityMailFromDomain service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityMailFromDomainResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityMailFromDomain:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityMailFromDomain:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables or disables the custom MAIL FROM domain setup for a verified identity (an email address or a domain).&lt;/p&gt;&lt;important&gt;&lt;p&gt;To send emails using the specified MAIL FROM domain, you must add an MX record to your MAIL FROM domain&apos;s DNS settings. If you want your emails to pass Sender Policy Framework (SPF) checks, you must also add or update an SPF record. For more information, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityMailFromDomainRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityMailFromDomainResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIdentityMailFromDomain:(AWSSESSetIdentityMailFromDomainRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetIdentityMailFromDomainResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityMailFromDomain service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIdentityMailFromDomain:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityNotificationTopic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), sets the Amazon Simple Notification Service (Amazon SNS) topic to which Amazon SES will publish bounce, complaint, and/or delivery notifications for emails sent with that identity as the &lt;code&gt;Source&lt;/code&gt;.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Unless feedback forwarding is enabled, you must specify Amazon SNS topics for bounce and complaint notifications. For more information, see &lt;code&gt;SetIdentityFeedbackForwardingEnabled&lt;/code&gt;.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about feedback notification, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetIdentityNotificationTopicResponse*&gt; *)setIdentityNotificationTopic:(AWSSESSetIdentityNotificationTopicRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityNotificationTopic service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetIdentityNotificationTopicResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/setIdentityNotificationTopic:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setIdentityNotificationTopic:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Given an identity (an email address or a domain), sets the Amazon Simple Notification Service (Amazon SNS) topic to which Amazon SES will publish bounce, complaint, and/or delivery notifications for emails sent with that identity as the &lt;code&gt;Source&lt;/code&gt;.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Unless feedback forwarding is enabled, you must specify Amazon SNS topics for bounce and complaint notifications. For more information, see &lt;code&gt;SetIdentityFeedbackForwardingEnabled&lt;/code&gt;.&lt;/p&gt;&lt;/note&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;For more information about feedback notification, see the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIdentityNotificationTopic:(AWSSESSetIdentityNotificationTopicRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetIdentityNotificationTopicResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityNotificationTopic service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIdentityNotificationTopic:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setReceiptRulePosition:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the position of the specified receipt rule in the receipt rule set.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetReceiptRulePositionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetReceiptRulePositionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESSetReceiptRulePositionResponse*&gt; *)setReceiptRulePosition:(AWSSESSetReceiptRulePositionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetReceiptRulePosition service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESSetReceiptRulePositionResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist.</Abstract></ReturnValue>
+			<Anchor>//api/name/setReceiptRulePosition:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/setReceiptRulePosition:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the position of the specified receipt rule in the receipt rule set.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetReceiptRulePositionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetReceiptRulePositionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setReceiptRulePosition:(AWSSESSetReceiptRulePositionRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESSetReceiptRulePositionResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetReceiptRulePosition service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setReceiptRulePosition:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/updateReceiptRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates a receipt rule.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESUpdateReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESUpdateReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESUpdateReceiptRuleResponse*&gt; *)updateReceiptRule:(AWSSESUpdateReceiptRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateReceiptRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESUpdateReceiptRuleResponse. On failed execution, task.error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidSnsTopic, AWSSESErrorInvalidS3Configuration, AWSSESErrorInvalidLambdaFunction, AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist, AWSSESErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateReceiptRule:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/updateReceiptRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates a receipt rule.&lt;/p&gt;&lt;p&gt;For information about managing receipt rules, see the Amazon SES Developer Guide.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESUpdateReceiptRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESUpdateReceiptRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)updateReceiptRule:(AWSSESUpdateReceiptRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESUpdateReceiptRuleResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateReceiptRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSSESErrorDomain domain and the following error code: AWSSESErrorInvalidSnsTopic, AWSSESErrorInvalidS3Configuration, AWSSESErrorInvalidLambdaFunction, AWSSESErrorRuleSetDoesNotExist, AWSSESErrorRuleDoesNotExist, AWSSESErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateReceiptRule:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainDkim:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of DKIM tokens for a domain. DKIM &lt;i&gt;tokens&lt;/i&gt; are character strings that represent your domain&apos;s identity. Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign email originating from that domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;To enable or disable Easy DKIM signing for a domain, use the &lt;code&gt;SetIdentityDkimEnabled&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESVerifyDomainDkimResponse*&gt; *)verifyDomainDkim:(AWSSESVerifyDomainDkimRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainDkim service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESVerifyDomainDkimResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainDkim:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainDkim:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a set of DKIM tokens for a domain. DKIM &lt;i&gt;tokens&lt;/i&gt; are character strings that represent your domain&apos;s identity. Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign email originating from that domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;&lt;p&gt;To enable or disable Easy DKIM signing for a domain, use the &lt;code&gt;SetIdentityDkimEnabled&lt;/code&gt; action.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)verifyDomainDkim:(AWSSESVerifyDomainDkimRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESVerifyDomainDkimResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainDkim service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyDomainDkim:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies a domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESVerifyDomainIdentityResponse*&gt; *)verifyDomainIdentity:(AWSSESVerifyDomainIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESVerifyDomainIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyDomainIdentity:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyDomainIdentity:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies a domain.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)verifyDomainIdentity:(AWSSESVerifyDomainIdentityRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESVerifyDomainIdentityResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyDomainIdentity service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyDomainIdentity:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The VerifyEmailIdentity action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)verifyEmailAddress:(AWSSESVerifyEmailAddressRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailAddress service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyEmailAddress:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailAddress:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;important&gt;&lt;p&gt;The VerifyEmailAddress action is deprecated as of the May 15, 2012 release of Domain Verification. The VerifyEmailIdentity action is now preferred.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailAddressRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)verifyEmailAddress:(AWSSESVerifyEmailAddressRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailAddress service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyEmailAddress:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSSESVerifyEmailIdentityResponse*&gt; *)verifyEmailIdentity:(AWSSESVerifyEmailIdentityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSSESVerifyEmailIdentityResponse.</Abstract></ReturnValue>
+			<Anchor>//api/name/verifyEmailIdentity:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSES/verifyEmailIdentity:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Verifies an email address. This action causes a confirmation email message to be sent to the specified address.&lt;/p&gt;&lt;p&gt;This action is throttled at one request per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailIdentityResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)verifyEmailIdentity:(AWSSESVerifyEmailIdentityRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSSESVerifyEmailIdentityResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the VerifyEmailIdentity service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyEmailIdentity:completionHandler:</Anchor>
+            <NodeRef refid="1466"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

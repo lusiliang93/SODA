@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ExportTask.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ExportTask</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an instance export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="714"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the resource being exported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the resource being exported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the resource being exported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setExportTaskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/exportTaskId</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/exportTaskId</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/exportTaskId</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setExportToS3Task:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ExportToS3Task *exportToS3Task</Declaration>
+			
+			
+			<Anchor>//api/name/exportToS3Task</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/exportToS3Task</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ExportToS3Task *exportToS3Task</Declaration>
+			
+			
+			<Anchor>//api/name/exportToS3Task</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/exportToS3Task</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ExportToS3Task *exportToS3Task</Declaration>
+			
+			
+			<Anchor>//api/name/exportToS3Task</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setInstanceExportDetails:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the instance to export.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceExportDetails *instanceExportDetails</Declaration>
+			
+			
+			<Anchor>//api/name/instanceExportDetails</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/instanceExportDetails</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the instance to export.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceExportDetails *instanceExportDetails</Declaration>
+			
+			
+			<Anchor>//api/name/instanceExportDetails</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/instanceExportDetails</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the instance to export.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceExportDetails *instanceExportDetails</Declaration>
+			
+			
+			<Anchor>//api/name/instanceExportDetails</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExportTaskState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExportTaskState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ExportTaskState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status message related to the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportTask/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status message related to the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportTask/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status message related to the export task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="714"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

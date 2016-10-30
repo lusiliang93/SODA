@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeRouteTablesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeRouteTablesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeRouteTables.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="629"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRouteTablesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-association-id&lt;/code&gt; - The ID of an association ID for the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-id&lt;/code&gt; - The ID of the route table involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.subnet-id&lt;/code&gt; - The ID of the subnet involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.main&lt;/code&gt; - Indicates whether the route table is the main route table for the VPC (&lt;code&gt;true&lt;/code&gt; | &lt;code&gt;false&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route-table-id&lt;/code&gt; - The ID of the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-cidr-block&lt;/code&gt; - The CIDR range specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-prefix-list-id&lt;/code&gt; - The ID (prefix) of the AWS service specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.gateway-id&lt;/code&gt; - The ID of a gateway specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.instance-id&lt;/code&gt; - The ID of an instance specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.nat-gateway-id&lt;/code&gt; - The ID of a NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.origin&lt;/code&gt; - Describes how the route was created. &lt;code&gt;CreateRouteTable&lt;/code&gt; indicates that the route was automatically created when the route table was created; &lt;code&gt;CreateRoute&lt;/code&gt; indicates that the route was manually added to the route table; &lt;code&gt;EnableVgwRoutePropagation&lt;/code&gt; indicates that the route was propagated by route propagation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.state&lt;/code&gt; - The state of a route in the route table (&lt;code&gt;active&lt;/code&gt; | &lt;code&gt;blackhole&lt;/code&gt;). The blackhole state indicates that the route&apos;s target isn&apos;t available (for example, the specified gateway isn&apos;t attached to the VPC, the specified NAT instance has been terminated, and so on).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.vpc-peering-connection-id&lt;/code&gt; - The ID of a VPC peering connection specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the route table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-association-id&lt;/code&gt; - The ID of an association ID for the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-id&lt;/code&gt; - The ID of the route table involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.subnet-id&lt;/code&gt; - The ID of the subnet involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.main&lt;/code&gt; - Indicates whether the route table is the main route table for the VPC (&lt;code&gt;true&lt;/code&gt; | &lt;code&gt;false&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route-table-id&lt;/code&gt; - The ID of the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-cidr-block&lt;/code&gt; - The CIDR range specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-prefix-list-id&lt;/code&gt; - The ID (prefix) of the AWS service specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.gateway-id&lt;/code&gt; - The ID of a gateway specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.instance-id&lt;/code&gt; - The ID of an instance specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.nat-gateway-id&lt;/code&gt; - The ID of a NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.origin&lt;/code&gt; - Describes how the route was created. &lt;code&gt;CreateRouteTable&lt;/code&gt; indicates that the route was automatically created when the route table was created; &lt;code&gt;CreateRoute&lt;/code&gt; indicates that the route was manually added to the route table; &lt;code&gt;EnableVgwRoutePropagation&lt;/code&gt; indicates that the route was propagated by route propagation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.state&lt;/code&gt; - The state of a route in the route table (&lt;code&gt;active&lt;/code&gt; | &lt;code&gt;blackhole&lt;/code&gt;). The blackhole state indicates that the route&apos;s target isn&apos;t available (for example, the specified gateway isn&apos;t attached to the VPC, the specified NAT instance has been terminated, and so on).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.vpc-peering-connection-id&lt;/code&gt; - The ID of a VPC peering connection specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the route table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRouteTablesRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-association-id&lt;/code&gt; - The ID of an association ID for the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.route-table-id&lt;/code&gt; - The ID of the route table involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.subnet-id&lt;/code&gt; - The ID of the subnet involved in the association.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;association.main&lt;/code&gt; - Indicates whether the route table is the main route table for the VPC (&lt;code&gt;true&lt;/code&gt; | &lt;code&gt;false&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route-table-id&lt;/code&gt; - The ID of the route table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-cidr-block&lt;/code&gt; - The CIDR range specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.destination-prefix-list-id&lt;/code&gt; - The ID (prefix) of the AWS service specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.gateway-id&lt;/code&gt; - The ID of a gateway specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.instance-id&lt;/code&gt; - The ID of an instance specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.nat-gateway-id&lt;/code&gt; - The ID of a NAT gateway.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.origin&lt;/code&gt; - Describes how the route was created. &lt;code&gt;CreateRouteTable&lt;/code&gt; indicates that the route was automatically created when the route table was created; &lt;code&gt;CreateRoute&lt;/code&gt; indicates that the route was manually added to the route table; &lt;code&gt;EnableVgwRoutePropagation&lt;/code&gt; indicates that the route was propagated by route propagation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.state&lt;/code&gt; - The state of a route in the route table (&lt;code&gt;active&lt;/code&gt; | &lt;code&gt;blackhole&lt;/code&gt;). The blackhole state indicates that the route&apos;s target isn&apos;t available (for example, the specified gateway isn&apos;t attached to the VPC, the specified NAT instance has been terminated, and so on).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;route.vpc-peering-connection-id&lt;/code&gt; - The ID of a VPC peering connection specified in a route in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the route table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/setRouteTableIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your route tables.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *routeTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableIds</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesRequest/routeTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your route tables.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *routeTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableIds</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRouteTablesRequest/routeTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your route tables.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *routeTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableIds</Anchor>
+            <NodeRef refid="629"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

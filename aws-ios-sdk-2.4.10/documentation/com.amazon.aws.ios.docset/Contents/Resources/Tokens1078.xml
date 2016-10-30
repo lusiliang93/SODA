@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSIoT.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSIoT</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;AWS IoT&lt;/fullname&gt;&lt;p&gt;AWS IoT provides secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. You can discover your custom IoT-Data endpoint to communicate with, configure rules for data processing and integration with other services, organize resources associated with each thing (Thing Registry), configure logging, and create and manage policies and credentials to authenticate things.&lt;/p&gt;&lt;p&gt;For more information about how AWS IoT works, see the Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1078"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSIoT/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSIoT/defaultIoT</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultIoT</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultIoT</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSIoT/registerIoTWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerIoTWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerIoTWithConfiguration:forKey:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSIoT/IoTForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerIoTWithConfiguration:forKey: before invoking this method.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)IoTForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/IoTForKey:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSIoT/removeIoTForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+			<Declaration>+ (void)removeIoTForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeIoTForKey:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/acceptCertificateTransfer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Accepts a pending certificate transfer. The default state of the certificate is INACTIVE.&lt;/p&gt;&lt;p&gt;To check for pending certificate transfers, call &lt;a&gt;ListCertificates&lt;/a&gt; to enumerate your certificates.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAcceptCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)acceptCertificateTransfer:(AWSIoTAcceptCertificateTransferRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AcceptCertificateTransfer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/acceptCertificateTransfer:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/acceptCertificateTransfer:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Accepts a pending certificate transfer. The default state of the certificate is INACTIVE.&lt;/p&gt;&lt;p&gt;To check for pending certificate transfers, call &lt;a&gt;ListCertificates&lt;/a&gt; to enumerate your certificates.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAcceptCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)acceptCertificateTransfer:(AWSIoTAcceptCertificateTransferRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AcceptCertificateTransfer service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/acceptCertificateTransfer:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/attachPrincipalPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Attaches the specified policy to the specified principal (certificate or other credential).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachPrincipalPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)attachPrincipalPolicy:(AWSIoTAttachPrincipalPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachPrincipalPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachPrincipalPolicy:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/attachPrincipalPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Attaches the specified policy to the specified principal (certificate or other credential).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachPrincipalPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)attachPrincipalPolicy:(AWSIoTAttachPrincipalPolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachPrincipalPolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attachPrincipalPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/attachThingPrincipal:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Attaches the specified principal to the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachThingPrincipalRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachThingPrincipalResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTAttachThingPrincipalResponse*&gt; *)attachThingPrincipal:(AWSIoTAttachThingPrincipalRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachThingPrincipal service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTAttachThingPrincipalResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/attachThingPrincipal:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/attachThingPrincipal:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Attaches the specified principal to the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachThingPrincipalRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTAttachThingPrincipalResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)attachThingPrincipal:(AWSIoTAttachThingPrincipalRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTAttachThingPrincipalResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AttachThingPrincipal service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attachThingPrincipal:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/cancelCertificateTransfer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Cancels a pending transfer for the specified certificate.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; Only the transfer source account can use this operation to cancel a transfer. (Transfer destinations can use &lt;a&gt;RejectCertificateTransfer&lt;/a&gt; instead.) After transfer, AWS IoT returns the certificate to the source account in the INACTIVE state. After the destination account has accepted the transfer, the transfer cannot be cancelled.&lt;/p&gt;&lt;p&gt;After a certificate transfer is cancelled, the status of the certificate changes from PENDING_TRANSFER to INACTIVE.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCancelCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)cancelCertificateTransfer:(AWSIoTCancelCertificateTransferRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CancelCertificateTransfer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelCertificateTransfer:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/cancelCertificateTransfer:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Cancels a pending transfer for the specified certificate.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; Only the transfer source account can use this operation to cancel a transfer. (Transfer destinations can use &lt;a&gt;RejectCertificateTransfer&lt;/a&gt; instead.) After transfer, AWS IoT returns the certificate to the source account in the INACTIVE state. After the destination account has accepted the transfer, the transfer cannot be cancelled.&lt;/p&gt;&lt;p&gt;After a certificate transfer is cancelled, the status of the certificate changes from PENDING_TRANSFER to INACTIVE.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCancelCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)cancelCertificateTransfer:(AWSIoTCancelCertificateTransferRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CancelCertificateTransfer service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelCertificateTransfer:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createCertificateFromCsr:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an X.509 certificate using the specified certificate signing request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; Reusing the same certificate signing request (CSR) results in a distinct certificate.&lt;/p&gt;&lt;p&gt;You can create multiple certificates in a batch by creating a directory, copying multiple .csr files into that directory, and then specifying that directory on the command line. The following commands show how to create a batch of certificates given a batch of CSRs. &lt;/p&gt;&lt;p&gt;Assuming a set of CSRs are located inside of the directory my-csr-directory:&lt;/p&gt;&amp;amp;gt; &lt;p&gt;On Linux and OS X, the command is:&lt;/p&gt;&lt;p&gt;$ ls my-csr-directory/ | xargs -I {} aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/{}&lt;/p&gt;&lt;p&gt; This command lists all of the CSRs in my-csr-directory and pipes each CSR file name to the aws iot create-certificate-from-csr AWS CLI command to create a certificate for the corresponding CSR. &lt;/p&gt;&lt;p&gt; The aws iot create-certificate-from-csr part of the command can also be run in parallel to speed up the certificate creation process: &lt;/p&gt;&lt;p&gt; $ ls my-csr-directory/ | xargs -P 10 -I {} aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/{} &lt;/p&gt;&lt;p&gt; On Windows PowerShell, the command to create certificates for all CSRs in my-csr-directory is: &lt;/p&gt;&lt;p&gt; &amp;amp;gt; ls -Name my-csr-directory | %{aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/$_} &lt;/p&gt;&lt;p&gt; On a Windows command prompt, the command to create certificates for all CSRs in my-csr-directory is: &lt;/p&gt;&lt;p&gt; &amp;amp;gt; forfiles /p my-csr-directory /c &quot;cmd /c aws iot create-certificate-from-csr --certificate-signing-request file://@path&quot;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateCertificateFromCsrRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateCertificateFromCsrResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTCreateCertificateFromCsrResponse*&gt; *)createCertificateFromCsr:(AWSIoTCreateCertificateFromCsrRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateCertificateFromCsr service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTCreateCertificateFromCsrResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/createCertificateFromCsr:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createCertificateFromCsr:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an X.509 certificate using the specified certificate signing request.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; Reusing the same certificate signing request (CSR) results in a distinct certificate.&lt;/p&gt;&lt;p&gt;You can create multiple certificates in a batch by creating a directory, copying multiple .csr files into that directory, and then specifying that directory on the command line. The following commands show how to create a batch of certificates given a batch of CSRs. &lt;/p&gt;&lt;p&gt;Assuming a set of CSRs are located inside of the directory my-csr-directory:&lt;/p&gt;&amp;amp;gt; &lt;p&gt;On Linux and OS X, the command is:&lt;/p&gt;&lt;p&gt;$ ls my-csr-directory/ | xargs -I {} aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/{}&lt;/p&gt;&lt;p&gt; This command lists all of the CSRs in my-csr-directory and pipes each CSR file name to the aws iot create-certificate-from-csr AWS CLI command to create a certificate for the corresponding CSR. &lt;/p&gt;&lt;p&gt; The aws iot create-certificate-from-csr part of the command can also be run in parallel to speed up the certificate creation process: &lt;/p&gt;&lt;p&gt; $ ls my-csr-directory/ | xargs -P 10 -I {} aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/{} &lt;/p&gt;&lt;p&gt; On Windows PowerShell, the command to create certificates for all CSRs in my-csr-directory is: &lt;/p&gt;&lt;p&gt; &amp;amp;gt; ls -Name my-csr-directory | %{aws iot create-certificate-from-csr --certificate-signing-request file://my-csr-directory/$_} &lt;/p&gt;&lt;p&gt; On a Windows command prompt, the command to create certificates for all CSRs in my-csr-directory is: &lt;/p&gt;&lt;p&gt; &amp;amp;gt; forfiles /p my-csr-directory /c &quot;cmd /c aws iot create-certificate-from-csr --certificate-signing-request file://@path&quot;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateCertificateFromCsrRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateCertificateFromCsrResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createCertificateFromCsr:(AWSIoTCreateCertificateFromCsrRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTCreateCertificateFromCsrResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateCertificateFromCsr service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createCertificateFromCsr:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createKeysAndCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a 2048-bit RSA key pair and issues an X.509 certificate using the issued public key.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; This is the only time AWS IoT issues the private key for this certificate, so it is important to keep it in a secure location.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateKeysAndCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateKeysAndCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTCreateKeysAndCertificateResponse*&gt; *)createKeysAndCertificate:(AWSIoTCreateKeysAndCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateKeysAndCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTCreateKeysAndCertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/createKeysAndCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createKeysAndCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a 2048-bit RSA key pair and issues an X.509 certificate using the issued public key.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; This is the only time AWS IoT issues the private key for this certificate, so it is important to keep it in a secure location.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateKeysAndCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateKeysAndCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createKeysAndCertificate:(AWSIoTCreateKeysAndCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTCreateKeysAndCertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateKeysAndCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createKeysAndCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an AWS IoT policy.&lt;/p&gt;&lt;p&gt;The created policy is the default version for the policy. This operation creates a policy version with a version identifier of &lt;b&gt;1&lt;/b&gt; and sets &lt;b&gt;1&lt;/b&gt; as the policy&apos;s default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTCreatePolicyResponse*&gt; *)createPolicy:(AWSIoTCreatePolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreatePolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTCreatePolicyResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorMalformedPolicy, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/createPolicy:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates an AWS IoT policy.&lt;/p&gt;&lt;p&gt;The created policy is the default version for the policy. This operation creates a policy version with a version identifier of &lt;b&gt;1&lt;/b&gt; and sets &lt;b&gt;1&lt;/b&gt; as the policy&apos;s default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createPolicy:(AWSIoTCreatePolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTCreatePolicyResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreatePolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorMalformedPolicy, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createPolicyVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new version of the specified AWS IoT policy. To update a policy, create a new policy version. A managed policy can have up to five versions. If the policy has five versions, you must use &lt;a&gt;DeletePolicyVersion&lt;/a&gt; to delete an existing version before you create a new one.&lt;/p&gt;&lt;p&gt;Optionally, you can set the new version as the policy&apos;s default version. The default version is the operative version (that is, the version that is in effect for the certificates to which the policy is attached).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyVersionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyVersionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTCreatePolicyVersionResponse*&gt; *)createPolicyVersion:(AWSIoTCreatePolicyVersionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreatePolicyVersion service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTCreatePolicyVersionResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorMalformedPolicy, AWSIoTErrorVersionsLimitExceeded, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/createPolicyVersion:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createPolicyVersion:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new version of the specified AWS IoT policy. To update a policy, create a new policy version. A managed policy can have up to five versions. If the policy has five versions, you must use &lt;a&gt;DeletePolicyVersion&lt;/a&gt; to delete an existing version before you create a new one.&lt;/p&gt;&lt;p&gt;Optionally, you can set the new version as the policy&apos;s default version. The default version is the operative version (that is, the version that is in effect for the certificates to which the policy is attached).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyVersionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreatePolicyVersionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createPolicyVersion:(AWSIoTCreatePolicyVersionRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTCreatePolicyVersionResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreatePolicyVersion service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorMalformedPolicy, AWSIoTErrorVersionsLimitExceeded, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createPolicyVersion:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createThing:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a thing in the Thing Registry.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTCreateThingResponse*&gt; *)createThing:(AWSIoTCreateThingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateThing service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTCreateThingResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceAlreadyExists.</Abstract></ReturnValue>
+			<Anchor>//api/name/createThing:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createThing:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a thing in the Thing Registry.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createThing:(AWSIoTCreateThingRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTCreateThingResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateThing service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceAlreadyExists.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createThing:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a rule. Creating rules is an administrator-level action. Any user who has permission to create rules will be able to access data processed by the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)createTopicRule:(AWSIoTCreateTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorSqlParse, AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorResourceAlreadyExists, AWSIoTErrorServiceUnavailable.</Abstract></ReturnValue>
+			<Anchor>//api/name/createTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/createTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a rule. Creating rules is an administrator-level action. Any user who has permission to create rules will be able to access data processed by the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTCreateTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)createTopicRule:(AWSIoTCreateTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorSqlParse, AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorResourceAlreadyExists, AWSIoTErrorServiceUnavailable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteCACertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDeleteCACertificateResponse*&gt; *)deleteCACertificate:(AWSIoTDeleteCACertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteCACertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDeleteCACertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateState, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteCACertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteCACertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteCACertificate:(AWSIoTDeleteCACertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDeleteCACertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteCACertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateState, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteCACertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified certificate.&lt;/p&gt;&lt;p&gt;A certificate cannot be deleted if it has a policy attached to it or if its status is set to ACTIVE. To delete a certificate, first use the &lt;a&gt;DetachPrincipalPolicy&lt;/a&gt; API to detach all policies. Next, use the &lt;a&gt;UpdateCertificate&lt;/a&gt; API to set the certificate to the INACTIVE status.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteCertificate:(AWSIoTDeleteCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorCertificateState, AWSIoTErrorDeleteConflict, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified certificate.&lt;/p&gt;&lt;p&gt;A certificate cannot be deleted if it has a policy attached to it or if its status is set to ACTIVE. To delete a certificate, first use the &lt;a&gt;DetachPrincipalPolicy&lt;/a&gt; API to detach all policies. Next, use the &lt;a&gt;UpdateCertificate&lt;/a&gt; API to set the certificate to the INACTIVE status.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteCertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteCertificate:(AWSIoTDeleteCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorCertificateState, AWSIoTErrorDeleteConflict, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deletePolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified policy.&lt;/p&gt;&lt;p&gt;A policy cannot be deleted if it has non-default versions or it is attached to any certificate.&lt;/p&gt;&lt;p&gt;To delete a policy, use the DeletePolicyVersion API to delete all non-default versions of the policy; use the DetachPrincipalPolicy API to detach the policy from any certificate; and then use the DeletePolicy API to delete the policy.&lt;/p&gt;&lt;p&gt;When a policy is deleted using DeletePolicy, its default version is deleted with it.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeletePolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deletePolicy:(AWSIoTDeletePolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeletePolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorDeleteConflict, AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/deletePolicy:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deletePolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified policy.&lt;/p&gt;&lt;p&gt;A policy cannot be deleted if it has non-default versions or it is attached to any certificate.&lt;/p&gt;&lt;p&gt;To delete a policy, use the DeletePolicyVersion API to delete all non-default versions of the policy; use the DetachPrincipalPolicy API to detach the policy from any certificate; and then use the DeletePolicy API to delete the policy.&lt;/p&gt;&lt;p&gt;When a policy is deleted using DeletePolicy, its default version is deleted with it.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeletePolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deletePolicy:(AWSIoTDeletePolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeletePolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorDeleteConflict, AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deletePolicy:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deletePolicyVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified version of the specified policy. You cannot delete the default version of a policy using this API. To delete the default version of a policy, use &lt;a&gt;DeletePolicy&lt;/a&gt;. To find out which version of a policy is marked as the default version, use ListPolicyVersions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeletePolicyVersionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deletePolicyVersion:(AWSIoTDeletePolicyVersionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeletePolicyVersion service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorDeleteConflict, AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/deletePolicyVersion:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deletePolicyVersion:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified version of the specified policy. You cannot delete the default version of a policy using this API. To delete the default version of a policy, use &lt;a&gt;DeletePolicy&lt;/a&gt;. To find out which version of a policy is marked as the default version, use ListPolicyVersions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeletePolicyVersionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deletePolicyVersion:(AWSIoTDeletePolicyVersionRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeletePolicyVersion service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorDeleteConflict, AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deletePolicyVersion:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteRegistrationCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a CA certificate registration code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteRegistrationCodeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteRegistrationCodeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDeleteRegistrationCodeResponse*&gt; *)deleteRegistrationCode:(AWSIoTDeleteRegistrationCodeRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteRegistrationCode service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDeleteRegistrationCodeResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorThrottling, AWSIoTErrorResourceNotFound, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteRegistrationCode:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteRegistrationCode:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a CA certificate registration code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteRegistrationCodeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteRegistrationCodeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteRegistrationCode:(AWSIoTDeleteRegistrationCodeRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDeleteRegistrationCodeResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteRegistrationCode service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorThrottling, AWSIoTErrorResourceNotFound, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteRegistrationCode:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteThing:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified thing from the Thing Registry.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDeleteThingResponse*&gt; *)deleteThing:(AWSIoTDeleteThingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteThing service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDeleteThingResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteThing:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteThing:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified thing from the Thing Registry.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteThing:(AWSIoTDeleteThingRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDeleteThingResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteThing service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteThing:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteTopicRule:(AWSIoTDeleteTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/deleteTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDeleteTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteTopicRule:(AWSIoTDeleteTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeCACertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDescribeCACertificateResponse*&gt; *)describeCACertificate:(AWSIoTDescribeCACertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeCACertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDescribeCACertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeCACertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeCACertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeCACertificate:(AWSIoTDescribeCACertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDescribeCACertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeCACertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeCACertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDescribeCertificateResponse*&gt; *)describeCertificate:(AWSIoTDescribeCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDescribeCertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeCertificate:(AWSIoTDescribeCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDescribeCertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeEndpoint:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a unique endpoint specific to the AWS account making the call. You specify the following URI when updating state information for your thing: https://&lt;i&gt;endpoint&lt;/i&gt;/things/&lt;i&gt;thingName&lt;/i&gt;/shadow.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeEndpointRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeEndpointResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDescribeEndpointResponse*&gt; *)describeEndpoint:(AWSIoTDescribeEndpointRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeEndpoint service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDescribeEndpointResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternalFailure, AWSIoTErrorUnauthorized, AWSIoTErrorThrottling.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeEndpoint:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeEndpoint:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a unique endpoint specific to the AWS account making the call. You specify the following URI when updating state information for your thing: https://&lt;i&gt;endpoint&lt;/i&gt;/things/&lt;i&gt;thingName&lt;/i&gt;/shadow.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeEndpointRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeEndpointResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeEndpoint:(AWSIoTDescribeEndpointRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDescribeEndpointResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeEndpoint service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternalFailure, AWSIoTErrorUnauthorized, AWSIoTErrorThrottling.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeEndpoint:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeThing:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDescribeThingResponse*&gt; *)describeThing:(AWSIoTDescribeThingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeThing service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDescribeThingResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeThing:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/describeThing:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDescribeThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeThing:(AWSIoTDescribeThingRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDescribeThingResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeThing service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeThing:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/detachPrincipalPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Removes the specified policy from the specified certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachPrincipalPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)detachPrincipalPolicy:(AWSIoTDetachPrincipalPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachPrincipalPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachPrincipalPolicy:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/detachPrincipalPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Removes the specified policy from the specified certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachPrincipalPolicyRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)detachPrincipalPolicy:(AWSIoTDetachPrincipalPolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachPrincipalPolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/detachPrincipalPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/detachThingPrincipal:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Detaches the specified principal from the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachThingPrincipalRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachThingPrincipalResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTDetachThingPrincipalResponse*&gt; *)detachThingPrincipal:(AWSIoTDetachThingPrincipalRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachThingPrincipal service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTDetachThingPrincipalResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/detachThingPrincipal:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/detachThingPrincipal:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Detaches the specified principal from the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachThingPrincipalRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDetachThingPrincipalResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)detachThingPrincipal:(AWSIoTDetachThingPrincipalRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTDetachThingPrincipalResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DetachThingPrincipal service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/detachThingPrincipal:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/disableTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disables the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDisableTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)disableTopicRule:(AWSIoTDisableTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract></ReturnValue>
+			<Anchor>//api/name/disableTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/disableTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disables the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTDisableTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)disableTopicRule:(AWSIoTDisableTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/disableTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/enableTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTEnableTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)enableTopicRule:(AWSIoTEnableTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract></ReturnValue>
+			<Anchor>//api/name/enableTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/enableTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTEnableTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)enableTopicRule:(AWSIoTEnableTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enableTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getLoggingOptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets the logging options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetLoggingOptionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetLoggingOptionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTGetLoggingOptionsResponse*&gt; *)getLoggingOptions:(AWSIoTGetLoggingOptionsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetLoggingOptions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTGetLoggingOptionsResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract></ReturnValue>
+			<Anchor>//api/name/getLoggingOptions:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getLoggingOptions:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets the logging options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetLoggingOptionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetLoggingOptionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getLoggingOptions:(AWSIoTGetLoggingOptionsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTGetLoggingOptionsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetLoggingOptions service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getLoggingOptions:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified policy with the policy document of the default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTGetPolicyResponse*&gt; *)getPolicy:(AWSIoTGetPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTGetPolicyResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPolicy:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getPolicy:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified policy with the policy document of the default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getPolicy:(AWSIoTGetPolicyRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTGetPolicyResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetPolicy service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getPolicy:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getPolicyVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified policy version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyVersionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyVersionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTGetPolicyVersionResponse*&gt; *)getPolicyVersion:(AWSIoTGetPolicyVersionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetPolicyVersion service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTGetPolicyVersionResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPolicyVersion:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getPolicyVersion:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified policy version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyVersionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetPolicyVersionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getPolicyVersion:(AWSIoTGetPolicyVersionRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTGetPolicyVersionResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetPolicyVersion service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getPolicyVersion:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getRegistrationCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets a registration code used to register a CA certificate with AWS IoT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetRegistrationCodeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetRegistrationCodeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTGetRegistrationCodeResponse*&gt; *)getRegistrationCode:(AWSIoTGetRegistrationCodeRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetRegistrationCode service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTGetRegistrationCodeResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/getRegistrationCode:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getRegistrationCode:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets a registration code used to register a CA certificate with AWS IoT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetRegistrationCodeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetRegistrationCodeResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getRegistrationCode:(AWSIoTGetRegistrationCodeRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTGetRegistrationCodeResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetRegistrationCode service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getRegistrationCode:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetTopicRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetTopicRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTGetTopicRuleResponse*&gt; *)getTopicRule:(AWSIoTGetTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTGetTopicRuleResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract></ReturnValue>
+			<Anchor>//api/name/getTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/getTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets information about the specified rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetTopicRuleRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTGetTopicRuleResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getTopicRule:(AWSIoTGetTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTGetTopicRuleResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCACertificates:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the CA certificates registered for your AWS account.&lt;/p&gt;&lt;p&gt;The results are paginated with a default page size of 25. You can use the returned marker to retrieve additional results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCACertificatesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCACertificatesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListCACertificatesResponse*&gt; *)listCACertificates:(AWSIoTListCACertificatesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCACertificates service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListCACertificatesResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listCACertificates:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCACertificates:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the CA certificates registered for your AWS account.&lt;/p&gt;&lt;p&gt;The results are paginated with a default page size of 25. You can use the returned marker to retrieve additional results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCACertificatesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCACertificatesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listCACertificates:(AWSIoTListCACertificatesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListCACertificatesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCACertificates service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listCACertificates:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCertificates:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the certificates registered in your AWS account.&lt;/p&gt;&lt;p&gt;The results are paginated with a default page size of 25. You can use the returned marker to retrieve additional results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListCertificatesResponse*&gt; *)listCertificates:(AWSIoTListCertificatesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCertificates service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListCertificatesResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listCertificates:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCertificates:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the certificates registered in your AWS account.&lt;/p&gt;&lt;p&gt;The results are paginated with a default page size of 25. You can use the returned marker to retrieve additional results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listCertificates:(AWSIoTListCertificatesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListCertificatesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCertificates service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listCertificates:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCertificatesByCA:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;List the device certificates signed by the specified CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesByCARequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesByCAResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListCertificatesByCAResponse*&gt; *)listCertificatesByCA:(AWSIoTListCertificatesByCARequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCertificatesByCA service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListCertificatesByCAResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listCertificatesByCA:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listCertificatesByCA:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;List the device certificates signed by the specified CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesByCARequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListCertificatesByCAResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listCertificatesByCA:(AWSIoTListCertificatesByCARequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListCertificatesByCAResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListCertificatesByCA service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listCertificatesByCA:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists your policies.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListPoliciesResponse*&gt; *)listPolicies:(AWSIoTListPoliciesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListPoliciesResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listPolicies:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPolicies:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists your policies.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listPolicies:(AWSIoTListPoliciesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListPoliciesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPolicies service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listPolicies:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPolicyVersions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the versions of the specified policy, and identifies the default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPolicyVersionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPolicyVersionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListPolicyVersionsResponse*&gt; *)listPolicyVersions:(AWSIoTListPolicyVersionsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPolicyVersions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListPolicyVersionsResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listPolicyVersions:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPolicyVersions:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the versions of the specified policy, and identifies the default version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPolicyVersionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPolicyVersionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listPolicyVersions:(AWSIoTListPolicyVersionsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListPolicyVersionsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPolicyVersions service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listPolicyVersions:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPrincipalPolicies:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the policies attached to the specified principal. If you use an Cognito identity, the ID must be in AmazonCognito Identity format.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListPrincipalPoliciesResponse*&gt; *)listPrincipalPolicies:(AWSIoTListPrincipalPoliciesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPrincipalPolicies service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListPrincipalPoliciesResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listPrincipalPolicies:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPrincipalPolicies:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the policies attached to the specified principal. If you use an Cognito identity, the ID must be in AmazonCognito Identity format.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalPoliciesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalPoliciesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listPrincipalPolicies:(AWSIoTListPrincipalPoliciesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListPrincipalPoliciesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPrincipalPolicies service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listPrincipalPolicies:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPrincipalThings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the things associated with the specified principal.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalThingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalThingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListPrincipalThingsResponse*&gt; *)listPrincipalThings:(AWSIoTListPrincipalThingsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPrincipalThings service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListPrincipalThingsResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listPrincipalThings:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listPrincipalThings:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the things associated with the specified principal.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalThingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListPrincipalThingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listPrincipalThings:(AWSIoTListPrincipalThingsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListPrincipalThingsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListPrincipalThings service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listPrincipalThings:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listThingPrincipals:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the principals associated with the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingPrincipalsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingPrincipalsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListThingPrincipalsResponse*&gt; *)listThingPrincipals:(AWSIoTListThingPrincipalsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListThingPrincipals service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListThingPrincipalsResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listThingPrincipals:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listThingPrincipals:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the principals associated with the specified thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingPrincipalsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingPrincipalsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listThingPrincipals:(AWSIoTListThingPrincipalsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListThingPrincipalsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListThingPrincipals service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listThingPrincipals:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listThings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists your things. You can pass an AttributeName or AttributeValue to filter your things (for example, &quot;ListThings where AttributeName=Color and AttributeValue=Red&quot;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListThingsResponse*&gt; *)listThings:(AWSIoTListThingsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListThings service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListThingsResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/listThings:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listThings:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists your things. You can pass an AttributeName or AttributeValue to filter your things (for example, &quot;ListThings where AttributeName=Color and AttributeValue=Red&quot;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListThingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listThings:(AWSIoTListThingsRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListThingsResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListThings service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listThings:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listTopicRules:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the rules for the specific topic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListTopicRulesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListTopicRulesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTListTopicRulesResponse*&gt; *)listTopicRules:(AWSIoTListTopicRulesRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListTopicRules service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTListTopicRulesResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract></ReturnValue>
+			<Anchor>//api/name/listTopicRules:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/listTopicRules:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the rules for the specific topic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListTopicRulesRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTListTopicRulesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listTopicRules:(AWSIoTListTopicRulesRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTListTopicRulesResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListTopicRules service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listTopicRules:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/registerCACertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Registers a CA certificate with AWS IoT. This CA certificate can then be used to sign device certificates, which can be then registered with AWS IoT. You can register up to 10 CA certificates per AWS account that have the same subject field and public key. This enables you to have up to 10 certificate authorities sign your device certificates. If you have more than one CA certificate registered, make sure you pass the CA certificate when you register your device certificates with the RegisterCertificate API.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTRegisterCACertificateResponse*&gt; *)registerCACertificate:(AWSIoTRegisterCACertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterCACertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTRegisterCACertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorRegistrationCodeValidation, AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateValidation, AWSIoTErrorThrottling, AWSIoTErrorLimitExceeded, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerCACertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/registerCACertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Registers a CA certificate with AWS IoT. This CA certificate can then be used to sign device certificates, which can be then registered with AWS IoT. You can register up to 10 CA certificates per AWS account that have the same subject field and public key. This enables you to have up to 10 certificate authorities sign your device certificates. If you have more than one CA certificate registered, make sure you pass the CA certificate when you register your device certificates with the RegisterCertificate API.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCACertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCACertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)registerCACertificate:(AWSIoTRegisterCACertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTRegisterCACertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterCACertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorRegistrationCodeValidation, AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateValidation, AWSIoTErrorThrottling, AWSIoTErrorLimitExceeded, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerCACertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/registerCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Registers a device certificate with AWS IoT. If you have more than one CA certificate that has the same subject field, you must specify the CA certificate that was used to sign the device certificate being registered.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTRegisterCertificateResponse*&gt; *)registerCertificate:(AWSIoTRegisterCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTRegisterCertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateValidation, AWSIoTErrorCertificateState, AWSIoTErrorCertificateConflict, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/registerCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Registers a device certificate with AWS IoT. If you have more than one CA certificate that has the same subject field, you must specify the CA certificate that was used to sign the device certificate being registered.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRegisterCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)registerCertificate:(AWSIoTRegisterCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTRegisterCertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RegisterCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceAlreadyExists, AWSIoTErrorInvalidRequest, AWSIoTErrorCertificateValidation, AWSIoTErrorCertificateState, AWSIoTErrorCertificateConflict, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/rejectCertificateTransfer:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Rejects a pending certificate transfer. After AWS IoT rejects a certificate transfer, the certificate status changes from &lt;b&gt;PENDING_TRANSFER&lt;/b&gt; to &lt;b&gt;INACTIVE&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;To check for pending certificate transfers, call &lt;a&gt;ListCertificates&lt;/a&gt; to enumerate your certificates.&lt;/p&gt;&lt;p&gt;This operation can only be called by the transfer destination. After it is called, the certificate will be returned to the source&apos;s account in the INACTIVE state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRejectCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)rejectCertificateTransfer:(AWSIoTRejectCertificateTransferRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RejectCertificateTransfer service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/rejectCertificateTransfer:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/rejectCertificateTransfer:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Rejects a pending certificate transfer. After AWS IoT rejects a certificate transfer, the certificate status changes from &lt;b&gt;PENDING_TRANSFER&lt;/b&gt; to &lt;b&gt;INACTIVE&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;To check for pending certificate transfers, call &lt;a&gt;ListCertificates&lt;/a&gt; to enumerate your certificates.&lt;/p&gt;&lt;p&gt;This operation can only be called by the transfer destination. After it is called, the certificate will be returned to the source&apos;s account in the INACTIVE state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTRejectCertificateTransferRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)rejectCertificateTransfer:(AWSIoTRejectCertificateTransferRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RejectCertificateTransfer service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorTransferAlreadyCompleted, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rejectCertificateTransfer:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/replaceTopicRule:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Replaces the specified rule. You must specify all parameters for the new rule. Creating rules is an administrator-level action. Any user who has permission to create rules will be able to access data processed by the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTReplaceTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)replaceTopicRule:(AWSIoTReplaceTopicRuleRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReplaceTopicRule service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorSqlParse, AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract></ReturnValue>
+			<Anchor>//api/name/replaceTopicRule:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/replaceTopicRule:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Replaces the specified rule. You must specify all parameters for the new rule. Creating rules is an administrator-level action. Any user who has permission to create rules will be able to access data processed by the rule.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTReplaceTopicRuleRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)replaceTopicRule:(AWSIoTReplaceTopicRuleRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ReplaceTopicRule service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorSqlParse, AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable, AWSIoTErrorUnauthorized.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/replaceTopicRule:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/setDefaultPolicyVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the specified version of the specified policy as the policy&apos;s default (operative) version. This action affects all certificates to which the policy is attached. To list the principals the policy is attached to, use the ListPrincipalPolicy API.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTSetDefaultPolicyVersionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)setDefaultPolicyVersion:(AWSIoTSetDefaultPolicyVersionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetDefaultPolicyVersion service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/setDefaultPolicyVersion:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/setDefaultPolicyVersion:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the specified version of the specified policy as the policy&apos;s default (operative) version. This action affects all certificates to which the policy is attached. To list the principals the policy is attached to, use the ListPrincipalPolicy API.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTSetDefaultPolicyVersionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDefaultPolicyVersion:(AWSIoTSetDefaultPolicyVersionRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetDefaultPolicyVersion service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDefaultPolicyVersion:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/setLoggingOptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the logging options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTSetLoggingOptionsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)setLoggingOptions:(AWSIoTSetLoggingOptionsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetLoggingOptions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract></ReturnValue>
+			<Anchor>//api/name/setLoggingOptions:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/setLoggingOptions:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets the logging options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTSetLoggingOptionsRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setLoggingOptions:(AWSIoTSetLoggingOptionsRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetLoggingOptions service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInternal, AWSIoTErrorInvalidRequest, AWSIoTErrorServiceUnavailable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLoggingOptions:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/transferCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Transfers the specified certificate to the specified AWS account.&lt;/p&gt;&lt;p&gt;You can cancel the transfer until it is acknowledged by the recipient.&lt;/p&gt;&lt;p&gt;No notification is sent to the transfer destination&apos;s account. It is up to the caller to notify the transfer target.&lt;/p&gt;&lt;p&gt;The certificate being transferred must not be in the ACTIVE state. You can use the UpdateCertificate API to deactivate it.&lt;/p&gt;&lt;p&gt;The certificate must not have any policies attached to it. You can use the DetachPrincipalPolicy API to detach them.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTTransferCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTTransferCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTTransferCertificateResponse*&gt; *)transferCertificate:(AWSIoTTransferCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the TransferCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTTransferCertificateResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorResourceNotFound, AWSIoTErrorCertificateState, AWSIoTErrorTransferConflict, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/transferCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/transferCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Transfers the specified certificate to the specified AWS account.&lt;/p&gt;&lt;p&gt;You can cancel the transfer until it is acknowledged by the recipient.&lt;/p&gt;&lt;p&gt;No notification is sent to the transfer destination&apos;s account. It is up to the caller to notify the transfer target.&lt;/p&gt;&lt;p&gt;The certificate being transferred must not be in the ACTIVE state. You can use the UpdateCertificate API to deactivate it.&lt;/p&gt;&lt;p&gt;The certificate must not have any policies attached to it. You can use the DetachPrincipalPolicy API to detach them.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTTransferCertificateRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTTransferCertificateResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)transferCertificate:(AWSIoTTransferCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTTransferCertificateResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the TransferCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorResourceNotFound, AWSIoTErrorCertificateState, AWSIoTErrorTransferConflict, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transferCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateCACertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateCACertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)updateCACertificate:(AWSIoTUpdateCACertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateCACertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateCACertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateCACertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates a registered CA certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateCACertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)updateCACertificate:(AWSIoTUpdateCACertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateCACertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateCACertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateCertificate:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates the status of the specified certificate. This operation is idempotent.&lt;/p&gt;&lt;p&gt;Moving a certificate from the ACTIVE state (including REVOKED) will not disconnect currently connected devices, but these devices will be unable to reconnect.&lt;/p&gt;&lt;p&gt;The ACTIVE state is required to authenticate devices connecting to AWS IoT using a certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateCertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)updateCertificate:(AWSIoTUpdateCertificateRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateCertificate service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorCertificateState, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateCertificate:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateCertificate:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates the status of the specified certificate. This operation is idempotent.&lt;/p&gt;&lt;p&gt;Moving a certificate from the ACTIVE state (including REVOKED) will not disconnect currently connected devices, but these devices will be unable to reconnect.&lt;/p&gt;&lt;p&gt;The ACTIVE state is required to authenticate devices connecting to AWS IoT using a certificate.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateCertificateRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)updateCertificate:(AWSIoTUpdateCertificateRequest *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateCertificate service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorResourceNotFound, AWSIoTErrorCertificateState, AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateCertificate:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateThing:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates the data for a thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSIoTUpdateThingResponse*&gt; *)updateThing:(AWSIoTUpdateThingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateThing service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSIoTUpdateThingResponse. On failed execution, task.error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateThing:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSIoT/updateThing:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates the data for a thing.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSIoTService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateThingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSIoTUpdateThingResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)updateThing:(AWSIoTUpdateThingRequest *)request completionHandler:(void ( ^ _Nullable ) ( AWSIoTUpdateThingResponse *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateThing service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSIoTErrorDomain domain and the following error code: AWSIoTErrorInvalidRequest, AWSIoTErrorThrottling, AWSIoTErrorUnauthorized, AWSIoTErrorServiceUnavailable, AWSIoTErrorInternalFailure, AWSIoTErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateThing:completionHandler:</Anchor>
+            <NodeRef refid="1078"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

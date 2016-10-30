@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2VpcPeeringConnectionVpcInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpcPeeringConnectionVpcInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a VPC in a VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="953"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnectionVpcInfo/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the VPC owner.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the VPC owner.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnectionVpcInfo/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the VPC owner.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/setPeeringOptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection options for the accepter or requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionOptionsDescription *peeringOptions</Declaration>
+			
+			
+			<Anchor>//api/name/peeringOptions</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/peeringOptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection options for the accepter or requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionOptionsDescription *peeringOptions</Declaration>
+			
+			
+			<Anchor>//api/name/peeringOptions</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnectionVpcInfo/peeringOptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPC peering connection options for the accepter or requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionOptionsDescription *peeringOptions</Declaration>
+			
+			
+			<Anchor>//api/name/peeringOptions</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnectionVpcInfo/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnectionVpcInfo/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="953"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

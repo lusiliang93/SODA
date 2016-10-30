@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2EbsBlockDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EbsBlockDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a block device for an EBS volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="704"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setEncrypted:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is encrypted. Encrypted Amazon EBS volumes may only be attached to instances that support Amazon EBS encryption.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/encrypted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is encrypted. Encrypted Amazon EBS volumes may only be attached to instances that support Amazon EBS encryption.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/encrypted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the EBS volume is encrypted. Encrypted Amazon EBS volumes may only be attached to instances that support Amazon EBS encryption.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setIops:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports. For io1, this represents the number of IOPS that are provisioned for the volume. For &lt;code&gt;gp2&lt;/code&gt;, this represents the baseline performance of the volume and the rate at which the volume accumulates I/O credits for bursting. For more information on General Purpose SSD baseline performance, I/O credits, and bursting, see Amazon EBS Volume Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Constraint: Range is 100-20000 IOPS for io1 volumes and 100-10000 IOPS for &lt;code&gt;gp2&lt;/code&gt; volumes.&lt;/p&gt;&lt;p&gt;Condition: This parameter is required for requests to create &lt;code&gt;&lt;code&gt;io1&lt;/code&gt;&lt;/code&gt; volumes; it is not used in requests to create &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt; volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			
+			
+			<Anchor>//api/name/iops</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/iops</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports. For io1, this represents the number of IOPS that are provisioned for the volume. For &lt;code&gt;gp2&lt;/code&gt;, this represents the baseline performance of the volume and the rate at which the volume accumulates I/O credits for bursting. For more information on General Purpose SSD baseline performance, I/O credits, and bursting, see Amazon EBS Volume Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Constraint: Range is 100-20000 IOPS for io1 volumes and 100-10000 IOPS for &lt;code&gt;gp2&lt;/code&gt; volumes.&lt;/p&gt;&lt;p&gt;Condition: This parameter is required for requests to create &lt;code&gt;&lt;code&gt;io1&lt;/code&gt;&lt;/code&gt; volumes; it is not used in requests to create &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt; volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			
+			
+			<Anchor>//api/name/iops</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/iops</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports. For io1, this represents the number of IOPS that are provisioned for the volume. For &lt;code&gt;gp2&lt;/code&gt;, this represents the baseline performance of the volume and the rate at which the volume accumulates I/O credits for bursting. For more information on General Purpose SSD baseline performance, I/O credits, and bursting, see Amazon EBS Volume Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Constraint: Range is 100-20000 IOPS for io1 volumes and 100-10000 IOPS for &lt;code&gt;gp2&lt;/code&gt; volumes.&lt;/p&gt;&lt;p&gt;Condition: This parameter is required for requests to create &lt;code&gt;&lt;code&gt;io1&lt;/code&gt;&lt;/code&gt; volumes; it is not used in requests to create &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt; volumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			
+			
+			<Anchor>//api/name/iops</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setVolumeSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;&lt;p&gt;Constraints: 1-16384 for General Purpose SSD (&lt;code&gt;gp2&lt;/code&gt;), 4-16384 for Provisioned IOPS SSD (&lt;code&gt;io1&lt;/code&gt;), 500-16384 for Throughput Optimized HDD (&lt;code&gt;st1&lt;/code&gt;), 500-16384 for Cold HDD (&lt;code&gt;sc1&lt;/code&gt;), and 1-1024 for Magnetic (&lt;code&gt;standard&lt;/code&gt;) volumes. If you specify a snapshot, the volume size must be equal to or larger than the snapshot size.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSize</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/volumeSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;&lt;p&gt;Constraints: 1-16384 for General Purpose SSD (&lt;code&gt;gp2&lt;/code&gt;), 4-16384 for Provisioned IOPS SSD (&lt;code&gt;io1&lt;/code&gt;), 500-16384 for Throughput Optimized HDD (&lt;code&gt;st1&lt;/code&gt;), 500-16384 for Cold HDD (&lt;code&gt;sc1&lt;/code&gt;), and 1-1024 for Magnetic (&lt;code&gt;standard&lt;/code&gt;) volumes. If you specify a snapshot, the volume size must be equal to or larger than the snapshot size.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSize</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/volumeSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;&lt;p&gt;Constraints: 1-16384 for General Purpose SSD (&lt;code&gt;gp2&lt;/code&gt;), 4-16384 for Provisioned IOPS SSD (&lt;code&gt;io1&lt;/code&gt;), 500-16384 for Throughput Optimized HDD (&lt;code&gt;st1&lt;/code&gt;), 500-16384 for Cold HDD (&lt;code&gt;sc1&lt;/code&gt;), and 1-1024 for Magnetic (&lt;code&gt;standard&lt;/code&gt;) volumes. If you specify a snapshot, the volume size must be equal to or larger than the snapshot size.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSize</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/setVolumeType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume type: &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;io1&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			
+			
+			<Anchor>//api/name/volumeType</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsBlockDevice/volumeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume type: &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;io1&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			
+			
+			<Anchor>//api/name/volumeType</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsBlockDevice/volumeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume type: &lt;code&gt;gp2&lt;/code&gt;, &lt;code&gt;io1&lt;/code&gt;, &lt;code&gt;st1&lt;/code&gt;, &lt;code&gt;sc1&lt;/code&gt;, or &lt;code&gt;standard&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			
+			
+			<Anchor>//api/name/volumeType</Anchor>
+            <NodeRef refid="704"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

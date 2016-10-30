@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ImportInstanceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ImportInstance.&lt;/p&gt;
+Required parameters: [Platform]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="739"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDiskImages:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DiskImage*&gt; *diskImages</Declaration>
+			
+			
+			<Anchor>//api/name/diskImages</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DiskImage*&gt; *diskImages</Declaration>
+			
+			
+			<Anchor>//api/name/diskImages</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DiskImage*&gt; *diskImages</Declaration>
+			
+			
+			<Anchor>//api/name/diskImages</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setPlatform:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="739"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

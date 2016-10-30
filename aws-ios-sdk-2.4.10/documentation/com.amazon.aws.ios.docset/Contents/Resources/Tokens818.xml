@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2Placement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Placement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the placement for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="818"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/setAffinity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The affinity setting for the instance on the Dedicated host. This parameter is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/affinity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The affinity setting for the instance on the Dedicated host. This parameter is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Placement/affinity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The affinity setting for the instance on the Dedicated host. This parameter is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *affinity</Declaration>
+			
+			
+			<Anchor>//api/name/affinity</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Placement/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group the instance is in (for cluster compute instances).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group the instance is in (for cluster compute instances).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Placement/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group the instance is in (for cluster compute instances).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/setHostId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicted host on which the instance resides. This parameter is not support for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/hostId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicted host on which the instance resides. This parameter is not support for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Placement/hostId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Dedicted host on which the instance resides. This parameter is not support for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *hostId</Declaration>
+			
+			
+			<Anchor>//api/name/hostId</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/setTenancy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance (if the instance is running in a VPC). An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware. The &lt;code&gt;host&lt;/code&gt; tenancy is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Placement/tenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance (if the instance is running in a VPC). An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware. The &lt;code&gt;host&lt;/code&gt; tenancy is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Placement/tenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The tenancy of the instance (if the instance is running in a VPC). An instance with a tenancy of &lt;code&gt;dedicated&lt;/code&gt; runs on single-tenant hardware. The &lt;code&gt;host&lt;/code&gt; tenancy is not supported for the &lt;a&gt;ImportInstance&lt;/a&gt; command.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy tenancy</Declaration>
+			
+			
+			<Anchor>//api/name/tenancy</Anchor>
+            <NodeRef refid="818"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeTagsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeTagsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeTags.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="659"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. This value can be between 5 and 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. This value can be between 5 and 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of results to return in a single call. This value can be between 5 and 1000. To retrieve the remaining results, make another call with the returned &lt;code&gt;NextToken&lt;/code&gt; value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="659"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

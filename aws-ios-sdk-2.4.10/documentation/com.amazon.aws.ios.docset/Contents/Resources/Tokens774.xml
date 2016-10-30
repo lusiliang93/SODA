@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2KeyPair.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2KeyPair</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="774"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/setKeyFingerprint:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA-1 digest of the DER encoded private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			
+			
+			<Anchor>//api/name/keyFingerprint</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/keyFingerprint</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA-1 digest of the DER encoded private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			
+			
+			<Anchor>//api/name/keyFingerprint</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2KeyPair/keyFingerprint</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA-1 digest of the DER encoded private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			
+			
+			<Anchor>//api/name/keyFingerprint</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/setKeyMaterial:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An unencrypted PEM encoded RSA private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyMaterial</Declaration>
+			
+			
+			<Anchor>//api/name/keyMaterial</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/keyMaterial</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An unencrypted PEM encoded RSA private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyMaterial</Declaration>
+			
+			
+			<Anchor>//api/name/keyMaterial</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2KeyPair/keyMaterial</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An unencrypted PEM encoded RSA private key.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyMaterial</Declaration>
+			
+			
+			<Anchor>//api/name/keyMaterial</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/setKeyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2KeyPair/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2KeyPair/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="774"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

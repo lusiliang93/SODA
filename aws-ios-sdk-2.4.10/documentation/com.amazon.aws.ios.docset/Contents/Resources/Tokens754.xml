@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2InstanceBlockDeviceMappingSpecification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceBlockDeviceMappingSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a block device mapping entry.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="754"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setEbs:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			
+			
+			<Anchor>//api/name/ebs</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setNoDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			
+			
+			<Anchor>//api/name/noDevice</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			
+			
+			<Anchor>//api/name/noDevice</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			
+			
+			<Anchor>//api/name/noDevice</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setVirtualName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+            <NodeRef refid="754"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

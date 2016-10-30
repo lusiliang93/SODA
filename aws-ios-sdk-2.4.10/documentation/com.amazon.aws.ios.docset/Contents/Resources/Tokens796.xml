@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifyVpcEndpointRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyVpcEndpointRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifyVpcEndpoint.&lt;/p&gt;
+Required parameters: [VpcEndpointId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="796"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setAddRouteTableIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route tables IDs to associate with the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *addRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/addRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/addRouteTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route tables IDs to associate with the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *addRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/addRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/addRouteTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route tables IDs to associate with the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *addRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/addRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setPolicyDocument:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A policy document to attach to the endpoint. The policy must be in valid JSON format. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyDocument</Declaration>
+			
+			
+			<Anchor>//api/name/policyDocument</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/policyDocument</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A policy document to attach to the endpoint. The policy must be in valid JSON format. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyDocument</Declaration>
+			
+			
+			<Anchor>//api/name/policyDocument</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/policyDocument</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A policy document to attach to the endpoint. The policy must be in valid JSON format. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyDocument</Declaration>
+			
+			
+			<Anchor>//api/name/policyDocument</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setRemoveRouteTableIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs to disassociate from the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *removeRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/removeRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/removeRouteTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs to disassociate from the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *removeRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/removeRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/removeRouteTableIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more route table IDs to disassociate from the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *removeRouteTableIds</Declaration>
+			
+			
+			<Anchor>//api/name/removeRouteTableIds</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setResetPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to reset the policy document to the default policy. The default policy allows access to the service.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *resetPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/resetPolicy</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/resetPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to reset the policy document to the default policy. The default policy allows access to the service.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *resetPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/resetPolicy</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/resetPolicy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to reset the policy document to the default policy. The default policy allows access to the service.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *resetPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/resetPolicy</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/setVpcEndpointId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcEndpointId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcEndpointId</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcEndpointRequest/vpcEndpointId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcEndpointId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcEndpointId</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcEndpointRequest/vpcEndpointId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the endpoint.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcEndpointId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcEndpointId</Anchor>
+            <NodeRef refid="796"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

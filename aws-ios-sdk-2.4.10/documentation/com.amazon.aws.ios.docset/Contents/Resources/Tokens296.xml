@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityProviderUpdateUserPoolClientRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityProviderUpdateUserPoolClientRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the request to update the user pool client.&lt;/p&gt;
+Required parameters: [UserPoolId, ClientId]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="296"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setClientId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/clientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/clientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setClientName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The client name from the update user pool client request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/clientName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The client name from the update user pool client request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/clientName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The client name from the update user pool client request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setExplicitAuthFlows:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Explicit authentication flows.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *explicitAuthFlows</Declaration>
+			
+			
+			<Anchor>//api/name/explicitAuthFlows</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/explicitAuthFlows</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Explicit authentication flows.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *explicitAuthFlows</Declaration>
+			
+			
+			<Anchor>//api/name/explicitAuthFlows</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/explicitAuthFlows</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Explicit authentication flows.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *explicitAuthFlows</Declaration>
+			
+			
+			<Anchor>//api/name/explicitAuthFlows</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setReadAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read-only attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *readAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/readAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/readAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read-only attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *readAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/readAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/readAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read-only attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *readAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/readAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setRefreshTokenValidity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The validity of the refresh token.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *refreshTokenValidity</Declaration>
+			
+			
+			<Anchor>//api/name/refreshTokenValidity</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/refreshTokenValidity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The validity of the refresh token.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *refreshTokenValidity</Declaration>
+			
+			
+			<Anchor>//api/name/refreshTokenValidity</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/refreshTokenValidity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The validity of the refresh token.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *refreshTokenValidity</Declaration>
+			
+			
+			<Anchor>//api/name/refreshTokenValidity</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setUserPoolId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user pool ID for the user pool where you want to update the user pool client.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/userPoolId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/userPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user pool ID for the user pool where you want to update the user pool client.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/userPoolId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/userPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user pool ID for the user pool where you want to update the user pool client.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/userPoolId</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/setWriteAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The writeable attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *writeAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/writeAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/writeAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The writeable attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *writeAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/writeAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderUpdateUserPoolClientRequest/writeAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The writeable attributes of the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *writeAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/writeAttributes</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

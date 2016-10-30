@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQSChangeMessageVisibilityRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1635"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/setReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message whose visibility timeout should be changed. This parameter is returned by the &lt;a&gt;ReceiveMessage&lt;/a&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/receiptHandle</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message whose visibility timeout should be changed. This parameter is returned by the &lt;a&gt;ReceiveMessage&lt;/a&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityRequest/receiptHandle</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message whose visibility timeout should be changed. This parameter is returned by the &lt;a&gt;ReceiveMessage&lt;/a&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/setVisibilityTimeout:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value (in seconds - from 0 to 43200 - maximum 12 hours) for the message&apos;s visibility timeout.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityRequest/visibilityTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value (in seconds - from 0 to 43200 - maximum 12 hours) for the message&apos;s visibility timeout.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityRequest/visibilityTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value (in seconds - from 0 to 43200 - maximum 12 hours) for the message&apos;s visibility timeout.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1635"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

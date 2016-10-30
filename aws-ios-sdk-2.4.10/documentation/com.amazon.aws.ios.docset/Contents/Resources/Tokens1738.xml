@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSCognitoCredentialsProviderHelperErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoCredentialsProviderHelperErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1738"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoCredentialsProviderHelperErrorIdentityIsNil</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoCredentialsProviderHelperErrorIdentityIsNil</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1738"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoCredentialsProviderHelperErrorTokenRefreshTimeout</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoCredentialsProviderHelperErrorTokenRefreshTimeout</Declaration>
+            
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+            
+            <NodeRef refid="1738"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

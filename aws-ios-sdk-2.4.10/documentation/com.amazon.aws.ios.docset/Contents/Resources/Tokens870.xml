@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ResetInstanceAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ResetInstanceAttributeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ResetInstanceAttribute.&lt;/p&gt;
+Required parameters: [InstanceId, Attribute]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="870"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset.&lt;/p&gt;&lt;important&gt;&lt;p&gt;You can only reset the following attributes: &lt;code&gt;kernel&lt;/code&gt; | &lt;code&gt;ramdisk&lt;/code&gt; | &lt;code&gt;sourceDestCheck&lt;/code&gt;. To change an instance attribute, use &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset.&lt;/p&gt;&lt;important&gt;&lt;p&gt;You can only reset the following attributes: &lt;code&gt;kernel&lt;/code&gt; | &lt;code&gt;ramdisk&lt;/code&gt; | &lt;code&gt;sourceDestCheck&lt;/code&gt;. To change an instance attribute, use &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetInstanceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset.&lt;/p&gt;&lt;important&gt;&lt;p&gt;You can only reset the following attributes: &lt;code&gt;kernel&lt;/code&gt; | &lt;code&gt;ramdisk&lt;/code&gt; | &lt;code&gt;sourceDestCheck&lt;/code&gt;. To change an instance attribute, use &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceAttributeName attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetInstanceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetInstanceAttributeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

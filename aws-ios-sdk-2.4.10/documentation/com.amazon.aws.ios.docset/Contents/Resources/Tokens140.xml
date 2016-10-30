@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoDeprecatedIdentityProviderManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoDeprecatedIdentityProviderManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCredentialsProvider.m</DeclaredIn>
+            
+			
+			<NodeRef refid="140"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDeprecatedIdentityProviderManager/logins</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider. The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.m</DeclaredIn>
+			
+			<Declaration>- (AWSTask&lt;NSDictionary&lt;NSString*,NSString*&gt; *&gt; *)logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

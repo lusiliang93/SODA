@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSFirehoseDeliveryStreamDescription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSFirehoseDeliveryStreamDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains information about a delivery stream.&lt;/p&gt;
+Required parameters: [DeliveryStreamName, DeliveryStreamARN, DeliveryStreamStatus, VersionId, Destinations, HasMoreDestinations]</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1048"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setCreateTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/createTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/createTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/createTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/createTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/createTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setDeliveryStreamARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamARN</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamARN</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/deliveryStreamARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamARN</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamARN</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/deliveryStreamARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamARN</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamARN</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setDeliveryStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/deliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/deliveryStreamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliveryStreamName</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamName</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setDeliveryStreamStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSFirehoseDeliveryStreamStatus deliveryStreamStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamStatus</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/deliveryStreamStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSFirehoseDeliveryStreamStatus deliveryStreamStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamStatus</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/deliveryStreamStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSFirehoseDeliveryStreamStatus deliveryStreamStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryStreamStatus</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setDestinations:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destinations.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehoseDestinationDescription*&gt; *destinations</Declaration>
+			
+			
+			<Anchor>//api/name/destinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/destinations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destinations.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehoseDestinationDescription*&gt; *destinations</Declaration>
+			
+			
+			<Anchor>//api/name/destinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/destinations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destinations.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehoseDestinationDescription*&gt; *destinations</Declaration>
+			
+			
+			<Anchor>//api/name/destinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setHasMoreDestinations:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether there are more destinations available to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreDestinations</Declaration>
+			
+			
+			<Anchor>//api/name/hasMoreDestinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/hasMoreDestinations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether there are more destinations available to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreDestinations</Declaration>
+			
+			
+			<Anchor>//api/name/hasMoreDestinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/hasMoreDestinations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether there are more destinations available to list.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreDestinations</Declaration>
+			
+			
+			<Anchor>//api/name/hasMoreDestinations</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setLastUpdateTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastUpdateTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/lastUpdateTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastUpdateTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/lastUpdateTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time that the delivery stream was last updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastUpdateTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTimestamp</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/setVersionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used when calling the &lt;a&gt;UpdateDestination&lt;/a&gt; operation. Each time the destination is updated for the delivery stream, the VersionId is changed, and the current VersionId is required when updating the destination. This is so that the service knows it is applying the changes to the correct version of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseDeliveryStreamDescription/versionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used when calling the &lt;a&gt;UpdateDestination&lt;/a&gt; operation. Each time the destination is updated for the delivery stream, the VersionId is changed, and the current VersionId is required when updating the destination. This is so that the service knows it is applying the changes to the correct version of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseDeliveryStreamDescription/versionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Used when calling the &lt;a&gt;UpdateDestination&lt;/a&gt; operation. Each time the destination is updated for the delivery stream, the VersionId is changed, and the current VersionId is required when updating the destination. This is so that the service knows it is applying the changes to the correct version of the delivery stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="1048"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

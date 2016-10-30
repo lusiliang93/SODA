@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeVolumesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVolumesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeVolumes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="665"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.attach-time&lt;/code&gt; - The time stamp when the attachment initiated.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.delete-on-termination&lt;/code&gt; - Whether the volume is deleted on instance termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.device&lt;/code&gt; - The device name that is exposed to the instance (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.instance-id&lt;/code&gt; - The ID of the instance the volume is attached to.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.status&lt;/code&gt; - The attachment state (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone in which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-time&lt;/code&gt; - The time stamp when the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;encrypted&lt;/code&gt; - The encryption status of the volume.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;size&lt;/code&gt; - The size of the volume, in GiB.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;snapshot-id&lt;/code&gt; - The snapshot from which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the volume (&lt;code&gt;creating&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;in-use&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt; | &lt;code&gt;error&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-id&lt;/code&gt; - The volume ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-type&lt;/code&gt; - The Amazon EBS volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose SSD, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS SSD, &lt;code&gt;st1&lt;/code&gt; for Throughput Optimized HDD, &lt;code&gt;sc1&lt;/code&gt; for Cold HDD, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.attach-time&lt;/code&gt; - The time stamp when the attachment initiated.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.delete-on-termination&lt;/code&gt; - Whether the volume is deleted on instance termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.device&lt;/code&gt; - The device name that is exposed to the instance (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.instance-id&lt;/code&gt; - The ID of the instance the volume is attached to.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.status&lt;/code&gt; - The attachment state (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone in which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-time&lt;/code&gt; - The time stamp when the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;encrypted&lt;/code&gt; - The encryption status of the volume.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;size&lt;/code&gt; - The size of the volume, in GiB.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;snapshot-id&lt;/code&gt; - The snapshot from which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the volume (&lt;code&gt;creating&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;in-use&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt; | &lt;code&gt;error&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-id&lt;/code&gt; - The volume ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-type&lt;/code&gt; - The Amazon EBS volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose SSD, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS SSD, &lt;code&gt;st1&lt;/code&gt; for Throughput Optimized HDD, &lt;code&gt;sc1&lt;/code&gt; for Cold HDD, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumesRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.attach-time&lt;/code&gt; - The time stamp when the attachment initiated.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.delete-on-termination&lt;/code&gt; - Whether the volume is deleted on instance termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.device&lt;/code&gt; - The device name that is exposed to the instance (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.instance-id&lt;/code&gt; - The ID of the instance the volume is attached to.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.status&lt;/code&gt; - The attachment state (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone in which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-time&lt;/code&gt; - The time stamp when the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;encrypted&lt;/code&gt; - The encryption status of the volume.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;size&lt;/code&gt; - The size of the volume, in GiB.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;snapshot-id&lt;/code&gt; - The snapshot from which the volume was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the volume (&lt;code&gt;creating&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;in-use&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt; | &lt;code&gt;error&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-id&lt;/code&gt; - The volume ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;volume-type&lt;/code&gt; - The Amazon EBS volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose SSD, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS SSD, &lt;code&gt;st1&lt;/code&gt; for Throughput Optimized HDD, &lt;code&gt;sc1&lt;/code&gt; for Cold HDD, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumes&lt;/code&gt; in paginated output. When this parameter is used, &lt;code&gt;DescribeVolumes&lt;/code&gt; only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another &lt;code&gt;DescribeVolumes&lt;/code&gt; request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumes&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumes&lt;/code&gt; in paginated output. When this parameter is used, &lt;code&gt;DescribeVolumes&lt;/code&gt; only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another &lt;code&gt;DescribeVolumes&lt;/code&gt; request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumes&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumesRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of volume results returned by &lt;code&gt;DescribeVolumes&lt;/code&gt; in paginated output. When this parameter is used, &lt;code&gt;DescribeVolumes&lt;/code&gt; only returns &lt;code&gt;MaxResults&lt;/code&gt; results in a single page along with a &lt;code&gt;NextToken&lt;/code&gt; response element. The remaining results of the initial request can be seen by sending another &lt;code&gt;DescribeVolumes&lt;/code&gt; request with the returned &lt;code&gt;NextToken&lt;/code&gt; value. This value can be between 5 and 1000; if &lt;code&gt;MaxResults&lt;/code&gt; is given a value larger than 1000, only 1000 results are returned. If this parameter is not used, then &lt;code&gt;DescribeVolumes&lt;/code&gt; returns all results. You cannot specify this parameter and the volume IDs parameter in the same request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value returned from a previous paginated &lt;code&gt;DescribeVolumes&lt;/code&gt; request where &lt;code&gt;MaxResults&lt;/code&gt; was used and the results exceeded the value of that parameter. Pagination continues from the end of the previous results that returned the &lt;code&gt;NextToken&lt;/code&gt; value. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value returned from a previous paginated &lt;code&gt;DescribeVolumes&lt;/code&gt; request where &lt;code&gt;MaxResults&lt;/code&gt; was used and the results exceeded the value of that parameter. Pagination continues from the end of the previous results that returned the &lt;code&gt;NextToken&lt;/code&gt; value. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumesRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value returned from a previous paginated &lt;code&gt;DescribeVolumes&lt;/code&gt; request where &lt;code&gt;MaxResults&lt;/code&gt; was used and the results exceeded the value of that parameter. Pagination continues from the end of the previous results that returned the &lt;code&gt;NextToken&lt;/code&gt; value. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/setVolumeIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumesRequest/volumeIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumesRequest/volumeIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more volume IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *volumeIds</Declaration>
+			
+			
+			<Anchor>//api/name/volumeIds</Anchor>
+            <NodeRef refid="665"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

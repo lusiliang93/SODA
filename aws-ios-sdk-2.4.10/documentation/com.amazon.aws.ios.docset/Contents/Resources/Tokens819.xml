@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2PlacementGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PlacementGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="819"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setStrategy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/strategy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/strategy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="819"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

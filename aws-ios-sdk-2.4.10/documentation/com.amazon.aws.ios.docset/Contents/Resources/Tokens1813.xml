@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2InstanceStateName.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2InstanceStateName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1813"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNamePending</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNamePending</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameRunning</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameRunning</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameShuttingDown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameShuttingDown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameTerminated</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameTerminated</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameStopping</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameStopping</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceStateNameStopped</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceStateNameStopped</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1813"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

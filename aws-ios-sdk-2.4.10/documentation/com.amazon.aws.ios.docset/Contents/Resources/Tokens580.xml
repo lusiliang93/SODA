@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeDhcpOptionsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeDhcpOptionsResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DescribeDhcpOptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="580"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeDhcpOptionsResult/setDhcpOptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more DHCP options sets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DhcpOptions*&gt; *dhcpOptions</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptions</Anchor>
+            <NodeRef refid="580"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeDhcpOptionsResult/dhcpOptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more DHCP options sets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DhcpOptions*&gt; *dhcpOptions</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptions</Anchor>
+            <NodeRef refid="580"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeDhcpOptionsResult/dhcpOptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more DHCP options sets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2DhcpOptions*&gt; *dhcpOptions</Declaration>
+			
+			
+			<Anchor>//api/name/dhcpOptions</Anchor>
+            <NodeRef refid="580"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

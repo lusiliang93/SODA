@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeReservedInstancesListingsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeReservedInstancesListingsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeReservedInstancesListings.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="621"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setReservedInstancesId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setReservedInstancesListingId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance listing IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesListingId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance listing IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesListingId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Reserved Instance listing IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+            <NodeRef refid="621"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifySubnetAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifySubnetAttributeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifySubnetAttribute.&lt;/p&gt;
+Required parameters: [SubnetId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="793"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/setMapPublicIpOnLaunch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to indicate that instances launched into the specified subnet should be assigned public IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/mapPublicIpOnLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to indicate that instances launched into the specified subnet should be assigned public IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySubnetAttributeRequest/mapPublicIpOnLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify &lt;code&gt;true&lt;/code&gt; to indicate that instances launched into the specified subnet should be assigned public IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySubnetAttributeRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="793"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

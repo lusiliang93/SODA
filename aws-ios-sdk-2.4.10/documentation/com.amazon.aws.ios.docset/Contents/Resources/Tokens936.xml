@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2UserIdGroupPair.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2UserIdGroupPair</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a security group and AWS account ID pair. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="936"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group. In a request, use this parameter for a security group in EC2-Classic or a default VPC only. For a security group in a nondefault VPC, use the security group ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group. In a request, use this parameter for a security group in EC2-Classic or a default VPC only. For a security group in a nondefault VPC, use the security group ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group. In a request, use this parameter for a security group in EC2-Classic or a default VPC only. For a security group in a nondefault VPC, use the security group ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setPeeringStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of a VPC peering connection, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *peeringStatus</Declaration>
+			
+			
+			<Anchor>//api/name/peeringStatus</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/peeringStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of a VPC peering connection, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *peeringStatus</Declaration>
+			
+			
+			<Anchor>//api/name/peeringStatus</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/peeringStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of a VPC peering connection, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *peeringStatus</Declaration>
+			
+			
+			<Anchor>//api/name/peeringStatus</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setUserId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an AWS account. For a referenced security group in another VPC, the account ID of the referenced security group is returned.&lt;/p&gt;&lt;p&gt;[EC2-Classic] Required when adding or removing rules that reference a security group in another AWS account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/userId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an AWS account. For a referenced security group in another VPC, the account ID of the referenced security group is returned.&lt;/p&gt;&lt;p&gt;[EC2-Classic] Required when adding or removing rules that reference a security group in another AWS account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/userId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an AWS account. For a referenced security group in another VPC, the account ID of the referenced security group is returned.&lt;/p&gt;&lt;p&gt;[EC2-Classic] Required when adding or removing rules that reference a security group in another AWS account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the referenced security group, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the referenced security group, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the referenced security group, if applicable.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/setVpcPeeringConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection, if applicable. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UserIdGroupPair/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection, if applicable. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UserIdGroupPair/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection, if applicable. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

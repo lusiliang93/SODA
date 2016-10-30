@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCloudWatchMetricAlarm.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchMetricAlarm</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;a&gt;MetricAlarm&lt;/a&gt; data type represents an alarm. You can use &lt;a&gt;PutMetricAlarm&lt;/a&gt; to create or update an alarm. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="128"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setActionsEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether actions should be executed during any changes to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *actionsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/actionsEnabled</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/actionsEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether actions should be executed during any changes to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *actionsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/actionsEnabled</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/actionsEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether actions should be executed during any changes to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *actionsEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/actionsEnabled</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setAlarmActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;ALARM&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *alarmActions</Declaration>
+			
+			
+			<Anchor>//api/name/alarmActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/alarmActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;ALARM&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *alarmActions</Declaration>
+			
+			
+			<Anchor>//api/name/alarmActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/alarmActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;ALARM&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *alarmActions</Declaration>
+			
+			
+			<Anchor>//api/name/alarmActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setAlarmArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmArn</Declaration>
+			
+			
+			<Anchor>//api/name/alarmArn</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/alarmArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmArn</Declaration>
+			
+			
+			<Anchor>//api/name/alarmArn</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/alarmArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmArn</Declaration>
+			
+			
+			<Anchor>//api/name/alarmArn</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setAlarmConfigurationUpdatedTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *alarmConfigurationUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/alarmConfigurationUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/alarmConfigurationUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *alarmConfigurationUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/alarmConfigurationUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/alarmConfigurationUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm configuration.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *alarmConfigurationUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/alarmConfigurationUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setAlarmDescription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmDescription</Declaration>
+			
+			
+			<Anchor>//api/name/alarmDescription</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/alarmDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmDescription</Declaration>
+			
+			
+			<Anchor>//api/name/alarmDescription</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/alarmDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmDescription</Declaration>
+			
+			
+			<Anchor>//api/name/alarmDescription</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setAlarmName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/alarmName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/alarmName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
+			
+			
+			<Anchor>//api/name/alarmName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setComparisonOperator:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The arithmetic operation to use when comparing the specified &lt;code&gt;Statistic&lt;/code&gt; and &lt;code&gt;Threshold&lt;/code&gt;. The specified &lt;code&gt;Statistic&lt;/code&gt; value is used as the first operand. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchComparisonOperator comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/comparisonOperator</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The arithmetic operation to use when comparing the specified &lt;code&gt;Statistic&lt;/code&gt; and &lt;code&gt;Threshold&lt;/code&gt;. The specified &lt;code&gt;Statistic&lt;/code&gt; value is used as the first operand. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchComparisonOperator comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/comparisonOperator</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The arithmetic operation to use when comparing the specified &lt;code&gt;Statistic&lt;/code&gt; and &lt;code&gt;Threshold&lt;/code&gt;. The specified &lt;code&gt;Statistic&lt;/code&gt; value is used as the first operand. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchComparisonOperator comparisonOperator</Declaration>
+			
+			
+			<Anchor>//api/name/comparisonOperator</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setDimensions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The list of dimensions associated with the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The list of dimensions associated with the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The list of dimensions associated with the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setEvaluationPeriods:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of periods over which data is compared to the specified threshold.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *evaluationPeriods</Declaration>
+			
+			
+			<Anchor>//api/name/evaluationPeriods</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/evaluationPeriods</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of periods over which data is compared to the specified threshold.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *evaluationPeriods</Declaration>
+			
+			
+			<Anchor>//api/name/evaluationPeriods</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/evaluationPeriods</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of periods over which data is compared to the specified threshold.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *evaluationPeriods</Declaration>
+			
+			
+			<Anchor>//api/name/evaluationPeriods</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setInsufficientDataActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;&lt;important&gt;&lt;p&gt;The current WSDL lists this attribute as &lt;code&gt;UnknownActions&lt;/code&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *insufficientDataActions</Declaration>
+			
+			
+			<Anchor>//api/name/insufficientDataActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/insufficientDataActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;&lt;important&gt;&lt;p&gt;The current WSDL lists this attribute as &lt;code&gt;UnknownActions&lt;/code&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *insufficientDataActions</Declaration>
+			
+			
+			<Anchor>//api/name/insufficientDataActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/insufficientDataActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;&lt;important&gt;&lt;p&gt;The current WSDL lists this attribute as &lt;code&gt;UnknownActions&lt;/code&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *insufficientDataActions</Declaration>
+			
+			
+			<Anchor>//api/name/insufficientDataActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setMetricName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm&apos;s metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm&apos;s metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the alarm&apos;s metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setNamespace:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setOKActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;OK&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *OKActions</Declaration>
+			
+			
+			<Anchor>//api/name/OKActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/OKActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;OK&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *OKActions</Declaration>
+			
+			
+			<Anchor>//api/name/OKActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/OKActions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of actions to execute when this alarm transitions into an &lt;code&gt;OK&lt;/code&gt; state from any other state. Each action is specified as an Amazon Resource Name (ARN). &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *OKActions</Declaration>
+			
+			
+			<Anchor>//api/name/OKActions</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setPeriod:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The period in seconds over which the statistic is applied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The period in seconds over which the statistic is applied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The period in seconds over which the statistic is applied.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setStateReason:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A human-readable explanation for the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/stateReason</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A human-readable explanation for the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/stateReason</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A human-readable explanation for the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReason</Declaration>
+			
+			
+			<Anchor>//api/name/stateReason</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setStateReasonData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An explanation for the alarm&apos;s state in machine-readable JSON format&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReasonData</Declaration>
+			
+			
+			<Anchor>//api/name/stateReasonData</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/stateReasonData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An explanation for the alarm&apos;s state in machine-readable JSON format&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReasonData</Declaration>
+			
+			
+			<Anchor>//api/name/stateReasonData</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/stateReasonData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An explanation for the alarm&apos;s state in machine-readable JSON format&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stateReasonData</Declaration>
+			
+			
+			<Anchor>//api/name/stateReasonData</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setStateUpdatedTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *stateUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/stateUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/stateUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *stateUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/stateUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/stateUpdatedTimestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp of the last update to the alarm&apos;s state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *stateUpdatedTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/stateUpdatedTimestamp</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setStateValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state value for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStateValue stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/stateValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state value for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStateValue stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/stateValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state value for the alarm.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStateValue stateValue</Declaration>
+			
+			
+			<Anchor>//api/name/stateValue</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setStatistic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The statistic to apply to the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/statistic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The statistic to apply to the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/statistic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The statistic to apply to the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setThreshold:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value against which the specified statistic is compared.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/threshold</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value against which the specified statistic is compared.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/threshold</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value against which the specified statistic is compared.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *threshold</Declaration>
+			
+			
+			<Anchor>//api/name/threshold</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/setUnit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricAlarm/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricAlarm/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the alarm&apos;s associated metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

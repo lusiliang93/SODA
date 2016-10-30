@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DiskImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="700"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setImage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/image</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/image</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/volume</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/volume</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="700"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

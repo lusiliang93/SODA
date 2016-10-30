@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CancelSpotFleetRequestsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelSpotFleetRequestsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CancelSpotFleetRequests.&lt;/p&gt;
+Required parameters: [SpotFleetRequestIds, TerminateInstances]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="474"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/setSpotFleetRequestIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Spot fleet requests.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotFleetRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestIds</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/spotFleetRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Spot fleet requests.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotFleetRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestIds</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsRequest/spotFleetRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the Spot fleet requests.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *spotFleetRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestIds</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/setTerminateInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to terminate instances for a Spot fleet request if it is canceled successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *terminateInstances</Declaration>
+			
+			
+			<Anchor>//api/name/terminateInstances</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsRequest/terminateInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to terminate instances for a Spot fleet request if it is canceled successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *terminateInstances</Declaration>
+			
+			
+			<Anchor>//api/name/terminateInstances</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsRequest/terminateInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to terminate instances for a Spot fleet request if it is canceled successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *terminateInstances</Declaration>
+			
+			
+			<Anchor>//api/name/terminateInstances</Anchor>
+            <NodeRef refid="474"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

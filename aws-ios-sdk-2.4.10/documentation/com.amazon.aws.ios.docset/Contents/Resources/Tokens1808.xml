@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2ImageAttributeName.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ImageAttributeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1808"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameDescription</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameDescription</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameKernel</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameKernel</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameRAMDisk</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameRAMDisk</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameLaunchPermission</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameLaunchPermission</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameProductCodes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameProductCodes</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameBlockDeviceMapping</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameBlockDeviceMapping</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageAttributeNameSriovNetSupport</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ImageAttributeNameSriovNetSupport</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1808"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

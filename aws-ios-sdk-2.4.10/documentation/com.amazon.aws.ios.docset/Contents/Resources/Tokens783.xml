@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifyImageAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyImageAttributeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifyImageAttribute.&lt;/p&gt;
+Required parameters: [ImageId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="783"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attribute</Declaration>
+			
+			
+			<Anchor>//api/name/attribute</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setLaunchPermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A launch permission modification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2LaunchPermissionModifications *launchPermission</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermission</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/launchPermission</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A launch permission modification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2LaunchPermissionModifications *launchPermission</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermission</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/launchPermission</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A launch permission modification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2LaunchPermissionModifications *launchPermission</Declaration>
+			
+			
+			<Anchor>//api/name/launchPermission</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setOperationType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The operation type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2OperationType operationType</Declaration>
+			
+			
+			<Anchor>//api/name/operationType</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/operationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The operation type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2OperationType operationType</Declaration>
+			
+			
+			<Anchor>//api/name/operationType</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/operationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The operation type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2OperationType operationType</Declaration>
+			
+			
+			<Anchor>//api/name/operationType</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes. After you add a product code to an AMI, it can&apos;t be removed. This is only valid when modifying the &lt;code&gt;productCodes&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes. After you add a product code to an AMI, it can&apos;t be removed. This is only valid when modifying the &lt;code&gt;productCodes&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes. After you add a product code to an AMI, it can&apos;t be removed. This is only valid when modifying the &lt;code&gt;productCodes&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *productCodes</Declaration>
+			
+			
+			<Anchor>//api/name/productCodes</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setUserGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more user groups. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userGroups</Declaration>
+			
+			
+			<Anchor>//api/name/userGroups</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/userGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more user groups. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userGroups</Declaration>
+			
+			
+			<Anchor>//api/name/userGroups</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/userGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more user groups. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userGroups</Declaration>
+			
+			
+			<Anchor>//api/name/userGroups</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setUserIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more AWS account IDs. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userIds</Declaration>
+			
+			
+			<Anchor>//api/name/userIds</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/userIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more AWS account IDs. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userIds</Declaration>
+			
+			
+			<Anchor>//api/name/userIds</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/userIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more AWS account IDs. This is only valid when modifying the &lt;code&gt;launchPermission&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *userIds</Declaration>
+			
+			
+			<Anchor>//api/name/userIds</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute being modified. This is only valid when modifying the &lt;code&gt;description&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyImageAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute being modified. This is only valid when modifying the &lt;code&gt;description&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyImageAttributeRequest/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute being modified. This is only valid when modifying the &lt;code&gt;description&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="783"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

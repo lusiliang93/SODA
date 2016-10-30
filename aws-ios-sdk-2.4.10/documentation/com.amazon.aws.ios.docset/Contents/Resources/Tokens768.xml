@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2InstanceStatusEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatusEvent</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a scheduled event for an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="768"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/setCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventCode code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventCode code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusEvent/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2EventCode code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;&lt;p&gt;After a scheduled event is completed, it can still be described for up to a week. If the event has been completed, this description starts with the following text: [Completed].&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;&lt;p&gt;After a scheduled event is completed, it can still be described for up to a week. If the event has been completed, this description starts with the following text: [Completed].&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusEvent/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;&lt;p&gt;After a scheduled event is completed, it can still be described for up to a week. If the event has been completed, this description starts with the following text: [Completed].&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/setNotAfter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest scheduled end time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/notAfter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest scheduled end time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusEvent/notAfter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest scheduled end time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/setNotBefore:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest scheduled start time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusEvent/notBefore</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest scheduled start time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusEvent/notBefore</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest scheduled start time for the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="768"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

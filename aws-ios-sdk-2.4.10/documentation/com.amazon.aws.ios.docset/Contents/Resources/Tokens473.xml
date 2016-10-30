@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CancelSpotFleetRequestsErrorItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelSpotFleetRequestsErrorItem</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a Spot fleet request that was not successfully canceled.&lt;/p&gt;
+Required parameters: [SpotFleetRequestId, Error]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="473"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsErrorItem/setError:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2CancelSpotFleetRequestsError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsErrorItem/error</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2CancelSpotFleetRequestsError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsErrorItem/error</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2CancelSpotFleetRequestsError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsErrorItem/setSpotFleetRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotFleetRequestsErrorItem/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotFleetRequestsErrorItem/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="473"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

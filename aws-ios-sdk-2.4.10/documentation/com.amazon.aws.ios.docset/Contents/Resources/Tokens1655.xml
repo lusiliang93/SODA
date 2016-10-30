@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSQSReceiveMessageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p/&gt;
+Required parameters: [QueueUrl]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1655"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setAttributeNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes that need to be returned along with each message. These attributes include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateFirstReceiveTimestamp&lt;/code&gt; - returns the time when the message was first received from the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateReceiveCount&lt;/code&gt; - returns the number of times a message has been received from the queue but not deleted.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SenderId&lt;/code&gt; - returns the AWS account number (or the IP address, if anonymous access is allowed) of the sender.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SentTimestamp&lt;/code&gt; - returns the time when the message was sent to the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Any other valid special request parameters that are specified (such as &lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesDelayed&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesNotVisible&lt;/code&gt;, &lt;code&gt;CreatedTimestamp&lt;/code&gt;, &lt;code&gt;DelaySeconds&lt;/code&gt;, &lt;code&gt;LastModifiedTimestamp&lt;/code&gt;, &lt;code&gt;MaximumMessageSize&lt;/code&gt;, &lt;code&gt;MessageRetentionPeriod&lt;/code&gt;, &lt;code&gt;Policy&lt;/code&gt;, &lt;code&gt;QueueArn&lt;/code&gt;, &lt;code&gt;ReceiveMessageWaitTimeSeconds&lt;/code&gt;, &lt;code&gt;RedrivePolicy&lt;/code&gt;, and &lt;code&gt;VisibilityTimeout&lt;/code&gt;) will be ignored.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes that need to be returned along with each message. These attributes include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateFirstReceiveTimestamp&lt;/code&gt; - returns the time when the message was first received from the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateReceiveCount&lt;/code&gt; - returns the number of times a message has been received from the queue but not deleted.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SenderId&lt;/code&gt; - returns the AWS account number (or the IP address, if anonymous access is allowed) of the sender.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SentTimestamp&lt;/code&gt; - returns the time when the message was sent to the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Any other valid special request parameters that are specified (such as &lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesDelayed&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesNotVisible&lt;/code&gt;, &lt;code&gt;CreatedTimestamp&lt;/code&gt;, &lt;code&gt;DelaySeconds&lt;/code&gt;, &lt;code&gt;LastModifiedTimestamp&lt;/code&gt;, &lt;code&gt;MaximumMessageSize&lt;/code&gt;, &lt;code&gt;MessageRetentionPeriod&lt;/code&gt;, &lt;code&gt;Policy&lt;/code&gt;, &lt;code&gt;QueueArn&lt;/code&gt;, &lt;code&gt;ReceiveMessageWaitTimeSeconds&lt;/code&gt;, &lt;code&gt;RedrivePolicy&lt;/code&gt;, and &lt;code&gt;VisibilityTimeout&lt;/code&gt;) will be ignored.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/attributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of attributes that need to be returned along with each message. These attributes include:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;All&lt;/code&gt; - returns all values.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateFirstReceiveTimestamp&lt;/code&gt; - returns the time when the message was first received from the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ApproximateReceiveCount&lt;/code&gt; - returns the number of times a message has been received from the queue but not deleted.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SenderId&lt;/code&gt; - returns the AWS account number (or the IP address, if anonymous access is allowed) of the sender.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;SentTimestamp&lt;/code&gt; - returns the time when the message was sent to the queue (epoch time in milliseconds).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Any other valid special request parameters that are specified (such as &lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesDelayed&lt;/code&gt;, &lt;code&gt;ApproximateNumberOfMessagesNotVisible&lt;/code&gt;, &lt;code&gt;CreatedTimestamp&lt;/code&gt;, &lt;code&gt;DelaySeconds&lt;/code&gt;, &lt;code&gt;LastModifiedTimestamp&lt;/code&gt;, &lt;code&gt;MaximumMessageSize&lt;/code&gt;, &lt;code&gt;MessageRetentionPeriod&lt;/code&gt;, &lt;code&gt;Policy&lt;/code&gt;, &lt;code&gt;QueueArn&lt;/code&gt;, &lt;code&gt;ReceiveMessageWaitTimeSeconds&lt;/code&gt;, &lt;code&gt;RedrivePolicy&lt;/code&gt;, and &lt;code&gt;VisibilityTimeout&lt;/code&gt;) will be ignored.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *attributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setMaxNumberOfMessages:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of messages to return. Amazon SQS never returns more messages than this value but may return fewer. Values can be from 1 to 10. Default is 1.&lt;/p&gt;&lt;p&gt;All of the messages are not necessarily returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfMessages</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfMessages</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/maxNumberOfMessages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of messages to return. Amazon SQS never returns more messages than this value but may return fewer. Values can be from 1 to 10. Default is 1.&lt;/p&gt;&lt;p&gt;All of the messages are not necessarily returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfMessages</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfMessages</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/maxNumberOfMessages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of messages to return. Amazon SQS never returns more messages than this value but may return fewer. Values can be from 1 to 10. Default is 1.&lt;/p&gt;&lt;p&gt;All of the messages are not necessarily returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfMessages</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfMessages</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setMessageAttributeNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the message attribute, where &lt;i&gt;N&lt;/i&gt; is the index. The message attribute name can contain the following characters: A-Z, a-z, 0-9, underscore (_), hyphen (-), and period (.). The name must not start or end with a period, and it should not have successive periods. The name is case sensitive and must be unique among all attribute names for the message. The name can be up to 256 characters long. The name cannot start with &quot;AWS.&quot; or &quot;Amazon.&quot; (or any variations in casing), because these prefixes are reserved for use by Amazon Web Services.&lt;/p&gt;&lt;p&gt;When using &lt;code&gt;ReceiveMessage&lt;/code&gt;, you can send a list of attribute names to receive, or you can return all of the attributes by specifying &quot;All&quot; or &quot;.&quot; in your request. You can also use &quot;bar.&quot; to return all message attributes starting with the &quot;bar&quot; prefix.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *messageAttributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/messageAttributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the message attribute, where &lt;i&gt;N&lt;/i&gt; is the index. The message attribute name can contain the following characters: A-Z, a-z, 0-9, underscore (_), hyphen (-), and period (.). The name must not start or end with a period, and it should not have successive periods. The name is case sensitive and must be unique among all attribute names for the message. The name can be up to 256 characters long. The name cannot start with &quot;AWS.&quot; or &quot;Amazon.&quot; (or any variations in casing), because these prefixes are reserved for use by Amazon Web Services.&lt;/p&gt;&lt;p&gt;When using &lt;code&gt;ReceiveMessage&lt;/code&gt;, you can send a list of attribute names to receive, or you can return all of the attributes by specifying &quot;All&quot; or &quot;.&quot; in your request. You can also use &quot;bar.&quot; to return all message attributes starting with the &quot;bar&quot; prefix.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *messageAttributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/messageAttributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the message attribute, where &lt;i&gt;N&lt;/i&gt; is the index. The message attribute name can contain the following characters: A-Z, a-z, 0-9, underscore (_), hyphen (-), and period (.). The name must not start or end with a period, and it should not have successive periods. The name is case sensitive and must be unique among all attribute names for the message. The name can be up to 256 characters long. The name cannot start with &quot;AWS.&quot; or &quot;Amazon.&quot; (or any variations in casing), because these prefixes are reserved for use by Amazon Web Services.&lt;/p&gt;&lt;p&gt;When using &lt;code&gt;ReceiveMessage&lt;/code&gt;, you can send a list of attribute names to receive, or you can return all of the attributes by specifying &quot;All&quot; or &quot;.&quot; in your request. You can also use &quot;bar.&quot; to return all message attributes starting with the &quot;bar&quot; prefix.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *messageAttributeNames</Declaration>
+			
+			
+			<Anchor>//api/name/messageAttributeNames</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;&lt;p&gt;Queue URLs are case-sensitive.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setVisibilityTimeout:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) that the received messages are hidden from subsequent retrieve requests after being retrieved by a &lt;code&gt;ReceiveMessage&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/visibilityTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) that the received messages are hidden from subsequent retrieve requests after being retrieved by a &lt;code&gt;ReceiveMessage&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/visibilityTimeout</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) that the received messages are hidden from subsequent retrieve requests after being retrieved by a &lt;code&gt;ReceiveMessage&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *visibilityTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/visibilityTimeout</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/setWaitTimeSeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) for which the call will wait for a message to arrive in the queue before returning. If a message is available, the call will return sooner than WaitTimeSeconds.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *waitTimeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/waitTimeSeconds</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageRequest/waitTimeSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) for which the call will wait for a message to arrive in the queue before returning. If a message is available, the call will return sooner than WaitTimeSeconds.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *waitTimeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/waitTimeSeconds</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageRequest/waitTimeSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration (in seconds) for which the call will wait for a message to arrive in the queue before returning. If a message is available, the call will return sooner than WaitTimeSeconds.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *waitTimeSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/waitTimeSeconds</Anchor>
+            <NodeRef refid="1655"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

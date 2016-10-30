@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSLambdaRuntime.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSLambdaRuntime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1896"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaRuntimeUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaRuntimeUnknown</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1896"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaRuntimeNodejs</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaRuntimeNodejs</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1896"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaRuntimeNodejs43</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaRuntimeNodejs43</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1896"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaRuntimeJava8</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaRuntimeJava8</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1896"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaRuntimePython27</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaRuntimePython27</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1896"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

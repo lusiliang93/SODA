@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSimpleDBDeletableAttribute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBDeletableAttribute</TokenIdentifier>
+			<Abstract type="html">&lt;p/&gt;
+Required parameters: [Name]</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1691"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeletableAttribute/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeletableAttribute/name</TokenIdentifier>
+			<Abstract type="html">The name of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDeletableAttribute/name</TokenIdentifier>
+			<Abstract type="html">The name of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeletableAttribute/setValue:</TokenIdentifier>
+			<Abstract type="html">The value of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeletableAttribute/value</TokenIdentifier>
+			<Abstract type="html">The value of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDeletableAttribute/value</TokenIdentifier>
+			<Abstract type="html">The value of the attribute.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1691"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

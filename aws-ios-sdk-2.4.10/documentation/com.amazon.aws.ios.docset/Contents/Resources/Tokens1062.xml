@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSFirehosePutRecordBatchOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSFirehosePutRecordBatchOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of &lt;a&gt;PutRecordBatch&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [FailedPutCount, RequestResponses]</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1062"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehosePutRecordBatchOutput/setFailedPutCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully written records.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedPutCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedPutCount</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehosePutRecordBatchOutput/failedPutCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully written records.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedPutCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedPutCount</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehosePutRecordBatchOutput/failedPutCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully written records.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedPutCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedPutCount</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehosePutRecordBatchOutput/setRequestResponses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The results for the individual records. The index of each element matches the same index in which records were sent.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehosePutRecordBatchResponseEntry*&gt; *requestResponses</Declaration>
+			
+			
+			<Anchor>//api/name/requestResponses</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehosePutRecordBatchOutput/requestResponses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The results for the individual records. The index of each element matches the same index in which records were sent.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehosePutRecordBatchResponseEntry*&gt; *requestResponses</Declaration>
+			
+			
+			<Anchor>//api/name/requestResponses</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehosePutRecordBatchOutput/requestResponses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The results for the individual records. The index of each element matches the same index in which records were sent.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSFirehosePutRecordBatchResponseEntry*&gt; *requestResponses</Declaration>
+			
+			
+			<Anchor>//api/name/requestResponses</Anchor>
+            <NodeRef refid="1062"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

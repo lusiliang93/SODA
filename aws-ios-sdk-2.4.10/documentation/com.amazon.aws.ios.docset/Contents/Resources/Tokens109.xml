@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCloudWatch.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run on AWS in real-time. You can use CloudWatch to collect and track metrics, which are the variables you want to measure for your resources and applications.&lt;/p&gt;&lt;p&gt;CloudWatch alarms send notifications or automatically make changes to the resources you are monitoring based on rules that you define. For example, you can monitor the CPU usage and disk reads and writes of your Amazon Elastic Compute Cloud (Amazon EC2) instances and then use this data to determine whether you should launch additional instances to handle increased load. You can also use this data to stop under-used instances to save money.&lt;/p&gt;&lt;p&gt;In addition to monitoring the built-in metrics that come with AWS, you can monitor your own custom metrics. With CloudWatch, you gain system-wide visibility into resource utilization, application performance, and operational health.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatch/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCloudWatch/defaultCloudWatch</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultCloudWatch</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultCloudWatch</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCloudWatch/registerCloudWatchWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerCloudWatchWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerCloudWatchWithConfiguration:forKey:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCloudWatch/CloudWatchForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerCloudWatchWithConfiguration:forKey: before invoking this method.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)CloudWatchForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/CloudWatchForKey:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCloudWatch/removeCloudWatchForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+			<Declaration>+ (void)removeCloudWatchForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeCloudWatchForKey:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/deleteAlarms:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes all specified alarms. In the event of an error, no alarms are deleted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDeleteAlarmsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteAlarms service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteAlarms:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/deleteAlarms:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes all specified alarms. In the event of an error, no alarms are deleted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDeleteAlarmsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteAlarms service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteAlarms:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarmHistory:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves history for the specified alarm. Filter alarms by date range or item type. If an alarm name is not specified, Amazon CloudWatch returns histories for all of the owner&apos;s alarms.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Amazon CloudWatch retains the history of an alarm for two weeks, whether or not you delete the alarm.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmHistoryInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmHistoryOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSCloudWatchDescribeAlarmHistoryOutput*&gt; *)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmHistory service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmHistoryOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarmHistory:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarmHistory:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves history for the specified alarm. Filter alarms by date range or item type. If an alarm name is not specified, Amazon CloudWatch returns histories for all of the owner&apos;s alarms.&lt;/p&gt;&lt;note&gt;&lt;p&gt;Amazon CloudWatch retains the history of an alarm for two weeks, whether or not you delete the alarm.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmHistoryInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmHistoryOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)request completionHandler:(void ( ^ _Nullable ) ( AWSCloudWatchDescribeAlarmHistoryOutput *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmHistory service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeAlarmHistory:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarms:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves alarms with the specified names. If no name is specified, all alarms for the user are returned. Alarms can be retrieved by using only a prefix for the alarm name, the alarm state, or a prefix for any action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSCloudWatchDescribeAlarmsOutput*&gt; *)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarms service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarms:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarms:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves alarms with the specified names. If no name is specified, all alarms for the user are returned. Alarms can be retrieved by using only a prefix for the alarm name, the alarm state, or a prefix for any action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)request completionHandler:(void ( ^ _Nullable ) ( AWSCloudWatchDescribeAlarmsOutput *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarms service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeAlarms:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarmsForMetric:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves all alarms for a single metric. Specify a statistic, period, or unit to filter the set of alarms further.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsForMetricInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsForMetricOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSCloudWatchDescribeAlarmsForMetricOutput*&gt; *)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmsForMetric service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsForMetricOutput.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeAlarmsForMetric:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/describeAlarmsForMetric:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Retrieves all alarms for a single metric. Specify a statistic, period, or unit to filter the set of alarms further.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsForMetricInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsForMetricOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)request completionHandler:(void ( ^ _Nullable ) ( AWSCloudWatchDescribeAlarmsForMetricOutput *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmsForMetric service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/describeAlarmsForMetric:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/disableAlarmActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disables actions for the specified alarms. When an alarm&apos;s actions are disabled the alarm&apos;s state may change, but none of the alarm&apos;s actions will execute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDisableAlarmActionsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableAlarmActions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/disableAlarmActions:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/disableAlarmActions:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disables actions for the specified alarms. When an alarm&apos;s actions are disabled the alarm&apos;s state may change, but none of the alarm&apos;s actions will execute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDisableAlarmActionsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DisableAlarmActions service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/disableAlarmActions:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/enableAlarmActions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables actions for the specified alarms.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchEnableAlarmActionsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableAlarmActions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/enableAlarmActions:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/enableAlarmActions:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Enables actions for the specified alarms.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchEnableAlarmActionsInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the EnableAlarmActions service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enableAlarmActions:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/getMetricStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets statistics for the specified metric.&lt;/p&gt;&lt;p&gt; The maximum number of data points that can be queried is 50,850, whereas the maximum number of data points returned from a single &lt;code&gt;GetMetricStatistics&lt;/code&gt; request is 1,440. If you make a request that generates more than 1,440 data points, Amazon CloudWatch returns an error. In such a case, you can alter the request by narrowing the specified time range or increasing the specified period. A period can be as short as one minute (60 seconds) or as long as one day (86,400 seconds). Alternatively, you can make multiple requests across adjacent time ranges. &lt;code&gt;GetMetricStatistics&lt;/code&gt; does not return the data in chronological order. &lt;/p&gt;&lt;p&gt; Amazon CloudWatch aggregates data points based on the length of the &lt;code&gt;period&lt;/code&gt; that you specify. For example, if you request statistics with a one-minute granularity, Amazon CloudWatch aggregates data points with time stamps that fall within the same one-minute period. In such a case, the data points queried can greatly outnumber the data points returned. &lt;/p&gt;&lt;p&gt; The following examples show various statistics allowed by the data point query maximum of 50,850 when you call &lt;code&gt;GetMetricStatistics&lt;/code&gt; on Amazon EC2 instances with detailed (one-minute) monitoring enabled: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 400 instances for a span of one hour&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 35 instances over a span of 24 hours&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 2 instances over a span of 2 weeks&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; For information about the namespace, metric names, and dimensions that other Amazon Web Services products use to send metrics to CloudWatch, go to Amazon CloudWatch Metrics, Namespaces, and Dimensions Reference in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSCloudWatchGetMetricStatisticsOutput*&gt; *)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetMetricStatistics service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchGetMetricStatisticsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
+			<Anchor>//api/name/getMetricStatistics:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/getMetricStatistics:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets statistics for the specified metric.&lt;/p&gt;&lt;p&gt; The maximum number of data points that can be queried is 50,850, whereas the maximum number of data points returned from a single &lt;code&gt;GetMetricStatistics&lt;/code&gt; request is 1,440. If you make a request that generates more than 1,440 data points, Amazon CloudWatch returns an error. In such a case, you can alter the request by narrowing the specified time range or increasing the specified period. A period can be as short as one minute (60 seconds) or as long as one day (86,400 seconds). Alternatively, you can make multiple requests across adjacent time ranges. &lt;code&gt;GetMetricStatistics&lt;/code&gt; does not return the data in chronological order. &lt;/p&gt;&lt;p&gt; Amazon CloudWatch aggregates data points based on the length of the &lt;code&gt;period&lt;/code&gt; that you specify. For example, if you request statistics with a one-minute granularity, Amazon CloudWatch aggregates data points with time stamps that fall within the same one-minute period. In such a case, the data points queried can greatly outnumber the data points returned. &lt;/p&gt;&lt;p&gt; The following examples show various statistics allowed by the data point query maximum of 50,850 when you call &lt;code&gt;GetMetricStatistics&lt;/code&gt; on Amazon EC2 instances with detailed (one-minute) monitoring enabled: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 400 instances for a span of one hour&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 35 instances over a span of 24 hours&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Statistics for up to 2 instances over a span of 2 weeks&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; For information about the namespace, metric names, and dimensions that other Amazon Web Services products use to send metrics to CloudWatch, go to Amazon CloudWatch Metrics, Namespaces, and Dimensions Reference in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)request completionHandler:(void ( ^ _Nullable ) ( AWSCloudWatchGetMetricStatisticsOutput *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetMetricStatistics service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getMetricStatistics:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/listMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of valid metrics stored for the AWS account owner. Returned metrics can be used with &lt;a&gt;GetMetricStatistics&lt;/a&gt; to obtain statistical data for a given metric. &lt;/p&gt;&lt;note&gt;&lt;p&gt; Up to 500 results are returned for any one call. To retrieve further results, use returned &lt;code&gt;NextToken&lt;/code&gt; values with subsequent &lt;code&gt;ListMetrics&lt;/code&gt; operations.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt; If you create a metric with &lt;a&gt;PutMetricData&lt;/a&gt;, allow up to fifteen minutes for the metric to appear in calls to &lt;code&gt;ListMetrics&lt;/code&gt;. Statistics about the metric, however, are available sooner using &lt;a&gt;GetMetricStatistics&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask&lt;AWSCloudWatchListMetricsOutput*&gt; *)listMetrics:(AWSCloudWatchListMetricsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListMetrics service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchListMetricsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInternalService, AWSCloudWatchErrorInvalidParameterValue.</Abstract></ReturnValue>
+			<Anchor>//api/name/listMetrics:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/listMetrics:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Returns a list of valid metrics stored for the AWS account owner. Returned metrics can be used with &lt;a&gt;GetMetricStatistics&lt;/a&gt; to obtain statistical data for a given metric. &lt;/p&gt;&lt;note&gt;&lt;p&gt; Up to 500 results are returned for any one call. To retrieve further results, use returned &lt;code&gt;NextToken&lt;/code&gt; values with subsequent &lt;code&gt;ListMetrics&lt;/code&gt; operations.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt; If you create a metric with &lt;a&gt;PutMetricData&lt;/a&gt;, allow up to fifteen minutes for the metric to appear in calls to &lt;code&gt;ListMetrics&lt;/code&gt;. Statistics about the metric, however, are available sooner using &lt;a&gt;GetMetricStatistics&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsOutput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)listMetrics:(AWSCloudWatchListMetricsInput *)request completionHandler:(void ( ^ _Nullable ) ( AWSCloudWatchListMetricsOutput *_Nullable response , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListMetrics service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          response - A response object, or nil if the request failed.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInternalService, AWSCloudWatchErrorInvalidParameterValue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listMetrics:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/putMetricAlarm:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates or updates an alarm and associates it with the specified Amazon CloudWatch metric. Optionally, this operation can associate one or more Amazon SNS resources with the alarm.&lt;/p&gt;&lt;p&gt; When this operation creates an alarm, the alarm state is immediately set to &lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt;. The alarm is evaluated and its &lt;code&gt;StateValue&lt;/code&gt; is set appropriately. Any actions associated with the &lt;code&gt;StateValue&lt;/code&gt; are then executed. &lt;/p&gt;&lt;note&gt;&lt;p&gt;When updating an existing alarm, its &lt;code&gt;StateValue&lt;/code&gt; is left unchanged, but it completely overwrites the alarm&apos;s previous configuration.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt;If you are using an AWS Identity and Access Management (IAM) account to create or modify an alarm, you must have the following Amazon EC2 permissions:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:DescribeInstanceStatus&lt;/code&gt; and &lt;code&gt;ec2:DescribeInstances&lt;/code&gt; for all alarms on Amazon EC2 instance status metrics.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:StopInstances&lt;/code&gt; for alarms with stop actions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:TerminateInstances&lt;/code&gt; for alarms with terminate actions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:DescribeInstanceRecoveryAttribute&lt;/code&gt;, and &lt;code&gt;ec2:RecoverInstances&lt;/code&gt; for alarms with recover actions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you have read/write permissions for Amazon CloudWatch but not for Amazon EC2, you can still create an alarm but the stop or terminate actions won&apos;t be performed on the Amazon EC2 instance. However, if you are later granted permission to use the associated Amazon EC2 APIs, the alarm actions you created earlier will be performed. For more information about IAM permissions, see Permissions and Policies in &lt;i&gt;Using IAM&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;If you are using an IAM role (e.g., an Amazon EC2 instance profile), you cannot stop or terminate the instance using alarm actions. However, you can still see the alarm state and perform any other actions such as Amazon SNS notifications or Auto Scaling policies.&lt;/p&gt;&lt;p&gt;If you are using temporary security credentials granted using the AWS Security Token Service (AWS STS), you cannot stop or terminate an Amazon EC2 instance using alarm actions.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchPutMetricAlarmInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutMetricAlarm service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/putMetricAlarm:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/putMetricAlarm:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates or updates an alarm and associates it with the specified Amazon CloudWatch metric. Optionally, this operation can associate one or more Amazon SNS resources with the alarm.&lt;/p&gt;&lt;p&gt; When this operation creates an alarm, the alarm state is immediately set to &lt;code&gt;INSUFFICIENT_DATA&lt;/code&gt;. The alarm is evaluated and its &lt;code&gt;StateValue&lt;/code&gt; is set appropriately. Any actions associated with the &lt;code&gt;StateValue&lt;/code&gt; are then executed. &lt;/p&gt;&lt;note&gt;&lt;p&gt;When updating an existing alarm, its &lt;code&gt;StateValue&lt;/code&gt; is left unchanged, but it completely overwrites the alarm&apos;s previous configuration.&lt;/p&gt;&lt;/note&gt;&lt;note&gt;&lt;p&gt;If you are using an AWS Identity and Access Management (IAM) account to create or modify an alarm, you must have the following Amazon EC2 permissions:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:DescribeInstanceStatus&lt;/code&gt; and &lt;code&gt;ec2:DescribeInstances&lt;/code&gt; for all alarms on Amazon EC2 instance status metrics.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:StopInstances&lt;/code&gt; for alarms with stop actions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:TerminateInstances&lt;/code&gt; for alarms with terminate actions.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;ec2:DescribeInstanceRecoveryAttribute&lt;/code&gt;, and &lt;code&gt;ec2:RecoverInstances&lt;/code&gt; for alarms with recover actions.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you have read/write permissions for Amazon CloudWatch but not for Amazon EC2, you can still create an alarm but the stop or terminate actions won&apos;t be performed on the Amazon EC2 instance. However, if you are later granted permission to use the associated Amazon EC2 APIs, the alarm actions you created earlier will be performed. For more information about IAM permissions, see Permissions and Policies in &lt;i&gt;Using IAM&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;If you are using an IAM role (e.g., an Amazon EC2 instance profile), you cannot stop or terminate the instance using alarm actions. However, you can still see the alarm state and perform any other actions such as Amazon SNS notifications or Auto Scaling policies.&lt;/p&gt;&lt;p&gt;If you are using temporary security credentials granted using the AWS Security Token Service (AWS STS), you cannot stop or terminate an Amazon EC2 instance using alarm actions.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchPutMetricAlarmInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutMetricAlarm service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorLimitExceeded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/putMetricAlarm:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/putMetricData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Publishes metric data points to Amazon CloudWatch. Amazon CloudWatch associates the data points with the specified metric. If the specified metric does not exist, Amazon CloudWatch creates the metric. When Amazon CloudWatch creates a metric, it can take up to fifteen minutes for the metric to appear in calls to &lt;a&gt;ListMetrics&lt;/a&gt;. &lt;/p&gt;&lt;p&gt; Each &lt;code&gt;PutMetricData&lt;/code&gt; request is limited to 8 KB in size for HTTP GET requests and is limited to 40 KB in size for HTTP POST requests. &lt;/p&gt;&lt;important&gt;&lt;p&gt;Although the &lt;code&gt;Value&lt;/code&gt; parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon CloudWatch rejects values that are either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission time using &lt;code&gt;GetMetricStatistics&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchPutMetricDataInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)putMetricData:(AWSCloudWatchPutMetricDataInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutMetricData service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
+			<Anchor>//api/name/putMetricData:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/putMetricData:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Publishes metric data points to Amazon CloudWatch. Amazon CloudWatch associates the data points with the specified metric. If the specified metric does not exist, Amazon CloudWatch creates the metric. When Amazon CloudWatch creates a metric, it can take up to fifteen minutes for the metric to appear in calls to &lt;a&gt;ListMetrics&lt;/a&gt;. &lt;/p&gt;&lt;p&gt; Each &lt;code&gt;PutMetricData&lt;/code&gt; request is limited to 8 KB in size for HTTP GET requests and is limited to 40 KB in size for HTTP POST requests. &lt;/p&gt;&lt;important&gt;&lt;p&gt;Although the &lt;code&gt;Value&lt;/code&gt; parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon CloudWatch rejects values that are either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.&lt;/p&gt;&lt;/important&gt;&lt;p&gt;Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission time using &lt;code&gt;GetMetricStatistics&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchPutMetricDataInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)putMetricData:(AWSCloudWatchPutMetricDataInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutMetricData service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/putMetricData:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/setAlarmState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Temporarily sets the state of an alarm for testing purposes. When the updated &lt;code&gt;StateValue&lt;/code&gt; differs from the previous value, the action configured for the appropriate state is invoked. For example, if your alarm is configured to send an Amazon SNS message when an alarm is triggered, temporarily changing the alarm&apos;s state to &lt;b&gt;ALARM&lt;/b&gt; sends an Amazon SNS message. The alarm returns to its actual state (often within seconds). Because the alarm state change happens very quickly, it is typically only visible in the alarm&apos;s &lt;b&gt;History&lt;/b&gt; tab in the Amazon CloudWatch console or through &lt;code&gt;DescribeAlarmHistory&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchSetAlarmStateInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetAlarmState service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound, AWSCloudWatchErrorInvalidFormat.</Abstract></ReturnValue>
+			<Anchor>//api/name/setAlarmState:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatch/setAlarmState:completionHandler:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Temporarily sets the state of an alarm for testing purposes. When the updated &lt;code&gt;StateValue&lt;/code&gt; differs from the previous value, the action configured for the appropriate state is invoked. For example, if your alarm is configured to send an Amazon SNS message when an alarm is triggered, temporarily changing the alarm&apos;s state to &lt;b&gt;ALARM&lt;/b&gt; sends an Amazon SNS message. The alarm returns to its actual state (often within seconds). Because the alarm state change happens very quickly, it is typically only visible in the alarm&apos;s &lt;b&gt;History&lt;/b&gt; tab in the Amazon CloudWatch console or through &lt;code&gt;DescribeAlarmHistory&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchSetAlarmStateInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)request completionHandler:(void ( ^ _Nullable ) ( NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the SetAlarmState service method.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler to call when the load request is complete.
+                          error - An error object that indicates why the request failed, or nil if the request was successful. On failed execution, error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound, AWSCloudWatchErrorInvalidFormat.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAlarmState:completionHandler:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

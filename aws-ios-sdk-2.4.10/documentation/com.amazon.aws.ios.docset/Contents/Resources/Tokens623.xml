@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeReservedInstancesModificationsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeReservedInstancesModificationsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeReservedInstancesModifications.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="623"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token for the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-date&lt;/code&gt; - The time when the modification request was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;effective-date&lt;/code&gt; - The time when the modification becomes effective.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.reserved-instances-id&lt;/code&gt; - The ID for the Reserved Instances created as part of the modification request. This ID is only available when the status of the modification is &lt;code&gt;fulfilled&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.availability-zone&lt;/code&gt; - The Availability Zone for the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-count &lt;/code&gt; - The number of new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-type&lt;/code&gt; - The instance type of the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.platform&lt;/code&gt; - The network platform of the new Reserved Instances (&lt;code&gt;EC2-Classic&lt;/code&gt; | &lt;code&gt;EC2-VPC&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances modified.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-modification-id&lt;/code&gt; - The ID of the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instances modification request (&lt;code&gt;processing&lt;/code&gt; | &lt;code&gt;fulfilled&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;update-date&lt;/code&gt; - The time when the modification request was last updated.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token for the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-date&lt;/code&gt; - The time when the modification request was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;effective-date&lt;/code&gt; - The time when the modification becomes effective.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.reserved-instances-id&lt;/code&gt; - The ID for the Reserved Instances created as part of the modification request. This ID is only available when the status of the modification is &lt;code&gt;fulfilled&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.availability-zone&lt;/code&gt; - The Availability Zone for the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-count &lt;/code&gt; - The number of new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-type&lt;/code&gt; - The instance type of the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.platform&lt;/code&gt; - The network platform of the new Reserved Instances (&lt;code&gt;EC2-Classic&lt;/code&gt; | &lt;code&gt;EC2-VPC&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances modified.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-modification-id&lt;/code&gt; - The ID of the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instances modification request (&lt;code&gt;processing&lt;/code&gt; | &lt;code&gt;fulfilled&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;update-date&lt;/code&gt; - The time when the modification request was last updated.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesModificationsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;client-token&lt;/code&gt; - The idempotency token for the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;create-date&lt;/code&gt; - The time when the modification request was created.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;effective-date&lt;/code&gt; - The time when the modification becomes effective.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.reserved-instances-id&lt;/code&gt; - The ID for the Reserved Instances created as part of the modification request. This ID is only available when the status of the modification is &lt;code&gt;fulfilled&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.availability-zone&lt;/code&gt; - The Availability Zone for the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-count &lt;/code&gt; - The number of new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.instance-type&lt;/code&gt; - The instance type of the new Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;modification-result.target-configuration.platform&lt;/code&gt; - The network platform of the new Reserved Instances (&lt;code&gt;EC2-Classic&lt;/code&gt; | &lt;code&gt;EC2-VPC&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances modified.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-modification-id&lt;/code&gt; - The ID of the modification request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instances modification request (&lt;code&gt;processing&lt;/code&gt; | &lt;code&gt;fulfilled&lt;/code&gt; | &lt;code&gt;failed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;update-date&lt;/code&gt; - The time when the modification request was last updated.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesModificationsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token to retrieve the next page of results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/setReservedInstancesModificationIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;IDs for the submitted modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *reservedInstancesModificationIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationIds</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsRequest/reservedInstancesModificationIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;IDs for the submitted modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *reservedInstancesModificationIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationIds</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesModificationsRequest/reservedInstancesModificationIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;IDs for the submitted modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *reservedInstancesModificationIds</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesModificationIds</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

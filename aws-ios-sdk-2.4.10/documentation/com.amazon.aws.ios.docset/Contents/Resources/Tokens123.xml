@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCloudWatchGetMetricStatisticsInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the inputs for GetMetricStatistics.&lt;/p&gt;
+Required parameters: [Namespace, MetricName, StartTime, EndTime, Period, Statistics]</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="123"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setDimensions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions describing qualities of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions describing qualities of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions describing qualities of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setEndTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the last datapoint to return. The value specified is exclusive; results will include datapoints up to the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the last datapoint to return. The value specified is exclusive; results will include datapoints up to the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the last datapoint to return. The value specified is exclusive; results will include datapoints up to the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
+			
+			
+			<Anchor>//api/name/endTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setMetricName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setNamespace:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The namespace of the metric, with or without spaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setPeriod:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity, in seconds, of the returned datapoints. A &lt;code&gt;Period&lt;/code&gt; can be as short as one minute (60 seconds) or as long as one day (86,400 seconds), and must be a multiple of 60. The default value is 60. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity, in seconds, of the returned datapoints. A &lt;code&gt;Period&lt;/code&gt; can be as short as one minute (60 seconds) or as long as one day (86,400 seconds), and must be a multiple of 60. The default value is 60. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity, in seconds, of the returned datapoints. A &lt;code&gt;Period&lt;/code&gt; can be as short as one minute (60 seconds) or as long as one day (86,400 seconds), and must be a multiple of 60. The default value is 60. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setStartTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the first datapoint to return. The value specified is inclusive; results include datapoints with the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;&lt;note&gt;&lt;p&gt;The specified start time is rounded down to the nearest value. Datapoints are returned for start times up to two weeks in the past. Specified start times that are more than two weeks in the past will not return datapoints for metrics that are older than two weeks.&lt;/p&gt;&lt;p&gt;Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission time using &lt;code&gt;GetMetricStatistics&lt;/code&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the first datapoint to return. The value specified is inclusive; results include datapoints with the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;&lt;note&gt;&lt;p&gt;The specified start time is rounded down to the nearest value. Datapoints are returned for start times up to two weeks in the past. Specified start times that are more than two weeks in the past will not return datapoints for metrics that are older than two weeks.&lt;/p&gt;&lt;p&gt;Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission time using &lt;code&gt;GetMetricStatistics&lt;/code&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp to use for determining the first datapoint to return. The value specified is inclusive; results include datapoints with the time stamp specified. The time stamp must be in ISO 8601 UTC format (e.g., 2014-09-03T23:00:00Z).&lt;/p&gt;&lt;note&gt;&lt;p&gt;The specified start time is rounded down to the nearest value. Datapoints are returned for start times up to two weeks in the past. Specified start times that are more than two weeks in the past will not return datapoints for metrics that are older than two weeks.&lt;/p&gt;&lt;p&gt;Data that is timestamped 24 hours or more in the past may take in excess of 48 hours to become available from submission time using &lt;code&gt;GetMetricStatistics&lt;/code&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setStatistics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The metric statistics to return. For information about specific statistics returned by GetMetricStatistics, see Statistics in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *statistics</Declaration>
+			
+			
+			<Anchor>//api/name/statistics</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/statistics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The metric statistics to return. For information about specific statistics returned by GetMetricStatistics, see Statistics in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *statistics</Declaration>
+			
+			
+			<Anchor>//api/name/statistics</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/statistics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The metric statistics to return. For information about specific statistics returned by GetMetricStatistics, see Statistics in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *statistics</Declaration>
+			
+			
+			<Anchor>//api/name/statistics</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/setUnit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The specific unit for a given metric. Metrics may be reported in multiple units. Not supplying a unit results in all units being returned. If the metric only ever reports one unit, specifying a unit will have no effect.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsInput/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The specific unit for a given metric. Metrics may be reported in multiple units. Not supplying a unit results in all units being returned. If the metric only ever reports one unit, specifying a unit will have no effect.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsInput/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The specific unit for a given metric. Metrics may be reported in multiple units. Not supplying a unit results in all units being returned. If the metric only ever reports one unit, specifying a unit will have no effect.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

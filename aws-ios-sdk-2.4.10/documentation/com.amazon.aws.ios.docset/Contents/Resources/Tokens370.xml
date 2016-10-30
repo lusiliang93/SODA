@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBBatchGetItemOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBBatchGetItemOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;BatchGetItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="370"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The read capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/setResponses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of table name to a list of items. Each object in &lt;i&gt;Responses&lt;/i&gt; consists of a table name, along with a map of attribute data consisting of the data type and attribute value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *&gt; *&gt; *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/responses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of table name to a list of items. Each object in &lt;i&gt;Responses&lt;/i&gt; consists of a table name, along with a map of attribute data consisting of the data type and attribute value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *&gt; *&gt; *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemOutput/responses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of table name to a list of items. Each object in &lt;i&gt;Responses&lt;/i&gt; consists of a table name, along with a map of attribute data consisting of the data type and attribute value.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;NSDictionary&lt;NSString*AWSDynamoDBAttributeValue*&gt; *&gt; *&gt; *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/setUnprocessedKeys:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and their respective keys that were not processed with the current response. The &lt;i&gt;UnprocessedKeys&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so the value can be provided directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table or index. By default, all attributes are returned. If a requested attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed keys remaining, the response contains an empty &lt;i&gt;UnprocessedKeys&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *unprocessedKeys</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedKeys</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchGetItemOutput/unprocessedKeys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and their respective keys that were not processed with the current response. The &lt;i&gt;UnprocessedKeys&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so the value can be provided directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table or index. By default, all attributes are returned. If a requested attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed keys remaining, the response contains an empty &lt;i&gt;UnprocessedKeys&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *unprocessedKeys</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedKeys</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchGetItemOutput/unprocessedKeys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and their respective keys that were not processed with the current response. The &lt;i&gt;UnprocessedKeys&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so the value can be provided directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Keys&lt;/i&gt; - An array of primary key attribute values that define specific items in the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;AttributesToGet&lt;/i&gt; - One or more attributes to be retrieved from the table or index. By default, all attributes are returned. If a requested attribute is not found, it does not appear in the result.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ConsistentRead&lt;/i&gt; - The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed keys remaining, the response contains an empty &lt;i&gt;UnprocessedKeys&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*AWSDynamoDBKeysAndAttributes*&gt; *unprocessedKeys</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedKeys</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

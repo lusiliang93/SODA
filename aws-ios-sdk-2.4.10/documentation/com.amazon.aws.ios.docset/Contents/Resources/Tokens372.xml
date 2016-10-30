@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBBatchWriteItemOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBBatchWriteItemOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;BatchWriteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="372"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by the operation.&lt;/p&gt;&lt;p&gt;Each element consists of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TableName&lt;/i&gt; - The table that consumed the provisioned throughput.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;CapacityUnits&lt;/i&gt; - The total number of capacity units consumed.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSDynamoDBConsumedCapacity*&gt; *consumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/consumedCapacity</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/setItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tables that were processed by &lt;i&gt;BatchWriteItem&lt;/i&gt; and, for each table, information about any item collections that were affected by individual &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt; operations.&lt;/p&gt;&lt;p&gt;Each entry consists of the following subelements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ItemCollectionKey&lt;/i&gt; - The partition key value of the item collection. This is the same as the partition key value of the item.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;SizeEstimateRange&lt;/i&gt; - An estimate of item collection size, expressed in GB. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on the table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBItemCollectionMetrics*&gt; *&gt; *itemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/itemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tables that were processed by &lt;i&gt;BatchWriteItem&lt;/i&gt; and, for each table, information about any item collections that were affected by individual &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt; operations.&lt;/p&gt;&lt;p&gt;Each entry consists of the following subelements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ItemCollectionKey&lt;/i&gt; - The partition key value of the item collection. This is the same as the partition key value of the item.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;SizeEstimateRange&lt;/i&gt; - An estimate of item collection size, expressed in GB. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on the table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBItemCollectionMetrics*&gt; *&gt; *itemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemOutput/itemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tables that were processed by &lt;i&gt;BatchWriteItem&lt;/i&gt; and, for each table, information about any item collections that were affected by individual &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt; operations.&lt;/p&gt;&lt;p&gt;Each entry consists of the following subelements:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;ItemCollectionKey&lt;/i&gt; - The partition key value of the item collection. This is the same as the partition key value of the item.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;SizeEstimateRange&lt;/i&gt; - An estimate of item collection size, expressed in GB. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on the table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBItemCollectionMetrics*&gt; *&gt; *itemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/setUnprocessedItems:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and requests against those tables that were not processed. The &lt;i&gt;UnprocessedItems&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so you can provide this value directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each &lt;i&gt;UnprocessedItems&lt;/i&gt; entry consists of a table name and, for that table, a list of operations to perform (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the item. Each entry in this map consists of an attribute name and an attribute value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed items remaining, the response contains an empty &lt;i&gt;UnprocessedItems&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *unprocessedItems</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedItems</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemOutput/unprocessedItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and requests against those tables that were not processed. The &lt;i&gt;UnprocessedItems&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so you can provide this value directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each &lt;i&gt;UnprocessedItems&lt;/i&gt; entry consists of a table name and, for that table, a list of operations to perform (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the item. Each entry in this map consists of an attribute name and an attribute value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed items remaining, the response contains an empty &lt;i&gt;UnprocessedItems&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *unprocessedItems</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedItems</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemOutput/unprocessedItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of tables and requests against those tables that were not processed. The &lt;i&gt;UnprocessedItems&lt;/i&gt; value is in the same form as &lt;i&gt;RequestItems&lt;/i&gt;, so you can provide this value directly to a subsequent &lt;i&gt;BatchGetItem&lt;/i&gt; operation. For more information, see &lt;i&gt;RequestItems&lt;/i&gt; in the Request Parameters section.&lt;/p&gt;&lt;p&gt;Each &lt;i&gt;UnprocessedItems&lt;/i&gt; entry consists of a table name and, for that table, a list of operations to perform (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the item. Each entry in this map consists of an attribute name and an attribute value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If there are no unprocessed items remaining, the response contains an empty &lt;i&gt;UnprocessedItems&lt;/i&gt; map.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *unprocessedItems</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedItems</Anchor>
+            <NodeRef refid="372"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

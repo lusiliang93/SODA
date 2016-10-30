@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2Reservation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Reservation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="860"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic only] One or more security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic only] One or more security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic only] One or more security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Instance*&gt; *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/instances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Instance*&gt; *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/instances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Instance*&gt; *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			
+			
+			<Anchor>//api/name/ownerId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setRequesterId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
+			
+			
+			<Anchor>//api/name/requesterId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/requesterId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
+			
+			
+			<Anchor>//api/name/requesterId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/requesterId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
+			
+			
+			<Anchor>//api/name/requesterId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setReservationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservationId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/reservationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservationId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/reservationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
+			
+			
+			<Anchor>//api/name/reservationId</Anchor>
+            <NodeRef refid="860"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

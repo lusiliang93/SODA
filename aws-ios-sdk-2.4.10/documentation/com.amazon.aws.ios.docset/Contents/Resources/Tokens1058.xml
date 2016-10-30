@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSFirehoseKMSEncryptionConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSFirehoseKMSEncryptionConfig</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an encryption key for a destination in Amazon S3.&lt;/p&gt;
+Required parameters: [AWSKMSKeyARN]</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1058"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseKMSEncryptionConfig/setAWSKMSKeyARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the encryption key. Must belong to the same region as the destination Amazon S3 bucket.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSKMSKeyARN</Declaration>
+			
+			
+			<Anchor>//api/name/AWSKMSKeyARN</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSFirehoseKMSEncryptionConfig/AWSKMSKeyARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the encryption key. Must belong to the same region as the destination Amazon S3 bucket.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSKMSKeyARN</Declaration>
+			
+			
+			<Anchor>//api/name/AWSKMSKeyARN</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSFirehoseKMSEncryptionConfig/AWSKMSKeyARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the encryption key. Must belong to the same region as the destination Amazon S3 bucket.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSFirehoseModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *AWSKMSKeyARN</Declaration>
+			
+			
+			<Anchor>//api/name/AWSKMSKeyARN</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

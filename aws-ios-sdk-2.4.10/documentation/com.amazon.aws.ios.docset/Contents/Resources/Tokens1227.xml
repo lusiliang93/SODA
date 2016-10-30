@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSKinesisPutRecordsOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;PutRecords&lt;/code&gt; results.&lt;/p&gt;
+Required parameters: [Records]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1227"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setFailedRecordCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedRecordCount</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedRecordCount</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			
+			
+			<Anchor>//api/name/failedRecordCount</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to a stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to a stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSKinesisPutRecordsResultEntry*&gt; *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to a stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to a stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSKinesisPutRecordsResultEntry*&gt; *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to a stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to a stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSKinesisPutRecordsResultEntry*&gt; *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="1227"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

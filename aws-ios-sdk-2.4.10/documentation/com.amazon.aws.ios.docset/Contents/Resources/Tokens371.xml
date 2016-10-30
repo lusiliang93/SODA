@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSDynamoDBBatchWriteItemInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBBatchWriteItemInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input of a &lt;i&gt;BatchWriteItem&lt;/i&gt; operation.&lt;/p&gt;
+Required parameters: [RequestItems]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="371"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/setRequestItems:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a list of operations to be performed (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;). Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the ! item. Each entry in this map consists of an attribute name and an attribute value. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a simple primary key, you only need to provide a value for the partition key. For a composite primary key, you must provide values for &lt;i&gt;both&lt;/i&gt; the partition key and the sort key.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a list of operations to be performed (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;). Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the ! item. Each entry in this map consists of an attribute name and an attribute value. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a simple primary key, you only need to provide a value for the partition key. For a composite primary key, you must provide values for &lt;i&gt;both&lt;/i&gt; the partition key and the sort key.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemInput/requestItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of one or more table names and, for each table, a list of operations to be performed (&lt;i&gt;DeleteRequest&lt;/i&gt; or &lt;i&gt;PutRequest&lt;/i&gt;). Each element in the map consists of the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;DeleteRequest&lt;/i&gt; - Perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on the specified item. The item to be deleted is identified by a &lt;i&gt;Key&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Key&lt;/i&gt; - A map of primary key attribute values that uniquely identify the ! item. Each entry in this map consists of an attribute name and an attribute value. For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a simple primary key, you only need to provide a value for the partition key. For a composite primary key, you must provide values for &lt;i&gt;both&lt;/i&gt; the partition key and the sort key.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;PutRequest&lt;/i&gt; - Perform a &lt;i&gt;PutItem&lt;/i&gt; operation on the specified item. The item to be put is identified by an &lt;i&gt;Item&lt;/i&gt; subelement:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Item&lt;/i&gt; - A map of attributes and their values. Each entry in this map consists of an attribute name and an attribute value. Attribute values must not be null; string and binary type attributes must have lengths greater than zero; and set type attributes must not be empty. Requests that contain empty values will be rejected with a &lt;i&gt;ValidationException&lt;/i&gt; exception.&lt;/p&gt;&lt;p&gt;If you specify any attributes that are part of an index key, then the data types for those attributes must match those of the schema in the table&apos;s attribute definition.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSArray&lt;AWSDynamoDBWriteRequest*&gt; *&gt; *requestItems</Declaration>
+			
+			
+			<Anchor>//api/name/requestItems</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/setReturnConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemInput/returnConsumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines the level of detail about provisioned throughput consumption that is returned in the response:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;INDEXES&lt;/i&gt; - The response includes the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation, together with &lt;i&gt;ConsumedCapacity&lt;/i&gt; for each table and secondary index that was accessed.&lt;/p&gt;&lt;p&gt;Note that some operations, such as &lt;i&gt;GetItem&lt;/i&gt; and &lt;i&gt;BatchGetItem&lt;/i&gt;, do not access any indexes at all. In these cases, specifying &lt;i&gt;INDEXES&lt;/i&gt; will only return &lt;i&gt;ConsumedCapacity&lt;/i&gt; information for table(s).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;TOTAL&lt;/i&gt; - The response includes only the aggregate &lt;i&gt;ConsumedCapacity&lt;/i&gt; for the operation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;NONE&lt;/i&gt; - No &lt;i&gt;ConsumedCapacity&lt;/i&gt; details are included in the response.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnConsumedCapacity returnConsumedCapacity</Declaration>
+			
+			
+			<Anchor>//api/name/returnConsumedCapacity</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/setReturnItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines whether item collection metrics are returned. If set to &lt;code&gt;SIZE&lt;/code&gt;, the response includes statistics about item collections, if any, that were modified during the operation are returned in the response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnItemCollectionMetrics returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBBatchWriteItemInput/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines whether item collection metrics are returned. If set to &lt;code&gt;SIZE&lt;/code&gt;, the response includes statistics about item collections, if any, that were modified during the operation are returned in the response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnItemCollectionMetrics returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBBatchWriteItemInput/returnItemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines whether item collection metrics are returned. If set to &lt;code&gt;SIZE&lt;/code&gt;, the response includes statistics about item collections, if any, that were modified during the operation are returned in the response. If set to &lt;code&gt;NONE&lt;/code&gt; (the default), no statistics are returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBReturnItemCollectionMetrics returnItemCollectionMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/returnItemCollectionMetrics</Anchor>
+            <NodeRef refid="371"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

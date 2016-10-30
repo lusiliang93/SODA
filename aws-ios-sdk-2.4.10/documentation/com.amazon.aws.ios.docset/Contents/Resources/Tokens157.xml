@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityGetIdentityPoolRolesResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdentityPoolRolesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returned in response to a successful &lt;code&gt;GetIdentityPoolRoles&lt;/code&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="157"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdentityPoolRolesResponse/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/setRoles:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/roles</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdentityPoolRolesResponse/roles</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary&lt;NSString*NSString*&gt; *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

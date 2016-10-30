@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ReplicateImageRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplicateImageRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for CopyImage.&lt;/p&gt;
+Required parameters: [SourceRegion, SourceImageId, Name]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="850"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of the request. For more information, see How to Ensure Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setEncrypted:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the destination snapshots of the copied image should be encrypted. The default CMK for EBS is used unless a non-default AWS Key Management Service (AWS KMS) CMK is specified with &lt;code&gt;KmsKeyId&lt;/code&gt;. For more information, see Amazon EBS Encryption in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/encrypted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the destination snapshots of the copied image should be encrypted. The default CMK for EBS is used unless a non-default AWS Key Management Service (AWS KMS) CMK is specified with &lt;code&gt;KmsKeyId&lt;/code&gt;. For more information, see Amazon EBS Encryption in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/encrypted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether the destination snapshots of the copied image should be encrypted. The default CMK for EBS is used unless a non-default AWS Key Management Service (AWS KMS) CMK is specified with &lt;code&gt;KmsKeyId&lt;/code&gt;. For more information, see Amazon EBS Encryption in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			
+			
+			<Anchor>//api/name/encrypted</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setKmsKeyId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (AWS KMS) CMK to use when encrypting the snapshots of an image during a copy operation. This parameter is only required if you want to use a non-default CMK; if this parameter is not specified, the default CMK for EBS is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the CMK, the AWS account ID of the CMK owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the CMK ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;. The specified CMK must exist in the region that the snapshot is being copied to. If a &lt;code&gt;KmsKeyId&lt;/code&gt; is specified, the &lt;code&gt;Encrypted&lt;/code&gt; flag must also be set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/kmsKeyId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/kmsKeyId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (AWS KMS) CMK to use when encrypting the snapshots of an image during a copy operation. This parameter is only required if you want to use a non-default CMK; if this parameter is not specified, the default CMK for EBS is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the CMK, the AWS account ID of the CMK owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the CMK ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;. The specified CMK must exist in the region that the snapshot is being copied to. If a &lt;code&gt;KmsKeyId&lt;/code&gt; is specified, the &lt;code&gt;Encrypted&lt;/code&gt; flag must also be set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/kmsKeyId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/kmsKeyId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (AWS KMS) CMK to use when encrypting the snapshots of an image during a copy operation. This parameter is only required if you want to use a non-default CMK; if this parameter is not specified, the default CMK for EBS is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the CMK, the AWS account ID of the CMK owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the CMK ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;. The specified CMK must exist in the region that the snapshot is being copied to. If a &lt;code&gt;KmsKeyId&lt;/code&gt; is specified, the &lt;code&gt;Encrypted&lt;/code&gt; flag must also be set.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			
+			
+			<Anchor>//api/name/kmsKeyId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the new AMI in the destination region.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setSourceImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceImageId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImageId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/sourceImageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceImageId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImageId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/sourceImageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceImageId</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImageId</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/setSourceRegion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region that contains the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateImageRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region that contains the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateImageRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region that contains the AMI to copy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			
+			
+			<Anchor>//api/name/sourceRegion</Anchor>
+            <NodeRef refid="850"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

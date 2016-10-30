@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2VpnStaticRoute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnStaticRoute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a static route for a VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="958"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setSource:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/source</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/source</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="958"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSKinesisErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1886"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorUnknown</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorExpiredIterator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorExpiredIterator</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorInvalidArgument</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorInvalidArgument</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorLimitExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorLimitExceeded</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorProvisionedThroughputExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorProvisionedThroughputExceeded</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorResourceInUse</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorResourceInUse</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisErrorResourceNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisErrorResourceNotFound</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1886"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

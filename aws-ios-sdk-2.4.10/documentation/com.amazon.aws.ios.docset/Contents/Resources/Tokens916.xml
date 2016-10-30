@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2StaleSecurityGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2StaleSecurityGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a stale security group (a security group that contains stale rules).&lt;/p&gt;
+Required parameters: [GroupId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="916"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			
+			
+			<Anchor>//api/name/groupId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setStaleIpPermissions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale inbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissions</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/staleIpPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale inbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissions</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/staleIpPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale inbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissions</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissions</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setStaleIpPermissionsEgress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale outbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissionsEgress</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissionsEgress</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/staleIpPermissionsEgress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale outbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissionsEgress</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissionsEgress</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/staleIpPermissionsEgress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the stale outbound rules in the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2StaleIpPermission*&gt; *staleIpPermissionsEgress</Declaration>
+			
+			
+			<Anchor>//api/name/staleIpPermissionsEgress</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StaleSecurityGroup/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StaleSecurityGroup/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="916"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

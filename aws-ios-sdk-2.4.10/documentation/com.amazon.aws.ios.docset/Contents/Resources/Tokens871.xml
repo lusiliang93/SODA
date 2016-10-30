@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ResetNetworkInterfaceAttributeRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ResetNetworkInterfaceAttributeRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ResetNetworkInterfaceAttribute.&lt;/p&gt;
+Required parameters: [NetworkInterfaceId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="871"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="871"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2PrivateIpAddressSpecification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PrivateIpAddressSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a secondary private IP address for a network interface.&lt;/p&gt;
+Required parameters: [PrivateIpAddress]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="826"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PrivateIpAddressSpecification/setPrimary:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the private IP address is the primary private IP address. Only one IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PrivateIpAddressSpecification/primary</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the private IP address is the primary private IP address. Only one IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PrivateIpAddressSpecification/primary</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the private IP address is the primary private IP address. Only one IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PrivateIpAddressSpecification/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PrivateIpAddressSpecification/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PrivateIpAddressSpecification/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="826"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

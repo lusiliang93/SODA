@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityProviderConfirmForgotPasswordRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityProviderConfirmForgotPasswordRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The request representing the confirmation for a password reset.&lt;/p&gt;
+Required parameters: [ClientId, Username, ConfirmationCode, Password]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="221"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/setClientId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/clientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/clientId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the client associated with the user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/setConfirmationCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The confirmation code sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *confirmationCode</Declaration>
+			
+			
+			<Anchor>//api/name/confirmationCode</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/confirmationCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The confirmation code sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *confirmationCode</Declaration>
+			
+			
+			<Anchor>//api/name/confirmationCode</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/confirmationCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The confirmation code sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *confirmationCode</Declaration>
+			
+			
+			<Anchor>//api/name/confirmationCode</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/setPassword:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password sent by sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/password</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password sent by sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/password</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password sent by sent by a user&apos;s request to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/setSecretHash:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A keyed-hash message authentication code (HMAC) calculated using the secret key of a user pool client and username plus the client ID in the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *secretHash</Declaration>
+			
+			
+			<Anchor>//api/name/secretHash</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/secretHash</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A keyed-hash message authentication code (HMAC) calculated using the secret key of a user pool client and username plus the client ID in the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *secretHash</Declaration>
+			
+			
+			<Anchor>//api/name/secretHash</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/secretHash</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A keyed-hash message authentication code (HMAC) calculated using the secret key of a user pool client and username plus the client ID in the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *secretHash</Declaration>
+			
+			
+			<Anchor>//api/name/secretHash</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/setUsername:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user name of the user for whom you want to enter a code to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/username</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user name of the user for whom you want to enter a code to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityProviderConfirmForgotPasswordRequest/username</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user name of the user for whom you want to enter a code to retrieve a forgotten password.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityProviderModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

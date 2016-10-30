@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2CancelledSpotInstanceRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelledSpotInstanceRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a request to cancel a Spot instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="479"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/setSpotInstanceRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelledSpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelledSpotInstanceRequest/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Spot instance request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="479"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

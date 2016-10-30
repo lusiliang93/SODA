@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSubnetsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSubnetsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeSubnets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="657"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSubnetsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availabilityZone&lt;/code&gt; - The Availability Zone for the subnet. You can also use &lt;code&gt;availability-zone&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;available-ip-address-count&lt;/code&gt; - The number of IP addresses in the subnet that are available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidrBlock&lt;/code&gt; - The CIDR block of the subnet. The CIDR block you specify must exactly match the subnet&apos;s CIDR block for information to be returned for the subnet. You can also use &lt;code&gt;cidr&lt;/code&gt; or &lt;code&gt;cidr-block&lt;/code&gt; as the filter names.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;defaultForAz&lt;/code&gt; - Indicates whether this is the default subnet for the Availability Zone. You can also use &lt;code&gt;default-for-az&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the subnet (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the subnet.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availabilityZone&lt;/code&gt; - The Availability Zone for the subnet. You can also use &lt;code&gt;availability-zone&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;available-ip-address-count&lt;/code&gt; - The number of IP addresses in the subnet that are available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidrBlock&lt;/code&gt; - The CIDR block of the subnet. The CIDR block you specify must exactly match the subnet&apos;s CIDR block for information to be returned for the subnet. You can also use &lt;code&gt;cidr&lt;/code&gt; or &lt;code&gt;cidr-block&lt;/code&gt; as the filter names.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;defaultForAz&lt;/code&gt; - Indicates whether this is the default subnet for the Availability Zone. You can also use &lt;code&gt;default-for-az&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the subnet (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the subnet.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSubnetsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availabilityZone&lt;/code&gt; - The Availability Zone for the subnet. You can also use &lt;code&gt;availability-zone&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;available-ip-address-count&lt;/code&gt; - The number of IP addresses in the subnet that are available.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidrBlock&lt;/code&gt; - The CIDR block of the subnet. The CIDR block you specify must exactly match the subnet&apos;s CIDR block for information to be returned for the subnet. You can also use &lt;code&gt;cidr&lt;/code&gt; or &lt;code&gt;cidr-block&lt;/code&gt; as the filter names.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;defaultForAz&lt;/code&gt; - Indicates whether this is the default subnet for the Availability Zone. You can also use &lt;code&gt;default-for-az&lt;/code&gt; as the filter name.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the subnet (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;subnet-id&lt;/code&gt; - The ID of the subnet.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC for the subnet.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/setSubnetIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more subnet IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your subnets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *subnetIds</Declaration>
+			
+			
+			<Anchor>//api/name/subnetIds</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsRequest/subnetIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more subnet IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your subnets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *subnetIds</Declaration>
+			
+			
+			<Anchor>//api/name/subnetIds</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSubnetsRequest/subnetIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more subnet IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your subnets.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *subnetIds</Declaration>
+			
+			
+			<Anchor>//api/name/subnetIds</Anchor>
+            <NodeRef refid="657"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

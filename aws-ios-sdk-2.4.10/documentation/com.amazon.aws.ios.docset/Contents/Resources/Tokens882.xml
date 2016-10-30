@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2RunScheduledInstancesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RunScheduledInstancesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for RunScheduledInstances.&lt;/p&gt;
+Required parameters: [ScheduledInstanceId, LaunchSpecification]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="882"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that ensures the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that ensures the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunScheduledInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier that ensures the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunScheduledInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunScheduledInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of instances.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			
+			
+			<Anchor>//api/name/instanceCount</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ScheduledInstancesLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ScheduledInstancesLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunScheduledInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The launch specification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ScheduledInstancesLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/setScheduledInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Scheduled Instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledInstanceId</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledInstanceId</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunScheduledInstancesRequest/scheduledInstanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Scheduled Instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledInstanceId</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledInstanceId</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunScheduledInstancesRequest/scheduledInstanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Scheduled Instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledInstanceId</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledInstanceId</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

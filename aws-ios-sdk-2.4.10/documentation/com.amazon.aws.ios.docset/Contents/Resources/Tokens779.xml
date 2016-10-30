@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2LaunchSpecification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2LaunchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification for an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="779"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setAddressingType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deprecated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *addressingType</Declaration>
+			
+			
+			<Anchor>//api/name/addressingType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/addressingType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deprecated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *addressingType</Declaration>
+			
+			
+			<Anchor>//api/name/addressingType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/addressingType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deprecated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *addressingType</Declaration>
+			
+			
+			<Anchor>//api/name/addressingType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;&lt;p&gt;Although you can specify encrypted EBS volumes in this block device mapping for your Spot Instances, these volumes are not encrypted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;&lt;p&gt;Although you can specify encrypted EBS volumes in this block device mapping for your Spot Instances, these volumes are not encrypted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;&lt;p&gt;Although you can specify encrypted EBS volumes in this block device mapping for your Spot Instances, these volumes are not encrypted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS Optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setIamInstanceProfile:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setKeyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setMonitoring:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/monitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/monitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setNetworkInterfaces:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setPlacement:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement information for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotPlacement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/placement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement information for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotPlacement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/placement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement information for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SpotPlacement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups. When requesting instances in a VPC, you must specify the IDs of the security groups. When requesting instances in EC2-Classic, you can specify the names or the IDs of the security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups. When requesting instances in a VPC, you must specify the IDs of the security groups. When requesting instances in EC2-Classic, you can specify the names or the IDs of the security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups. When requesting instances in a VPC, you must specify the IDs of the security groups. When requesting instances in EC2-Classic, you can specify the names or the IDs of the security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2GroupIdentifier*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet in which to launch the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet in which to launch the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet in which to launch the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/setUserData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data to make available to the instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchSpecification/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data to make available to the instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchSpecification/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data to make available to the instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="779"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

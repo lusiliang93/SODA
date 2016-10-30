@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingSetInstanceProtectionQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetInstanceProtectionQuery</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for SetInstanceProtection.&lt;/p&gt;
+Required parameters: [InstanceIds, AutoScalingGroupName, ProtectedFromScaleIn]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceProtectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceProtectionQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/setProtectedFromScaleIn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is protected from termination by Auto Scaling when scaling in.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *protectedFromScaleIn</Declaration>
+			
+			
+			<Anchor>//api/name/protectedFromScaleIn</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceProtectionQuery/protectedFromScaleIn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is protected from termination by Auto Scaling when scaling in.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *protectedFromScaleIn</Declaration>
+			
+			
+			<Anchor>//api/name/protectedFromScaleIn</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceProtectionQuery/protectedFromScaleIn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is protected from termination by Auto Scaling when scaling in.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *protectedFromScaleIn</Declaration>
+			
+			
+			<Anchor>//api/name/protectedFromScaleIn</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

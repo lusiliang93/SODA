@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2Address.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Address</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="432"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setAllocationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the allocation of the address for use with EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/allocationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the allocation of the address for use with EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/allocationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the allocation of the address for use with EC2-VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			
+			
+			<Anchor>//api/name/allocationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the association of the address with an instance in a VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the association of the address with an instance in a VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID representing the association of the address with an instance in a VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			
+			
+			<Anchor>//api/name/associationId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setDomain:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this Elastic IP address is for use with instances in EC2-Classic (&lt;code&gt;standard&lt;/code&gt;) or instances in a VPC (&lt;code&gt;vpc&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/domain</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this Elastic IP address is for use with instances in EC2-Classic (&lt;code&gt;standard&lt;/code&gt;) or instances in a VPC (&lt;code&gt;vpc&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/domain</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this Elastic IP address is for use with instances in EC2-Classic (&lt;code&gt;standard&lt;/code&gt;) or instances in a VPC (&lt;code&gt;vpc&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that the address is associated with (if any).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that the address is associated with (if any).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance that the address is associated with (if any).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setNetworkInterfaceOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceOwnerId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/networkInterfaceOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceOwnerId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/networkInterfaceOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceOwnerId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceOwnerId</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address associated with the Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address associated with the Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address associated with the Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Address/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Address/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Elastic IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

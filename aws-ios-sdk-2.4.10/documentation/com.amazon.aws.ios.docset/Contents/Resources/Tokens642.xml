@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSnapshotsResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSnapshotsResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DescribeSnapshots.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="642"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeSnapshots&lt;/code&gt; request. When the results of a &lt;code&gt;DescribeSnapshots&lt;/code&gt; request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeSnapshots&lt;/code&gt; request. When the results of a &lt;code&gt;DescribeSnapshots&lt;/code&gt; request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotsResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &lt;code&gt;NextToken&lt;/code&gt; value to include in a future &lt;code&gt;DescribeSnapshots&lt;/code&gt; request. When the results of a &lt;code&gt;DescribeSnapshots&lt;/code&gt; request exceed &lt;code&gt;MaxResults&lt;/code&gt;, this value can be used to retrieve the next page of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/setSnapshots:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the snapshots.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Snapshot*&gt; *snapshots</Declaration>
+			
+			
+			<Anchor>//api/name/snapshots</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/snapshots</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the snapshots.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Snapshot*&gt; *snapshots</Declaration>
+			
+			
+			<Anchor>//api/name/snapshots</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotsResult/snapshots</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the snapshots.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Snapshot*&gt; *snapshots</Declaration>
+			
+			
+			<Anchor>//api/name/snapshots</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

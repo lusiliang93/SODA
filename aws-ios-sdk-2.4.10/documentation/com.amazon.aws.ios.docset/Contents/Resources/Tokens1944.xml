@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSSESErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSSESErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1944"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorUnknown</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorAlreadyExists</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorAlreadyExists</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorCannotDelete</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorCannotDelete</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidLambdaFunction</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorInvalidLambdaFunction</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidPolicy</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorInvalidPolicy</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidS3Configuration</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorInvalidS3Configuration</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidSnsTopic</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorInvalidSnsTopic</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorLimitExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorLimitExceeded</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMailFromDomainNotVerified</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorMailFromDomainNotVerified</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMessageRejected</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorMessageRejected</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorRuleDoesNotExist</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorRuleDoesNotExist</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorRuleSetDoesNotExist</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSSESErrorRuleSetDoesNotExist</Declaration>
+            
+            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            
+            <NodeRef refid="1944"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

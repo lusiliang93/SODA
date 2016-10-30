@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCloudWatchMetricDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchMetricDatum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;MetricDatum&lt;/code&gt; data type encapsulates the information sent with &lt;a&gt;PutMetricData&lt;/a&gt; to either create a new metric or add new values to be aggregated into an existing metric. &lt;/p&gt;
+Required parameters: [MetricName]</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="129"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setDimensions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions associated with the metric. Note, when using the Dimensions value in a query, you need to append .member.N to it (e.g., Dimensions.member.N).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions associated with the metric. Note, when using the Dimensions value in a query, you need to append .member.N to it (e.g., Dimensions.member.N).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of dimensions associated with the metric. Note, when using the Dimensions value in a query, you need to append .member.N to it (e.g., Dimensions.member.N).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSCloudWatchDimension*&gt; *dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setMetricName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			
+			
+			<Anchor>//api/name/metricName</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setStatisticValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of statistical values describing the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCloudWatchStatisticSet *statisticValues</Declaration>
+			
+			
+			<Anchor>//api/name/statisticValues</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/statisticValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of statistical values describing the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCloudWatchStatisticSet *statisticValues</Declaration>
+			
+			
+			<Anchor>//api/name/statisticValues</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/statisticValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of statistical values describing the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSCloudWatchStatisticSet *statisticValues</Declaration>
+			
+			
+			<Anchor>//api/name/statisticValues</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp used for the metric in ISO 8601 Universal Coordinated Time (UTC) format. If not specified, the default value is set to the time the metric data was received.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp used for the metric in ISO 8601 Universal Coordinated Time (UTC) format. If not specified, the default value is set to the time the metric data was received.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp used for the metric in ISO 8601 Universal Coordinated Time (UTC) format. If not specified, the default value is set to the time the metric data was received.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setUnit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unit of the metric.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value for the metric.&lt;/p&gt;&lt;important&gt;&lt;p&gt;Although the &lt;code&gt;Value&lt;/code&gt; parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon CloudWatch rejects values that are either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetricDatum/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value for the metric.&lt;/p&gt;&lt;important&gt;&lt;p&gt;Although the &lt;code&gt;Value&lt;/code&gt; parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon CloudWatch rejects values that are either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetricDatum/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value for the metric.&lt;/p&gt;&lt;important&gt;&lt;p&gt;Although the &lt;code&gt;Value&lt;/code&gt; parameter accepts numbers of type &lt;code&gt;Double&lt;/code&gt;, Amazon CloudWatch rejects values that are either too small or too large. Values must be in the range of 8.515920e-109 to 1.174271e+108 (Base 10) or 2e-360 to 2e360 (Base 2). In addition, special values (e.g., NaN, +Infinity, -Infinity) are not supported.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ModifyHostsRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyHostsRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ModifyHosts.&lt;/p&gt;
+Required parameters: [HostIds, AutoPlacement]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="780"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyHostsRequest/setAutoPlacement:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify whether to enable or disable auto-placement.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2AutoPlacement autoPlacement</Declaration>
+			
+			
+			<Anchor>//api/name/autoPlacement</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyHostsRequest/autoPlacement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify whether to enable or disable auto-placement.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2AutoPlacement autoPlacement</Declaration>
+			
+			
+			<Anchor>//api/name/autoPlacement</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyHostsRequest/autoPlacement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specify whether to enable or disable auto-placement.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2AutoPlacement autoPlacement</Declaration>
+			
+			
+			<Anchor>//api/name/autoPlacement</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyHostsRequest/setHostIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The host IDs of the Dedicated hosts you want to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyHostsRequest/hostIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The host IDs of the Dedicated hosts you want to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyHostsRequest/hostIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The host IDs of the Dedicated hosts you want to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *hostIds</Declaration>
+			
+			
+			<Anchor>//api/name/hostIds</Anchor>
+            <NodeRef refid="780"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

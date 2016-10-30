@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSEC2SummaryStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SummaryStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1851"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusUnknown</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusOK</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusOK</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusImpaired</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusImpaired</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusInsufficientData</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusInsufficientData</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusNotApplicable</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusNotApplicable</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusInitializing</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusInitializing</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1851"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

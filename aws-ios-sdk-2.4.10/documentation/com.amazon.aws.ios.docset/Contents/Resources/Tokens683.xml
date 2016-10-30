@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeVpnGatewaysRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVpnGatewaysRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for DescribeVpnGateways.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="683"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpnGatewaysRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.state&lt;/code&gt; - The current state of the attachment between the gateway and the VPC (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.vpc-id&lt;/code&gt; - The ID of an attached VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for the virtual private gateway (if applicable).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the virtual private gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;type&lt;/code&gt; - The type of virtual private gateway. Currently the only supported type is &lt;code&gt;ipsec.1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpn-gateway-id&lt;/code&gt; - The ID of the virtual private gateway.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.state&lt;/code&gt; - The current state of the attachment between the gateway and the VPC (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.vpc-id&lt;/code&gt; - The ID of an attached VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for the virtual private gateway (if applicable).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the virtual private gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;type&lt;/code&gt; - The type of virtual private gateway. Currently the only supported type is &lt;code&gt;ipsec.1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpn-gateway-id&lt;/code&gt; - The ID of the virtual private gateway.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpnGatewaysRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.state&lt;/code&gt; - The current state of the attachment between the gateway and the VPC (&lt;code&gt;attaching&lt;/code&gt; | &lt;code&gt;attached&lt;/code&gt; | &lt;code&gt;detaching&lt;/code&gt; | &lt;code&gt;detached&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;attachment.vpc-id&lt;/code&gt; - The ID of an attached VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone for the virtual private gateway (if applicable).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the virtual private gateway (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;type&lt;/code&gt; - The type of virtual private gateway. Currently the only supported type is &lt;code&gt;ipsec.1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpn-gateway-id&lt;/code&gt; - The ID of the virtual private gateway.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2Filter*&gt; *filters</Declaration>
+			
+			
+			<Anchor>//api/name/filters</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/setVpnGatewayIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more virtual private gateway IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your virtual private gateways.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *vpnGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayIds</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysRequest/vpnGatewayIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more virtual private gateway IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your virtual private gateways.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *vpnGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayIds</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpnGatewaysRequest/vpnGatewayIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more virtual private gateway IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your virtual private gateways.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *vpnGatewayIds</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayIds</Anchor>
+            <NodeRef refid="683"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

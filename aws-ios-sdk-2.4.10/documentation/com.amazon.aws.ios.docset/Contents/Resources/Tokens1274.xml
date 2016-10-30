@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSLambdaPublishVersionRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaPublishVersionRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p/&gt;
+Required parameters: [FunctionName]</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1274"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/setCodeSha256:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA256 hash of the deployment package you want to publish. This provides validation on the code you are publishing. If you provide this parameter value must match the SHA256 of the $LATEST version for the publication to succeed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *codeSha256</Declaration>
+			
+			
+			<Anchor>//api/name/codeSha256</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/codeSha256</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA256 hash of the deployment package you want to publish. This provides validation on the code you are publishing. If you provide this parameter value must match the SHA256 of the $LATEST version for the publication to succeed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *codeSha256</Declaration>
+			
+			
+			<Anchor>//api/name/codeSha256</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaPublishVersionRequest/codeSha256</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The SHA256 hash of the deployment package you want to publish. This provides validation on the code you are publishing. If you provide this parameter value must match the SHA256 of the $LATEST version for the publication to succeed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *codeSha256</Declaration>
+			
+			
+			<Anchor>//api/name/codeSha256</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the version you are publishing. If not provided, AWS Lambda copies the description from the $LATEST version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the version you are publishing. If not provided, AWS Lambda copies the description from the $LATEST version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaPublishVersionRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description for the version you are publishing. If not provided, AWS Lambda copies the description from the $LATEST version.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. You can specify a function name (for example, &lt;code&gt;Thumbnail&lt;/code&gt;) or you can specify Amazon Resource Name (ARN) of the function (for example, &lt;code&gt;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&lt;/code&gt;). AWS Lambda also allows you to specify a partial ARN (for example, &lt;code&gt;account-id:Thumbnail&lt;/code&gt;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
+			
+			
+			<Anchor>//api/name/functionName</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaPublishVersionRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. You can specify a function name (for example, &lt;code&gt;Thumbnail&lt;/code&gt;) or you can specify Amazon Resource Name (ARN) of the function (for example, &lt;code&gt;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&lt;/code&gt;). AWS Lambda also allows you to specify a partial ARN (for example, &lt;code&gt;account-id:Thumbnail&lt;/code&gt;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
+			
+			
+			<Anchor>//api/name/functionName</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaPublishVersionRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. You can specify a function name (for example, &lt;code&gt;Thumbnail&lt;/code&gt;) or you can specify Amazon Resource Name (ARN) of the function (for example, &lt;code&gt;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&lt;/code&gt;). AWS Lambda also allows you to specify a partial ARN (for example, &lt;code&gt;account-id:Thumbnail&lt;/code&gt;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
+			
+			
+			<Anchor>//api/name/functionName</Anchor>
+            <NodeRef refid="1274"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

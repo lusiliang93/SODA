@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ReservedInstancesModificationResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstancesModificationResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the modification request/s.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="867"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesModificationResult/setReservedInstancesId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID for the Reserved Instances that were created as part of the modification request. This field is only available when the modification is fulfilled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesModificationResult/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID for the Reserved Instances that were created as part of the modification request. This field is only available when the modification is fulfilled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesModificationResult/reservedInstancesId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID for the Reserved Instances that were created as part of the modification request. This field is only available when the modification is fulfilled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			
+			
+			<Anchor>//api/name/reservedInstancesId</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesModificationResult/setTargetConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The target Reserved Instances configurations supplied as part of the modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstancesConfiguration *targetConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/targetConfiguration</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesModificationResult/targetConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The target Reserved Instances configurations supplied as part of the modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstancesConfiguration *targetConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/targetConfiguration</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesModificationResult/targetConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The target Reserved Instances configurations supplied as part of the modification request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstancesConfiguration *targetConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/targetConfiguration</Anchor>
+            <NodeRef refid="867"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

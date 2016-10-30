@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2InstanceStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the status of an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="766"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setEvents:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any scheduled events associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatusEvent*&gt; *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/events</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any scheduled events associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatusEvent*&gt; *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/events</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any scheduled events associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceStatusEvent*&gt; *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			
+			
+			<Anchor>//api/name/instanceState</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			
+			
+			<Anchor>//api/name/instanceState</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			
+			
+			<Anchor>//api/name/instanceState</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			
+			
+			<Anchor>//api/name/instanceStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setSystemStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			
+			
+			<Anchor>//api/name/systemStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/systemStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			
+			
+			<Anchor>//api/name/systemStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/systemStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			
+			
+			<Anchor>//api/name/systemStatus</Anchor>
+            <NodeRef refid="766"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

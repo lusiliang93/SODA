@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2PortRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PortRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a range of ports.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="820"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/setFrom:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
+			
+			
+			<Anchor>//api/name/from</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/from</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
+			
+			
+			<Anchor>//api/name/from</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PortRange/from</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
+			
+			
+			<Anchor>//api/name/from</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/setTo:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
+			
+			
+			<Anchor>//api/name/to</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/to</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
+			
+			
+			<Anchor>//api/name/to</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PortRange/to</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
+			
+			
+			<Anchor>//api/name/to</Anchor>
+            <NodeRef refid="820"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

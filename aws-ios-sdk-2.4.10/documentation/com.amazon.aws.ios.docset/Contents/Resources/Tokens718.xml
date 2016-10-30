@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2FlowLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2FlowLog</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a flow log.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="718"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setCreationTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationTime</Declaration>
+			
+			
+			<Anchor>//api/name/creationTime</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/creationTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationTime</Declaration>
+			
+			
+			<Anchor>//api/name/creationTime</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/creationTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationTime</Declaration>
+			
+			
+			<Anchor>//api/name/creationTime</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setDeliverLogsErrorMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the error that occurred. &lt;code&gt;Rate limited&lt;/code&gt; indicates that CloudWatch logs throttling has been applied for one or more network interfaces, or that you&apos;ve reached the limit on the number of CloudWatch Logs log groups that you can create. &lt;code&gt;Access error&lt;/code&gt; indicates that the IAM role associated with the flow log does not have sufficient permissions to publish to CloudWatch Logs. &lt;code&gt;Unknown error&lt;/code&gt; indicates an internal error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsErrorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsErrorMessage</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/deliverLogsErrorMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the error that occurred. &lt;code&gt;Rate limited&lt;/code&gt; indicates that CloudWatch logs throttling has been applied for one or more network interfaces, or that you&apos;ve reached the limit on the number of CloudWatch Logs log groups that you can create. &lt;code&gt;Access error&lt;/code&gt; indicates that the IAM role associated with the flow log does not have sufficient permissions to publish to CloudWatch Logs. &lt;code&gt;Unknown error&lt;/code&gt; indicates an internal error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsErrorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsErrorMessage</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/deliverLogsErrorMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the error that occurred. &lt;code&gt;Rate limited&lt;/code&gt; indicates that CloudWatch logs throttling has been applied for one or more network interfaces, or that you&apos;ve reached the limit on the number of CloudWatch Logs log groups that you can create. &lt;code&gt;Access error&lt;/code&gt; indicates that the IAM role associated with the flow log does not have sufficient permissions to publish to CloudWatch Logs. &lt;code&gt;Unknown error&lt;/code&gt; indicates an internal error.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsErrorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsErrorMessage</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setDeliverLogsPermissionArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the IAM role that posts logs to CloudWatch Logs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsPermissionArn</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsPermissionArn</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/deliverLogsPermissionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the IAM role that posts logs to CloudWatch Logs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsPermissionArn</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsPermissionArn</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/deliverLogsPermissionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the IAM role that posts logs to CloudWatch Logs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsPermissionArn</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsPermissionArn</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setDeliverLogsStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the logs delivery (&lt;code&gt;SUCCESS&lt;/code&gt; | &lt;code&gt;FAILED&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/deliverLogsStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the logs delivery (&lt;code&gt;SUCCESS&lt;/code&gt; | &lt;code&gt;FAILED&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/deliverLogsStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the logs delivery (&lt;code&gt;SUCCESS&lt;/code&gt; | &lt;code&gt;FAILED&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deliverLogsStatus</Declaration>
+			
+			
+			<Anchor>//api/name/deliverLogsStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setFlowLogId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The flow log ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogId</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/flowLogId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The flow log ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogId</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/flowLogId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The flow log ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogId</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setFlowLogStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the flow log (&lt;code&gt;ACTIVE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/flowLogStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the flow log (&lt;code&gt;ACTIVE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/flowLogStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the flow log (&lt;code&gt;ACTIVE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *flowLogStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flowLogStatus</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setLogGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the flow log group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *logGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/logGroupName</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/logGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the flow log group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *logGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/logGroupName</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/logGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the flow log group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *logGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/logGroupName</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setResourceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the resource on which the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/resourceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the resource on which the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/resourceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the resource on which the flow log was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/setTrafficType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of traffic captured for the flow log.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2TrafficType trafficType</Declaration>
+			
+			
+			<Anchor>//api/name/trafficType</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2FlowLog/trafficType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of traffic captured for the flow log.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2TrafficType trafficType</Declaration>
+			
+			
+			<Anchor>//api/name/trafficType</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2FlowLog/trafficType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of traffic captured for the flow log.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2TrafficType trafficType</Declaration>
+			
+			
+			<Anchor>//api/name/trafficType</Anchor>
+            <NodeRef refid="718"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

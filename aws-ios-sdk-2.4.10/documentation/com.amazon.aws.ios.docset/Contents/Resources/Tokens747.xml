@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ImportSnapshotTask.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportSnapshotTask</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="747"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportSnapshotTask/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/setImportTaskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/importTaskId</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/importTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/importTaskId</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportSnapshotTask/importTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importTaskId</Declaration>
+			
+			
+			<Anchor>//api/name/importTaskId</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/setSnapshotTaskDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SnapshotTaskDetail *snapshotTaskDetail</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotTaskDetail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportSnapshotTask/snapshotTaskDetail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SnapshotTaskDetail *snapshotTaskDetail</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotTaskDetail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportSnapshotTask/snapshotTaskDetail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an import snapshot task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2SnapshotTaskDetail *snapshotTaskDetail</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotTaskDetail</Anchor>
+            <NodeRef refid="747"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

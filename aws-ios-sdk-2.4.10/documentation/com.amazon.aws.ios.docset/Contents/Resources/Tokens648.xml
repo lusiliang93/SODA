@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSpotFleetRequestHistoryResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSpotFleetRequestHistoryResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the output of DescribeSpotFleetRequestHistory.&lt;/p&gt;
+Required parameters: [SpotFleetRequestId, StartTime, LastEvaluatedTime, HistoryRecords]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="648"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/setHistoryRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the events in the history of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2HistoryRecord*&gt; *historyRecords</Declaration>
+			
+			
+			<Anchor>//api/name/historyRecords</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/historyRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the events in the history of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2HistoryRecord*&gt; *historyRecords</Declaration>
+			
+			
+			<Anchor>//api/name/historyRecords</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryResponse/historyRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the events in the history of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2HistoryRecord*&gt; *historyRecords</Declaration>
+			
+			
+			<Anchor>//api/name/historyRecords</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/setLastEvaluatedTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). All records up to this time were retrieved.&lt;/p&gt;&lt;p&gt;If &lt;code&gt;nextToken&lt;/code&gt; indicates that there are more results, this value is not present.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastEvaluatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/lastEvaluatedTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). All records up to this time were retrieved.&lt;/p&gt;&lt;p&gt;If &lt;code&gt;nextToken&lt;/code&gt; indicates that there are more results, this value is not present.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastEvaluatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryResponse/lastEvaluatedTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z). All records up to this time were retrieved.&lt;/p&gt;&lt;p&gt;If &lt;code&gt;nextToken&lt;/code&gt; indicates that there are more results, this value is not present.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastEvaluatedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastEvaluatedTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token required to retrieve the next set of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token required to retrieve the next set of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token required to retrieve the next set of results. This value is &lt;code&gt;null&lt;/code&gt; when there are no more results to return.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/setSpotFleetRequestId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryResponse/spotFleetRequestId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Spot fleet request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotFleetRequestId</Declaration>
+			
+			
+			<Anchor>//api/name/spotFleetRequestId</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/setStartTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotFleetRequestHistoryResponse/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotFleetRequestHistoryResponse/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting date and time for the events, in UTC format (for example, &lt;i&gt;YYYY&lt;/i&gt;-&lt;i&gt;MM&lt;/i&gt;-&lt;i&gt;DD&lt;/i&gt;T&lt;i&gt;HH&lt;/i&gt;:&lt;i&gt;MM&lt;/i&gt;:&lt;i&gt;SS&lt;/i&gt;Z).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="648"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

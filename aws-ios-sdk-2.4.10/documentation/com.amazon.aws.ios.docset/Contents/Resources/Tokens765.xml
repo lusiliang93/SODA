@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2InstanceStateChange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStateChange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an instance state change.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="765"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setCurrentState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setPreviousState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			
+			
+			<Anchor>//api/name/previousState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			
+			
+			<Anchor>//api/name/previousState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			
+			
+			<Anchor>//api/name/previousState</Anchor>
+            <NodeRef refid="765"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

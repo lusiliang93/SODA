@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2AssignPrivateIpAddressesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AssignPrivateIpAddressesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for AssignPrivateIpAddresses.&lt;/p&gt;
+Required parameters: [NetworkInterfaceId]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="437"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setAllowReassignment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassignment</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/allowReassignment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassignment</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/allowReassignment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
+			
+			
+			<Anchor>//api/name/allowReassignment</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setSecondaryPrivateIpAddressCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="437"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

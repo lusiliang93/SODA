@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ImageDiskContainer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImageDiskContainer</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the disk container object for an import image task.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="734"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping for the disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping for the disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping for the disk.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			
+			
+			<Anchor>//api/name/deviceName</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setFormat:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The format of the disk image being imported.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;RAW&lt;/code&gt; | &lt;code&gt;VHD&lt;/code&gt; | &lt;code&gt;VMDK&lt;/code&gt; | &lt;code&gt;OVA&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The format of the disk image being imported.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;RAW&lt;/code&gt; | &lt;code&gt;VHD&lt;/code&gt; | &lt;code&gt;VMDK&lt;/code&gt; | &lt;code&gt;OVA&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The format of the disk image being imported.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;RAW&lt;/code&gt; | &lt;code&gt;VHD&lt;/code&gt; | &lt;code&gt;VMDK&lt;/code&gt; | &lt;code&gt;OVA&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the EBS snapshot to be used for importing the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the EBS snapshot to be used for importing the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the EBS snapshot to be used for importing the snapshot.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotId</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL to the Amazon S3-based disk image being imported. The URL can either be a https URL (https://..) or an Amazon S3 URL (s3://..)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/url</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL to the Amazon S3-based disk image being imported. The URL can either be a https URL (https://..) or an Amazon S3 URL (s3://..)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/url</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL to the Amazon S3-based disk image being imported. The URL can either be a https URL (https://..) or an Amazon S3 URL (s3://..)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/setUserBucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The S3 bucket for the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2UserBucket *userBucket</Declaration>
+			
+			
+			<Anchor>//api/name/userBucket</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageDiskContainer/userBucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The S3 bucket for the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2UserBucket *userBucket</Declaration>
+			
+			
+			<Anchor>//api/name/userBucket</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageDiskContainer/userBucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The S3 bucket for the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2UserBucket *userBucket</Declaration>
+			
+			
+			<Anchor>//api/name/userBucket</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

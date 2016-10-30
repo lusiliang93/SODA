@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2DescribeSecurityGroupReferencesResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSecurityGroupReferencesResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="636"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSecurityGroupReferencesResult/setSecurityGroupReferenceSet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPCs with the referencing security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2SecurityGroupReference*&gt; *securityGroupReferenceSet</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupReferenceSet</Anchor>
+            <NodeRef refid="636"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSecurityGroupReferencesResult/securityGroupReferenceSet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPCs with the referencing security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2SecurityGroupReference*&gt; *securityGroupReferenceSet</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupReferenceSet</Anchor>
+            <NodeRef refid="636"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSecurityGroupReferencesResult/securityGroupReferenceSet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPCs with the referencing security groups.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2SecurityGroupReference*&gt; *securityGroupReferenceSet</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupReferenceSet</Anchor>
+            <NodeRef refid="636"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

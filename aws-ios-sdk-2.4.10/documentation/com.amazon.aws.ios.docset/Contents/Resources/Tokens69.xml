@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSAutoScalingExitStandbyQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExitStandbyQuery</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for ExitStandby.&lt;/p&gt;
+Required parameters: [AutoScalingGroupName]</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExitStandbyQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExitStandbyQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExitStandbyQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExitStandbyQuery/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs. You must specify at least one instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExitStandbyQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs. You must specify at least one instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExitStandbyQuery/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs. You must specify at least one instance ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2RunInstancesRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RunInstancesRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the parameters for RunInstances.&lt;/p&gt;
+Required parameters: [ImageId, MinCount, MaxCount]</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="881"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setAdditionalInfo:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reserved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/additionalInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reserved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/additionalInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Reserved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *additionalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/additionalInfo</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2BlockDeviceMapping*&gt; *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setClientToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 64 ASCII characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 64 ASCII characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/clientToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure the idempotency of the request. For more information, see Ensuring Idempotency.&lt;/p&gt;&lt;p&gt;Constraints: Maximum 64 ASCII characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			
+			
+			<Anchor>//api/name/clientToken</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setDisableApiTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If you set this parameter to &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. If you set this parameter to &lt;code&gt;true&lt;/code&gt; and then later want to be able to terminate the instance, you must first change the value of the &lt;code&gt;disableApiTermination&lt;/code&gt; attribute to &lt;code&gt;false&lt;/code&gt; using &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;. Alternatively, if you set &lt;code&gt;InstanceInitiatedShutdownBehavior&lt;/code&gt; to &lt;code&gt;terminate&lt;/code&gt;, you can terminate the instance by running the shutdown command from the instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If you set this parameter to &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. If you set this parameter to &lt;code&gt;true&lt;/code&gt; and then later want to be able to terminate the instance, you must first change the value of the &lt;code&gt;disableApiTermination&lt;/code&gt; attribute to &lt;code&gt;false&lt;/code&gt; using &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;. Alternatively, if you set &lt;code&gt;InstanceInitiatedShutdownBehavior&lt;/code&gt; to &lt;code&gt;terminate&lt;/code&gt;, you can terminate the instance by running the shutdown command from the instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If you set this parameter to &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. If you set this parameter to &lt;code&gt;true&lt;/code&gt; and then later want to be able to terminate the instance, you must first change the value of the &lt;code&gt;disableApiTermination&lt;/code&gt; attribute to &lt;code&gt;false&lt;/code&gt; using &lt;a&gt;ModifyInstanceAttribute&lt;/a&gt;. Alternatively, if you set &lt;code&gt;InstanceInitiatedShutdownBehavior&lt;/code&gt; to &lt;code&gt;terminate&lt;/code&gt;, you can terminate the instance by running the shutdown command from the instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *disableApiTermination</Declaration>
+			
+			
+			<Anchor>//api/name/disableApiTermination</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is &lt;code&gt;DryRunOperation&lt;/code&gt;. Otherwise, it is &lt;code&gt;UnauthorizedOperation&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS-optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS-optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal EBS I/O performance. This optimization isn&apos;t available with all instance types. Additional usage charges apply when using an EBS-optimized instance.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setIamInstanceProfile:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/iamInstanceProfile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IAM instance profile.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2IamInstanceProfileSpecification *iamInstanceProfile</Declaration>
+			
+			
+			<Anchor>//api/name/iamInstanceProfile</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI, which you can get by calling &lt;a&gt;DescribeImages&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI, which you can get by calling &lt;a&gt;DescribeImages&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI, which you can get by calling &lt;a&gt;DescribeImages&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			
+			
+			<Anchor>//api/name/imageId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setInstanceInitiatedShutdownBehavior:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;stop&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ShutdownBehavior instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;stop&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ShutdownBehavior instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;stop&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2ShutdownBehavior instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type. For more information, see Instance Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;m1.small&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type. For more information, see Instance Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;m1.small&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type. For more information, see Instance Types in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;m1.small&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			
+			
+			<Anchor>//api/name/kernelId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setKeyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair. You can create a key pair using &lt;a&gt;CreateKeyPair&lt;/a&gt; or &lt;a&gt;ImportKeyPair&lt;/a&gt;.&lt;/p&gt;&lt;important&gt;&lt;p&gt;If you do not specify a key pair, you can&apos;t connect to the instance unless you choose an AMI that is configured to allow users another way to log in.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair. You can create a key pair using &lt;a&gt;CreateKeyPair&lt;/a&gt; or &lt;a&gt;ImportKeyPair&lt;/a&gt;.&lt;/p&gt;&lt;important&gt;&lt;p&gt;If you do not specify a key pair, you can&apos;t connect to the instance unless you choose an AMI that is configured to allow users another way to log in.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/keyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the key pair. You can create a key pair using &lt;a&gt;CreateKeyPair&lt;/a&gt; or &lt;a&gt;ImportKeyPair&lt;/a&gt;.&lt;/p&gt;&lt;important&gt;&lt;p&gt;If you do not specify a key pair, you can&apos;t connect to the instance unless you choose an AMI that is configured to allow users another way to log in.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			
+			
+			<Anchor>//api/name/keyName</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setMaxCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of instances to launch. If you specify more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches the largest possible number of instances above &lt;code&gt;MinCount&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/maxCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of instances to launch. If you specify more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches the largest possible number of instances above &lt;code&gt;MinCount&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/maxCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of instances to launch. If you specify more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches the largest possible number of instances above &lt;code&gt;MinCount&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setMinCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The minimum number of instances to launch. If you specify a minimum that is more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches no instances.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 General FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minCount</Declaration>
+			
+			
+			<Anchor>//api/name/minCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/minCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The minimum number of instances to launch. If you specify a minimum that is more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches no instances.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 General FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minCount</Declaration>
+			
+			
+			<Anchor>//api/name/minCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/minCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The minimum number of instances to launch. If you specify a minimum that is more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches no instances.&lt;/p&gt;&lt;p&gt;Constraints: Between 1 and the maximum number you&apos;re allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 in the Amazon EC2 General FAQ.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minCount</Declaration>
+			
+			
+			<Anchor>//api/name/minCount</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setMonitoring:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/monitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/monitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The monitoring for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2RunInstancesMonitoringEnabled *monitoring</Declaration>
+			
+			
+			<Anchor>//api/name/monitoring</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setNetworkInterfaces:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/networkInterfaces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more network interfaces.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSEC2InstanceNetworkInterfaceSpecification*&gt; *networkInterfaces</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaces</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setPlacement:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/placement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/placement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement for the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2Placement *placement</Declaration>
+			
+			
+			<Anchor>//api/name/placement</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary IP address. You must specify a value from the IP address range of the subnet.&lt;/p&gt;&lt;p&gt;Only one private IP address can be designated as primary. Therefore, you can&apos;t specify this parameter if &lt;code&gt;PrivateIpAddresses.n.Primary&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;PrivateIpAddresses.n.PrivateIpAddress&lt;/code&gt; is set to an IP address. &lt;/p&gt;&lt;p&gt;Default: We select an IP address from the IP address range of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary IP address. You must specify a value from the IP address range of the subnet.&lt;/p&gt;&lt;p&gt;Only one private IP address can be designated as primary. Therefore, you can&apos;t specify this parameter if &lt;code&gt;PrivateIpAddresses.n.Primary&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;PrivateIpAddresses.n.PrivateIpAddress&lt;/code&gt; is set to an IP address. &lt;/p&gt;&lt;p&gt;Default: We select an IP address from the IP address range of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The primary IP address. You must specify a value from the IP address range of the subnet.&lt;/p&gt;&lt;p&gt;Only one private IP address can be designated as primary. Therefore, you can&apos;t specify this parameter if &lt;code&gt;PrivateIpAddresses.n.Primary&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;PrivateIpAddresses.n.PrivateIpAddress&lt;/code&gt; is set to an IP address. &lt;/p&gt;&lt;p&gt;Default: We select an IP address from the IP address range of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;&lt;important&gt;&lt;p&gt;We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see  PV-GRUB in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;&lt;/important&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setSecurityGroupIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security group IDs. You can create a security group using &lt;a&gt;CreateSecurityGroup&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroupIds</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupIds</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/securityGroupIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security group IDs. You can create a security group using &lt;a&gt;CreateSecurityGroup&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroupIds</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupIds</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/securityGroupIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security group IDs. You can create a security group using &lt;a&gt;CreateSecurityGroup&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroupIds</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroupIds</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] One or more security group names. For a nondefault VPC, you must use security group IDs instead.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] One or more security group names. For a nondefault VPC, you must use security group IDs instead.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/securityGroups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] One or more security group names. For a nondefault VPC, you must use security group IDs instead.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 uses the default security group.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the subnet to launch the instance into.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the subnet to launch the instance into.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the subnet to launch the instance into.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/setUserData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Data to configure the instance, or a script to run during instance launch. For more information, see Adding User Data (Windows). For API calls, the text must be base64-encoded. For command line tools, the encoding is performed for you, and you can load the text from a file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RunInstancesRequest/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Data to configure the instance, or a script to run during instance launch. For more information, see Adding User Data (Windows). For API calls, the text must be base64-encoded. For command line tools, the encoding is performed for you, and you can load the text from a file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RunInstancesRequest/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Data to configure the instance, or a script to run during instance launch. For more information, see Adding User Data (Windows). For API calls, the text must be base64-encoded. For command line tools, the encoding is performed for you, and you can load the text from a file.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="881"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

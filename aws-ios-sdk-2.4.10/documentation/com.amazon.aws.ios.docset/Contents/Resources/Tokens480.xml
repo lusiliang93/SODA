@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSEC2ClassicLinkDnsSupport.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ClassicLinkDnsSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the ClassicLink DNS support status of a VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+			
+			<NodeRef refid="480"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ClassicLinkDnsSupport/setClassicLinkDnsSupported:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether ClassicLink DNS support is enabled for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *classicLinkDnsSupported</Declaration>
+			
+			
+			<Anchor>//api/name/classicLinkDnsSupported</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ClassicLinkDnsSupport/classicLinkDnsSupported</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether ClassicLink DNS support is enabled for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *classicLinkDnsSupported</Declaration>
+			
+			
+			<Anchor>//api/name/classicLinkDnsSupported</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ClassicLinkDnsSupport/classicLinkDnsSupported</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether ClassicLink DNS support is enabled for the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *classicLinkDnsSupported</Declaration>
+			
+			
+			<Anchor>//api/name/classicLinkDnsSupported</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ClassicLinkDnsSupport/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ClassicLinkDnsSupport/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ClassicLinkDnsSupport/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="480"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
