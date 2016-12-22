@@ -18,6 +18,7 @@
 		BC1430851DA959590085E27A /* Test_SodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1430841DA959590085E27A /* Test_SodaTests.m */; };
 		BC1430901DA959590085E27A /* Test_SodaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14308F1DA959590085E27A /* Test_SodaUITests.m */; };
 		BC1430A01DA9875E0085E27A /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14309F1DA9875E0085E27A /* AWSCore.framework */; };
+		BCAF7B411E0B9CC400378B1E /* notification.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCAF7B401E0B9CC400378B1E /* notification.jpg */; };
 		BCF02E9E1DC5C40A00A12265 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF02E9D1DC5C40A00A12265 /* opencv2.framework */; };
 		BCF02EA41DC5DBD600A12265 /* subway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF02EA31DC5DBD600A12265 /* subway.jpg */; };
 		BCF02EAE1DC5F2CA00A12265 /* shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF02EAD1DC5F2CA00A12265 /* shanghai.jpg */; };
@@ -66,6 +67,7 @@
 		BC14308F1DA959590085E27A /* Test_SodaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_SodaUITests.m; sourceTree = "<group>"; };
 		BC1430911DA959590085E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC14309F1DA9875E0085E27A /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "Pods/../build/Debug-iphoneos/AWSCore/AWSCore.framework"; sourceTree = "<group>"; };
+		BCAF7B401E0B9CC400378B1E /* notification.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notification.jpg; sourceTree = "<group>"; };
 		BCF02E9D1DC5C40A00A12265 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		BCF02EA31DC5DBD600A12265 /* subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = subway.jpg; sourceTree = "<group>"; };
 		BCF02EAD1DC5F2CA00A12265 /* shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shanghai.jpg; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		BC1430671DA959590085E27A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCAF7B401E0B9CC400378B1E /* notification.jpg */,
 				BCF02EBF1DC62A6400A12265 /* nanjing.jpg */,
 				BCF02EBD1DC623E400A12265 /* 8.png */,
 				BCF02EBB1DC623DC00A12265 /* 7.png */,
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF02EBE1DC623E400A12265 /* 8.png in Resources */,
+				BCAF7B411E0B9CC400378B1E /* notification.jpg in Resources */,
 				BCF02EC01DC62A6400A12265 /* nanjing.jpg in Resources */,
 				BC14307A1DA959590085E27A /* LaunchScreen.storyboard in Resources */,
 				BC1430771DA959590085E27A /* Assets.xcassets in Resources */,

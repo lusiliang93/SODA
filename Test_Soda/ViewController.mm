@@ -28,6 +28,7 @@ using namespace cv;
     UIImageView *predictView2_;
     UIImageView *predictView3_;
     UIImageView *predictView4_;
+    UIImageView *notificationView_;
     // Button to initiate OpenCV processing of image
     UIButton *nanjingButton_, *xuhuiButton_,*wujiaochangButton_,*xinzhuangButton;
     UIButton *one,*two,*three;
@@ -47,6 +48,7 @@ using namespace cv;
     UIImage *imagep1 = [UIImage imageNamed:@"6.png"];
     UIImage *imagep2 = [UIImage imageNamed:@"7.png"];
     UIImage *imagep3 = [UIImage imageNamed:@"8.png"];
+    UIImage *imagen = [UIImage imageNamed:@"notification.jpg"];
     float widthp = imagep0.size.width;
     float heightp = imagep0.size.height;
     float width = image2.size.width;
@@ -56,6 +58,8 @@ using namespace cv;
     //int view_height = (640*view_width)/480; // Work out the viw-height assuming 640x480 input
     int view_height = image1.size.height;
     //int view_offset = (self.view.frame.size.height - view_height)/2;
+    float widthn = imagen.size.width;
+    float heightn = imagen.size.height;
     
     // 1. Setup the your OpenCV view, so it takes up the entire App screen......
     //imageView_ = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, width, height)];
@@ -68,6 +72,7 @@ using namespace cv;
     predictView2_ = [[UIImageView alloc] initWithFrame:CGRectMake(x-160,y+150,widthp,heightp)];
     predictView3_ = [[UIImageView alloc] initWithFrame:CGRectMake(x-160,y+150,widthp,heightp)];
     predictView4_ = [[UIImageView alloc] initWithFrame:CGRectMake(x-160,y+150,widthp,heightp)];
+    notificationView_ = [[UIImageView alloc]initWithFrame:CGRectMake(x-100,y+50,widthn,heightn)];
     
     // 2. Important: add imageView and resultView as subviews
     [self.view addSubview:imageView_];
@@ -77,6 +82,7 @@ using namespace cv;
     [resultView_ addSubview:predictView2_];
     [resultView_ addSubview:predictView3_];
     [resultView_ addSubview:predictView4_];
+    [resultView_ addSubview:notificationView_];
     
     // 3.Read in the image (of the famous Lena)
     
@@ -92,6 +98,8 @@ using namespace cv;
     else cout <<"Cannot read in the file"<< endl;
     if(imagep0 != nil) predictView4_.image = imagep3; //Display the image if it is there....
     else cout <<"Cannot read in the file"<< endl;
+    if(imagen != nil) notificationView_.image=imagen;
+    else cout<<"Cannot read in the file"<<endl;
     
     // 4. Next convert to a cv::Mat
     cv::Mat cvImage; UIImageToMat(image1, cvImage);
@@ -178,7 +186,7 @@ using namespace cv;
 // This member function is executed when the button is pressed
 - (void)buttonWasPressed {
     [nanjingButton_ setHidden:true]; [xuhuiButton_ setHidden:true]; // Switch visibility of buttons
-    [wujiaochangButton_ setHidden:true]; [xinzhuangButton setHidden:true];
+    [wujiaochangButton_ setHidden:true]; [xinzhuangButton setHidden:true];[didiButton_ setHidden:true];
     imageView_.hidden = true; // Hide the result view again
     resultView_.hidden = false; //Show the Nanjingdonglu density
     [one setHidden:false];
