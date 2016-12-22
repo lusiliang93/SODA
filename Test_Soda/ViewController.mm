@@ -31,6 +31,7 @@ using namespace cv;
     // Button to initiate OpenCV processing of image
     UIButton *nanjingButton_, *xuhuiButton_,*wujiaochangButton_,*xinzhuangButton;
     UIButton *one,*two,*three;
+    UIButton *didiButton_,*subwayButton_;
 }
 @end
 
@@ -121,9 +122,14 @@ using namespace cv;
     button_x = (self.view.frame.size.width - 200)/8+500; // Position of top-left of button
     button_y = self.view.frame.size.height - 80; // Position of top-left of button
     xinzhuangButton = [self simpleButton:@"莘庄商圈" buttonColor:[UIColor redColor] Button_x:button_x Button_y:button_y];
+    // Botton position is adaptive as this could run on a different device (iPAD, iPhone, etc.)
+    button_x = (self.view.frame.size.width - 200)/8+350; // Position of top-left of button
+    button_y = self.view.frame.size.height-900; // Position of top-left of button
+    didiButton_ = [self simpleButton:@"上海地铁" buttonColor:[UIColor redColor] Button_x:button_x Button_y:button_y];
     
     // Important part that connects the action to the member function buttonWasPressed
     [nanjingButton_ addTarget:self action:@selector(buttonWasPressed) forControlEvents:UIControlEventTouchUpInside];
+    [didiButton_ addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
     
     //Set up a button for one/two/three hour(s) prediction
     // Botton position is adaptive as this could run on a different device (iPAD, iPhone, etc.)
@@ -154,6 +160,7 @@ using namespace cv;
 // Simple member function to initialize buttons in the bottom of the screen so we do not have to
 // bother with storyboard, and can go straight into vision on mobiles
 //
+
 - (UIButton *) simpleButton:(NSString *)buttonName buttonColor:(UIColor *)color Button_x:(int)button_x Button_y:(int)button_y
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom]; // Initialize the button
@@ -198,6 +205,25 @@ using namespace cv;
 {
     predictView3_.hidden = true;
     predictView4_.hidden = false;
+}
+// This member function is executed when the button is pressed
+- (void)buttonPressed//:(UIButton *)button
+{
+    NSString *customURL = @"http://service.shmetro.com/";
+    
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:customURL]])
+    {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"URL error"
+                                                        message:[NSString stringWithFormat:@"No custom URL defined for %@", customURL]
+                                                       delegate:self cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
 }
 
 @end

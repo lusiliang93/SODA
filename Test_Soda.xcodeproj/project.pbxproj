@@ -266,7 +266,7 @@
 				TargetAttributes = {
 					BC1430631DA959580085E27A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = LVFPM8YJVM;
+						DevelopmentTeam = ZDABW4DSQG;
 						ProvisioningStyle = Automatic;
 					};
 					BC14307F1DA959590085E27A = {
@@ -543,7 +543,7 @@
 			baseConfigurationReference = EC3BBB9A9247D7530E506DEC /* Pods-Test_Soda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LVFPM8YJVM;
+				DEVELOPMENT_TEAM = ZDABW4DSQG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +551,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Test_Soda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lusiliang.Test-Soda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -563,7 +563,7 @@
 			baseConfigurationReference = 99A30D897ADF0EC52AAF23C3 /* Pods-Test_Soda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LVFPM8YJVM;
+				DEVELOPMENT_TEAM = ZDABW4DSQG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,7 +571,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Test_Soda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lusiliang.Test-Soda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
